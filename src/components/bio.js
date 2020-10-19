@@ -7,7 +7,6 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -23,7 +22,6 @@ const Bio = () => {
         siteMetadata {
           author {
             name
-            summary
           }
           social {
             twitter
@@ -37,27 +35,16 @@ const Bio = () => {
   const author = data.site.siteMetadata?.author
   const social = data.site.siteMetadata?.social
 
-  const avatar = data?.avatar?.childImageSharp?.fixed
-
   return (
     <div className="bio">
-      {avatar && (
-        <Image
-          fixed={avatar}
-          alt={author?.name || ``}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
-        />
-      )}
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          I am an iOS engineer working out of the Bay Area.
+          I am currently looking for full-time oppportunities. 
+          If you would like to talk, please feel free to <a href={`mail:me@abhishekbanthia.com`}>email me</a>.
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+          You can follow me on <a href={`https://twitter.com/${social?.twitter || ``}`}>
+            Twitter</a>. or read my code on <a href={`https://github.com/n0shake`}>Github</a>.
         </p>
       )}
     </div>
