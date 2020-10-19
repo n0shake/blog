@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
+  const reducedPosts = posts.slice(0, 3);
 
   if (posts.length === 0) {
     return (
@@ -28,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
       <SEO title="Posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {reducedPosts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
