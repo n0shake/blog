@@ -1,9 +1,34 @@
 import React from "react"
 import { Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const Layout = ({ location, title, children }) => {
+  const data = useStaticQuery(graphql`
+    query FooterQuery {
+      avatar: file(absolutePath: { regex: "/linkedin.png/" }) {
+        childImageSharp {
+          fixed(width: 60, height: 60, quality: 95) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      instagramAvatar: file(absolutePath: { regex: "/ig.png/" }) {
+        childImageSharp {
+          fixed(width: 60, height: 60, quality: 95) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `)
+
+
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
+  const avatar = data?.avatar?.childImageSharp?.fixed
+  const igImage = data?.instagramAvatar?.childImageSharp?.fixed
+
   let header
 
   if (isRootPath) {
@@ -26,10 +51,30 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
       <footer>
         <h3>Elsewhere on the www,</h3>
-        {` `}
-        <a href="https://www.linkedin.com/in/abhishekbanthia/">LinkedIn</a>
-        {` `}
-        <a href="hhttps://www.instagram.com/n0shake/">Instagram</a>
+        <a href="https://www.linkedin.com/in/abhishekbanthia/">
+        {avatar && (
+        <Img
+          fixed={avatar}
+          alt={`Abhishek`}
+          className="bio-avatar"
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+        )}
+        </a>
+        <a href="https://www.instagram.com/n0shake/">
+        {igImage && (
+        <Img
+          fixed={igImage}
+          alt={`Abhishek`}
+          className="bio-avatar"
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+        )}
+        </a>
       </footer>
     </div>
   )
