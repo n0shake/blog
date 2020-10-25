@@ -1,7 +1,7 @@
 ---
 title: Working at a FAANG
 date: "2020-05-10T23:46:37.121Z"
-description: "Working at a FAANG is ever so slightly different."
+description: "What even makes working at a FAANG worth it?"
 ---
 
 > Disclaimer: View described below are my own and do not reflect those of my employer!
