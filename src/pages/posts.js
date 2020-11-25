@@ -32,8 +32,9 @@ const Posts = ({ data, location }) => {
 		                </header>
 		                <section>
 		                  <p
+		                  	className="post-list-excerpt"
 		                    dangerouslySetInnerHTML={{
-		                      __html: post.frontmatter.description || post.excerpt,
+		                      __html: post.excerpt,
 		                    }}
 		                    itemProp="description"
 		                  />

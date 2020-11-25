@@ -8,7 +8,7 @@ import SeeAllButton from "../components/see_all_button"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const newSiteTitle = "Hi, I'm Abhishek 👋"
+  const newSiteTitle = "Hi there! 👋"
   const posts = data.allMarkdownRemark.nodes
   const reducedPosts = posts.slice(0, 3);
 
@@ -50,8 +50,9 @@ const BlogIndex = ({ data, location }) => {
                 </header>
                 <section>
                   <p
+                    className="post-list-excerpt"
                     dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
+                      __html: post.excerpt,
                     }}
                     itemProp="description"
                   />
@@ -77,7 +78,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
-        excerpt
+        excerpt(truncate: false)
         fields {
           slug
         }

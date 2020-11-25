@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 
 const RoundedDiv = styled.div` 
- background-color: #f1f1f1;
+ background-color: white;
  border: none;
  color: black;
  padding: 10px;

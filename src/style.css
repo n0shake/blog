@@ -27,7 +27,7 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Avenir";
+  --fontFamily-sans: "Roboto";
   --fontFamily-serif: "Avenir", "Roboto", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
@@ -73,6 +73,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7f9;
 }
 
 body {
@@ -233,6 +234,7 @@ a {
 
 a:hover,
 a:focus {
+  padding: 3px 0px 2px 0px;
   text-decoration: none;
 }
 
@@ -260,21 +262,43 @@ a:focus {
 .post-list-item {
   margin-bottom: var(--spacing-8);
   margin-top: var(--spacing-8);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px 5px 5px 5px;
+  background-color: white;
+  border-left: var(--spacing-1) solid var(--color-primary);
+}
+
+.post-list-excerpt {
+  padding-bottom: var(--spacing-3);
+}
+
+.post-list-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
 }
 
 .post-list-item p {
-  margin-bottom: var(--spacing-0);
+  margin-left: var(--spacing-4);
+}
+
+.bio a:hover {
+  padding: 3px 0px 2px 0px;
+  color: blue;
+  background: lightblue;
 }
 
 .post-list-item h2 {
   font-size: var(--fontSize-4);
   color: var(--color-primary);
-  margin-bottom: var(--spacing-2);
+  margin-bottom: var(--spacing-0);
   margin-top: var(--spacing-0);
+  margin-left: var(--spacing-4);
 }
 
 .post-list-item header {
-  margin-bottom: var(--spacing-4);
+  padding-top: var(--spacing-4);
+  margin-bottom: var(--spacing-5);
+  margin-top: var(--spacing-2);
 }
 
 .header-link-home {

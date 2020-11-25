@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -14,6 +15,8 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  const copyLinkAvatar = data?.linkAvatar?.childImageSharp?.fixed
+  const totalTimeToRead = post.timeToRead + " mins"
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -28,7 +31,22 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <DateContainer>{post.frontmatter.date}</DateContainer>
+          <div>
+          <DateContainer>{post.frontmatter.date}
+          &nbsp;
+          <span>&#183;</span>
+          &nbsp;
+          {totalTimeToRead}
+          &nbsp;&nbsp;
+          {copyLinkAvatar && (
+          <Img
+            fixed={copyLinkAvatar}
+            alt={post.frontmatter.title}
+            title={post.frontmatter.title}
+          />
+          )}
+          </DateContainer>
+        </div>  
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -77,6 +95,13 @@ export const pageQuery = graphql`
     $previousPostId: String
     $nextPostId: String
   ) {
+    linkAvatar: file(absolutePath: { regex: "/link.png/" }) {
+      childImageSharp {
+        fixed(width: 16, height: 16, quality: 95) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
         title
@@ -88,9 +113,10 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMM DD, YYYY")
         description
       }
+      timeToRead
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
       fields {
