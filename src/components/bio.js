@@ -6,18 +6,11 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50, quality: 95) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
       site {
         siteMetadata {
           author {
@@ -42,8 +35,8 @@ const Bio = () => {
           I am an iOS engineer working out of the Bay Area.
           If you would like to talk, please feel free to <a href={`mail:me@abhishekbanthia.com`}>email me</a>.
           {` `}
-          You can follow me on <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter</a> or read my code on <a href={`https://github.com/n0shake`}>Github</a>.
+          You can follow me on <Link to={`https://twitter.com/${social?.twitter || ``}`}>
+            Twitter</Link> or read my code on <Link to={`https://github.com/n0shake`}>Github</Link>.
         </p>
       )}
     </div>

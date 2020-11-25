@@ -3,6 +3,15 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styled from 'styled-components'
+
+const BulletPoint = styled.li` 
+ padding: 5px 0px;
+`
+
+const OuterBulletPoint = styled.ul`
+ line-height: 2px;
+`
 
 const PrivacyPolicy = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -19,22 +28,22 @@ const PrivacyPolicy = ({ data, location }) => {
 				You can email at abhishekbanthia @ me dot com to erase the email from our databases.</p>
 				<p> We collect anonymous statistics about the following to help inform our future features and improve the app:
 				</p>
-				<ul>
-					<li> Clocker’s menubar mode </li>
-					<li> Upcoming Event View’s Presence in the Panel </li>
-					<li> Number of locations displayed in the Panel </li>
-					<li> Future Time Slider’s Presence in the Panel </li>
-					<li> Seconds Preference </li>
-					<li> Time Format Preference </li>
-					<li> Calendar Access Status </li>
-					<li> Reminders Access Status </li>
-					<li> Sunrise/Sunset Preference </li>
-					<li> Theme Preference </li>
-					<li> Country </li>
-					<li> When system timezone changes </li>
-					<li> Apple Script Execution Errors while interacting with the Reminders app </li>
-					<li> Button click events for sharing app, opening GitHub link, reporting an issue, opening App Store for review and opening Twitter </li>
-				</ul>
+				<OuterBulletPoint>
+					<BulletPoint> Clocker’s menubar mode </BulletPoint>
+					<BulletPoint> Upcoming Event View’s Presence in the Panel </BulletPoint>
+					<BulletPoint> Number of locations displayed in the Panel </BulletPoint>
+					<BulletPoint> Future Time Slider’s Presence in the Panel </BulletPoint>
+					<BulletPoint> Seconds Preference </BulletPoint>
+					<BulletPoint> Time Format Preference </BulletPoint>
+					<BulletPoint> Calendar Access Status </BulletPoint>
+					<BulletPoint> Reminders Access Status </BulletPoint>
+					<BulletPoint> Sunrise/Sunset Preference </BulletPoint>
+					<BulletPoint> Theme Preference </BulletPoint>
+					<BulletPoint> Country </BulletPoint>
+					<BulletPoint> When system timezone changes </BulletPoint>
+					<BulletPoint> Apple Script Execution Errors while interacting with the Reminders app </BulletPoint>
+					<BulletPoint> Button Click Events</BulletPoint>
+				</OuterBulletPoint>
 				<h3>Information usage</h3>
 				<p> We use the information we collect to operate and improve our app, website, and customer support. </p>
 				<p> We do not share personal information with outside parties except to the extent necessary to accomplish Clocker’s functionality. We may share anonymous, aggregate statistics with outside parties, such as while adding a timezone. </p>

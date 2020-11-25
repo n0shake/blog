@@ -4,9 +4,11 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SeeAllButton from "../components/see_all_button"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
+  const newSiteTitle = "Hi, I'm Abhishek 👋"
   const posts = data.allMarkdownRemark.nodes
   const reducedPosts = posts.slice(0, 3);
 
@@ -25,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={newSiteTitle}>
       <SEO title="Posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
@@ -59,6 +61,7 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
+      <SeeAllButton />
     </Layout>
   )
 }

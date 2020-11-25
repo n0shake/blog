@@ -4,6 +4,11 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styled from 'styled-components'
+
+const DateContainer = styled.p` 
+ color: #a7a7a7;
+`
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -23,7 +28,7 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <DateContainer>{post.frontmatter.date}</DateContainer>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}

@@ -6,16 +6,23 @@ import Img from "gatsby-image"
 const Layout = ({ location, title, children }) => {
   const data = useStaticQuery(graphql`
     query FooterQuery {
-      avatar: file(absolutePath: { regex: "/linkedin.png/" }) {
+      twitterAvatar: file(absolutePath: { regex: "/twitter.png/" }) {
         childImageSharp {
-          fixed(width: 60, height: 60, quality: 95) {
+          fixed(width: 32, height: 32, quality: 95) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      linkedInAvatar: file(absolutePath: { regex: "/linkedin.png/" }) {
+        childImageSharp {
+          fixed(width: 32, height: 32, quality: 95) {
             ...GatsbyImageSharpFixed
           }
         }
       }
       instagramAvatar: file(absolutePath: { regex: "/ig.png/" }) {
         childImageSharp {
-          fixed(width: 60, height: 60, quality: 95) {
+          fixed(width: 32, height: 32, quality: 95) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -26,8 +33,9 @@ const Layout = ({ location, title, children }) => {
 
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
-  const avatar = data?.avatar?.childImageSharp?.fixed
+  const linkedInAvatar = data?.linkedInAvatar?.childImageSharp?.fixed
   const igImage = data?.instagramAvatar?.childImageSharp?.fixed
+  const twitterAvatar = data?.twitterAvatar?.childImageSharp?.fixed
 
   let header
 
@@ -50,31 +58,33 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <h3>Elsewhere on the www,</h3>
-        <a href="https://www.linkedin.com/in/abhishekbanthia/">
-        {avatar && (
+        <h5>Elsewhere on the www,</h5>
+        <Link to="https://www.linkedin.com/in/abhishekbanthia/">
+        {linkedInAvatar && (
         <Img
-          fixed={avatar}
-          alt={`Abhishek`}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
+          fixed={linkedInAvatar}
+          alt={`Linkedin`}
         />
         )}
-        </a>
-        <a href="https://www.instagram.com/n0shake/">
+        </Link>
+        &nbsp;&nbsp;
+        <Link to="https://www.twitter.com/n0shake/">
+        {twitterAvatar && (
+        <Img
+          fixed={twitterAvatar}
+          alt={`Twitter`}
+        />
+        )}
+        </Link>
+        &nbsp;&nbsp;
+        <Link to="https://www.instagram.com/n0shake/">
         {igImage && (
         <Img
           fixed={igImage}
-          alt={`Abhishek`}
-          className="bio-avatar"
-          imgStyle={{
-            borderRadius: `50%`,
-          }}
+          alt={`Instagram`}
         />
         )}
-        </a>
+        </Link>
       </footer>
     </div>
   )
