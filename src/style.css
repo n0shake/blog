@@ -240,6 +240,11 @@ a:focus {
 
 /* Custom classes */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+}
+
 .global-wrapper {
   margin: var(--spacing-0) auto;
   max-width: var(--maxWidth-wrapper);
