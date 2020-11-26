@@ -27,8 +27,8 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Roboto";
-  --fontFamily-serif: "Avenir", "Roboto", Cambria, "Times New Roman",
+  --fontFamily-sans: "Inter UI";
+  --fontFamily-serif: "Inter UI", "Roboto", "Helvetica", "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
@@ -240,9 +240,10 @@ a:focus {
 
 /* Custom classes */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
+.grid-child-sidebar {
+/*  display: grid;
+  grid-template-columns: 0.3fr 1fr;*/
+  margin-right: 20px;
 }
 
 .global-wrapper {

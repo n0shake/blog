@@ -7,7 +7,7 @@ const RoundedDiv = styled.div`
  border: none;
  color: black;
  padding: 10px;
- margin-bottom: 10px;
+ margin-right: 10px;
  text-align: center;
  text-decoration: none;
  display: inline-block;

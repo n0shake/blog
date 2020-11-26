@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 const Posts = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -44,6 +45,7 @@ const Posts = ({ data, location }) => {
 		          )
 		        })}
 		      </ol>
+		      <Footer />
 			</div>
 		</Layout>
 	)
