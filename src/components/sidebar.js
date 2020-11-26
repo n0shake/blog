@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 import styled from 'styled-components'
 
 const RoundedDiv = styled.div` 
@@ -20,12 +20,11 @@ const SidebarDiv = styled.div`
 `
 
 const Sidebar = () => {
-  const sidebarButtons = ["Clocker", "Projects", "Reading"]
-
+  const sidebarButtons = {"Clocker": "/clocker", "Projects": "/projects", "Reading": "/reading"}
   return (
     <SidebarDiv>
-    { sidebarButtons.map(buttonTitle => {
-       return <RoundedDiv><b>{buttonTitle}</b></RoundedDiv>
+    { Object.entries(sidebarButtons).map(([key, value]) => {
+       return <Link to={value}><RoundedDiv key={key}><b>{key}</b></RoundedDiv></Link>
     })}
     </SidebarDiv>
   )

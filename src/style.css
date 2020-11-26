@@ -284,6 +284,7 @@ a:focus {
 
 .post-list-item p {
   margin-left: var(--spacing-4);
+  padding-right: var(--spacing-2)
 }
 
 .bio a:hover {

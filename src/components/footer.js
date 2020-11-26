@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
 const Footer = () => {
@@ -36,32 +36,32 @@ const Footer = () => {
   return (
      <footer>
      <h5>Elsewhere on the www,</h5>
-     <Link to="https://www.linkedin.com/in/abhishekbanthia/">
+     <a href="https://www.linkedin.com/in/abhishekbanthia/">
      {linkedInAvatar && (
       <Img
        fixed={linkedInAvatar}
        alt={`Linkedin`}
      />
      )}
-     </Link>
+     </a>
      &nbsp;&nbsp;
-     <Link to="https://www.twitter.com/n0shake/">
+     <a href="https://www.twitter.com/n0shake/">
      {twitterAvatar && (
      <Img
        fixed={twitterAvatar}
        alt={`Twitter`}
      />
      )}
-     </Link>
+     </a>
      &nbsp;&nbsp;
-     <Link to="https://www.instagram.com/n0shake/">
+     <a href="https://www.instagram.com/n0shake/">
      {igImage && (
      <Img
        fixed={igImage}
        alt={`Instagram`}
      />
      )}
-     </Link>
+     </a>
    </footer>
   )
 }
