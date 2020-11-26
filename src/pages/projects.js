@@ -11,6 +11,7 @@ const Projects = ({ data, location }) => {
 	return (
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Projects" />
+            <div className="subpage">
         	<h1> Projects </h1>
         	<h2> Open Source </h2>
         	<hr/><br/>
@@ -27,6 +28,7 @@ const Projects = ({ data, location }) => {
         		Python bot which tweets all the post titles and URLs from the <a href="https://www.reddit.com/r/chelseafc/">r/chelsea subreddit</a> to a twitter account <a href="https://twitter.com/chelseareddit">(@chelseareddit)</a>. [Defunct] 
         	</p>
         	<br/>
+            </div>
 		</Layout>
 	)
 }

@@ -294,6 +294,12 @@ a:focus {
   background: lightblue;
 }
 
+.subpage a:hover {
+  padding: 3px 0px 2px 0px;
+  color: blue;
+  background: lightblue;
+}
+
 .post-list-item h2 {
   font-size: var(--fontSize-4);
   color: var(--color-primary);
