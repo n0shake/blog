@@ -12,6 +12,15 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Karla`,
+        ],
+        display: 'swap',
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "253965246",
@@ -37,6 +46,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-plugin-twitter`,
           {
             resolve: `gatsby-remark-images`,
             options: {

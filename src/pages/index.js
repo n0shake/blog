@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SeeAllButton from "../components/see_all_button"
 import Footer from "../components/footer"
-import Sidebar from "../components/sidebar"
+import NavBar from "../components/navbar"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -32,9 +32,8 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={newSiteTitle}>
       <SEO title="Posts" />
       <Bio />
-      <div class="grid-container">
       <div class="grid-child-sidebar">
-        <Sidebar />
+        <NavBar />
       </div>
       <div class="grid-child-main">
       <ol style={{ listStyle: `none` }}>
@@ -71,7 +70,6 @@ const BlogIndex = ({ data, location }) => {
       </ol>
       <SeeAllButton />
       <Footer />
-      </div>
       </div>
     </Layout>
   )

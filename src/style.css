@@ -27,8 +27,8 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Inter UI";
-  --fontFamily-serif: "Inter UI", "Roboto", "Helvetica", "Times New Roman",
+  --fontFamily-sans: "Karla";
+  --fontFamily-serif: "Karla", "Roboto", "Helvetica", "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
@@ -73,7 +73,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f7f9;
+  background-color: #ffffff;
 }
 
 body {
@@ -241,8 +241,6 @@ a:focus {
 /* Custom classes */
 
 .grid-child-sidebar {
-/*  display: grid;
-  grid-template-columns: 0.3fr 1fr;*/
   margin-right: 20px;
 }
 
@@ -253,7 +251,7 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-4);
 }
 
 .global-header {
@@ -269,8 +267,8 @@ a:focus {
   margin-bottom: var(--spacing-8);
   margin-top: var(--spacing-8);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px 5px 5px 5px;
+  transition: 0.2s;
+  border-radius: 10px 10px 10px 10px;
   background-color: white;
   border-left: var(--spacing-1) solid var(--color-primary);
 }
@@ -280,7 +278,7 @@ a:focus {
 }
 
 .post-list-item:hover {
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 4px 1px rgba(0,0,0,0.2);
 }
 
 .post-list-item p {
@@ -291,7 +289,7 @@ a:focus {
 .bio a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
-  background: lightblue;
+  background: #ede4e0;
 }
 
 .subpage a:hover {
@@ -323,7 +321,7 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  /*margin-bottom: var(--spacing-4);*/
 }
 
 .bio p {

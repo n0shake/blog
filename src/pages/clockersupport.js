@@ -35,7 +35,9 @@ const ClockerSupport = ({ data, location }) => {
         	<SEO title="Clocker Support" />
         	<h1> Clocker Support </h1>
           <hr/>
-          <p> For faster responses, please use the in-app feedback window 
+          <p> Clocker is developed and maintained with <span role="img" aria-label="love">❤️</span> by a single dev. 
+            There is no big company or VC backed investors here.
+            For faster responses, please use the in-app feedback window 
             by navigating to <b>Preferences</b> -> <b>About</b> tab and clicking on the <b>Report Issue</b> button.
           </p>
           <RoundedDiv>

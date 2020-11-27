@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 
 const RoundedDiv = styled.div` 
- background-color: white;
+ background-color: #f5f7f9;
  border: none;
  color: black;
  padding: 10px;
@@ -13,13 +13,17 @@ const RoundedDiv = styled.div`
  display: inline-block;
  font-size: 16px;
  border-radius: 8px;
+ transition: 0.2s;
+ &:hover {
+ 	background-color: #ede4e0;
+ }
 `
 
 const SidebarDiv = styled.div`
  padding-top: 30px;
 `
 
-const Sidebar = () => {
+const NavBar = () => {
   const sidebarButtons = {"Clocker": "/clocker", "Projects": "/projects", "Reading": "/reading"}
   return (
     <SidebarDiv>
@@ -30,4 +34,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default NavBar

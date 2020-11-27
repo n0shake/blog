@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 
 const RoundedDiv = styled.div` 
- background-color: white;
+ background-color: #f5f7f9;
  border: none;
  color: black;
  padding: 10px;
@@ -13,10 +13,13 @@ const RoundedDiv = styled.div`
  font-size: 16px;
  margin: 0px 0px;
  border-radius: 8px;
+ transition: 0.2s;
+ &:hover {
+ 	background-color: #ede4e0;
+ }
 `
 
 const SeeAllButton = () => {
-  // Set these values by editing "siteMetadata" in gatsby-config.js
   const buttonTitle = "See More Posts"
 
   return (

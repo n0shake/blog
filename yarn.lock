@@ -6214,6 +6214,11 @@ gatsby-plugin-google-analytics@^2.3.18:
     "@babel/runtime" "^7.12.5"
     minimatch "3.0.4"
 
+gatsby-plugin-google-fonts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+  integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
+
 gatsby-plugin-manifest@^2.4.34:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.7.0.tgz#44526226e8d0a2f80c2a81e5a5c7e9a03963a890"
@@ -6287,6 +6292,13 @@ gatsby-plugin-styled-components@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-3.5.0.tgz#f9e313d622222d5014975845599909902bfb3144"
   integrity sha512-QOo/dBTJzL6a/UkwlvvwWE1DKsqx7ni8nbwqoFV6lc0NLclHS2TlUoH5D54ook/3XWI4pYMVYxfFvfIbh3VjRA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+
+gatsby-plugin-twitter@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-2.5.0.tgz#da88941567dddcb94115177ad8f042ec8223e398"
+  integrity sha512-78XiZmK29gMRm+YJRs4EHoiGW4QUf4dtkjzGRmALzQKnuNMKYeCN2n+U+t+s7DzJyutoN1UvrnANPx3DkrLirA==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
