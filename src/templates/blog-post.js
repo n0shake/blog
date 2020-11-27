@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -22,7 +21,6 @@ const BlogPostTemplate = ({ data, location }) => {
   } else {
     totalTimeToRead = post.timeToRead + " mins"
   }
-  
 
   return (
     <Layout location={location} title={siteTitle}>
