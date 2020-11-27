@@ -10,7 +10,7 @@ import NavBar from "../components/navbar"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const newSiteTitle = "Hi there! 👋"
+  const newSiteTitle = "hi there! 👋"
   const posts = data.allMarkdownRemark.nodes
   const reducedPosts = posts.slice(0, 3);
 

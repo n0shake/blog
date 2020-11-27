@@ -1,5 +1,5 @@
 ---
-title: India 2019
+title: india 2019
 date: "2020-01-20T23:46:37.121Z"
 description: "Much awaited."
 ---

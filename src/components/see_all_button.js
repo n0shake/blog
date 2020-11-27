@@ -20,7 +20,7 @@ const RoundedDiv = styled.div`
 `
 
 const SeeAllButton = () => {
-  const buttonTitle = "See More Posts"
+  const buttonTitle = "see more posts"
 
   return (
     <div className="see_all">

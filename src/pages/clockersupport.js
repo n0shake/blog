@@ -33,7 +33,7 @@ const ClockerSupport = ({ data, location }) => {
 	return (
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Clocker Support" />
-        	<h1> Clocker Support </h1>
+        	<h1> clocker support </h1>
           <hr/>
           <p> Clocker is developed and maintained with <span role="img" aria-label="love">❤️</span> by a single dev. 
             There is no big company or VC backed investors here.

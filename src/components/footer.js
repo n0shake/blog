@@ -35,7 +35,7 @@ const Footer = () => {
 
   return (
      <footer>
-     <h5>Elsewhere,</h5>
+     <h5>elsewhere,</h5>
      <a href="https://www.linkedin.com/in/abhishekbanthia/">
      {linkedInAvatar && (
       <Img

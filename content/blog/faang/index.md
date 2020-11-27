@@ -1,5 +1,5 @@
 ---
-title: Working at a FAANG
+title: working at a FAANG
 date: "2020-05-10T23:46:37.121Z"
 description: "What even makes working at a FAANG worth it?"
 ---

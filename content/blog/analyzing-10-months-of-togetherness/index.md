@@ -1,5 +1,5 @@
 ---
-title: Analyzing ~10 months of togetherness
+title: analyzing ~10 months of togetherness
 date: "2019-01-10T23:46:37.121Z"
 description: 2018, for me, had many highlights. A new job, getting a chance to see my fam, new cities and states, but more importantly; I met you.
 ---
