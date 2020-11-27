@@ -313,6 +313,10 @@ a:focus {
   transition: 0.2s;
 }
 
+.read-book a {
+  text-decoration: none;
+}
+
 .subpage a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
