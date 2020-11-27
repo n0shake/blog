@@ -13,7 +13,7 @@ const Posts = ({ data, location }) => {
 		<Layout location={location} title={siteTitle}>
 		<SEO title="Clocker-Privacy-Policy" />
 			<div>
-				<h2> Posts </h2>
+				<h2> posts </h2>
 				<ol style={{ listStyle: `none` }}>
         			{posts.map(post => {
           		  const title = post.frontmatter.title || post.fields.slug
@@ -24,11 +24,10 @@ const Posts = ({ data, location }) => {
 		                itemScope
 		                itemType="http://schema.org/Article"
 		              >
+		                <Link className="card-class" to={post.fields.slug} itemProp="url">
 		                <header>
 		                  <h2>
-		                    <Link to={post.fields.slug} itemProp="url">
-		                      <span itemProp="headline">{title}</span>
-		                    </Link>
+		                    <span itemProp="headline">{title}</span>
 		                  </h2>
 		                </header>
 		                <section>
@@ -40,7 +39,8 @@ const Posts = ({ data, location }) => {
 		                    itemProp="description"
 		                  />
 		                </section>
-		              </article>
+		               </Link>
+		             </article>
 		            </li>
 		          )
 		        })}

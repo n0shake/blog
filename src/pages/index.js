@@ -20,9 +20,7 @@ const BlogIndex = ({ data, location }) => {
         <SEO title="Posts" />
         <Bio />
         <p>
-          No blog posts found. Add markdown posts to "content/blog" (or the
-          directory you specified for the "gatsby-source-filesystem" plugin in
-          gatsby-config.js).
+          No blog posts found.
         </p>
       </Layout>
     )
@@ -47,11 +45,10 @@ const BlogIndex = ({ data, location }) => {
                 itemScope
                 itemType="http://schema.org/Article"
               >
+               <Link className="card-class" to={post.fields.slug} itemProp="url">
                 <header>
                   <h2>
-                    <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
-                    </Link>
+                    <span itemProp="headline">{title}</span>
                   </h2>
                 </header>
                 <section>
@@ -63,6 +60,7 @@ const BlogIndex = ({ data, location }) => {
                     itemProp="description"
                   />
                 </section>
+               </Link>
               </article>
             </li>
           )

@@ -8,9 +8,9 @@ const Projects = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
 	return (
 		<Layout location={location} title={siteTitle}>
-        	<SEO title="Projects" />
+        	<SEO title="projects" />
             <div className="subpage">
-        	<h1> Projects </h1>
+        	<h1> projects </h1>
         	<h2> Open Source </h2>
         	<hr/><br/>
         	<p> 

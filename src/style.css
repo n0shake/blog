@@ -279,11 +279,20 @@ a:focus {
 
 .post-list-item:hover {
   box-shadow: 0 4px 4px 1px rgba(0,0,0,0.2);
+  background-color: #ede4e0;
 }
 
 .post-list-item p {
   margin-left: var(--spacing-4);
   padding-right: var(--spacing-2)
+}
+
+.card-class {
+  text-decoration: none;
+}
+
+.card-class p {
+  color: black;
 }
 
 .bio a:hover {

@@ -19,7 +19,7 @@ const PrivacyPolicy = ({ data, location }) => {
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Clocker-Privacy-Policy" />
 			<div>
-				<h1> Privacy Policy </h1>
+				<h1> privacy </h1>
 				<p>This policy applies to all information collected or submitted on Clocker’s app for macOS and any other devices and platforms.</p>
 				<h3>Information we collect</h3>
 				<p>You may optionally add an email address during the Clocker onboarding process.

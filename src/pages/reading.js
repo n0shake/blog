@@ -9,7 +9,7 @@ const Reading = ({ data, location }) => {
 	return (
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Reading" />
-        	<h1> Reading </h1>
+        	<h1> reading </h1>
 		</Layout>
 	)
 }
