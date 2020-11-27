@@ -15,7 +15,6 @@ const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
-  const copyLinkAvatar = data?.linkAvatar?.childImageSharp?.fixed
   let totalTimeToRead
 
   if (post.timeToRead === 1) {
@@ -44,14 +43,6 @@ const BlogPostTemplate = ({ data, location }) => {
           <span>&#183;</span>
           &nbsp;
           {totalTimeToRead}
-          &nbsp;&nbsp;
-          {copyLinkAvatar && (
-          <Img
-            fixed={copyLinkAvatar}
-            alt={post.frontmatter.title}
-            title={post.frontmatter.title}
-          />
-          )}
           </DateContainer>
         </div>  
         </header>
@@ -102,13 +93,6 @@ export const pageQuery = graphql`
     $previousPostId: String
     $nextPostId: String
   ) {
-    linkAvatar: file(absolutePath: { regex: "/link.png/" }) {
-      childImageSharp {
-        fixed(width: 16, height: 16, quality: 95) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     site {
       siteMetadata {
         title
