@@ -301,10 +301,22 @@ a:focus {
   background: #ede4e0;
 }
 
+.read-book li:hover {
+  padding: 3px 0px 2px 0px;
+  color: blue;
+  background: #ede4e0;
+  text-decoration: none;
+}
+
+.read-book li {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
 .subpage a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
-  background: lightblue;
+  background: #ede4e0;
 }
 
 .post-list-item h2 {

@@ -1,5 +1,5 @@
 const path = require(`path`)
-const { createFilePath } = require(`gatsby-source-filesystem`)
+const { createFilePath, createRemoteFileNode } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
@@ -58,8 +58,37 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 }
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = ({ node, actions, store, getNode, getCache }) => {
   const { createNodeField } = actions
+
+  if (node.internal.type === `GoodreadsBook`) {
+    const imageURL = node.image_url
+    const { createNode } = actions
+    // download image and create a File node
+    // with gatsby-transformer-sharp and gatsby-plugin-sharp
+    // that node will become an ImageSharp
+    let fileNode 
+
+    try {
+      fileNode = createRemoteFileNode({
+        url: imageURL, // The actual image url
+        node, // The id of the parent node (i.e. the node to which the new remote File node will be linked to.
+        getCache,  // Gatsby's cache which the helper uses to check if the file has been downloaded already.
+        createNode,  // The action used to create nodes
+        createNodeId: id => `book-${id}`,  // Helper function
+        ext: ".png",
+      })
+    } catch (e) {
+      console.log('Exception occured')
+    }
+  
+    if (fileNode) {
+      console.log(fileNode.id)
+      node.localFile___NODE = fileNode.id
+    } else {
+      console.log('No file node')
+    }
+  }
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })

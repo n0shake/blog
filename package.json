@@ -8,6 +8,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
+    "@jamesdanylik/gatsby-source-goodreads": "^0.1.0",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.24.82",
     "gatsby-image": "^2.4.21",
@@ -17,6 +18,7 @@
     "gatsby-plugin-manifest": "^2.4.34",
     "gatsby-plugin-offline": "^3.2.33",
     "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-remote-images": "^2.2.0",
     "gatsby-plugin-sharp": "^2.6.42",
     "gatsby-plugin-styled-components": "^3.5.0",
     "gatsby-plugin-twitter": "^2.5.0",
