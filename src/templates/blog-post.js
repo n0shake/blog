@@ -16,7 +16,14 @@ const BlogPostTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
   const copyLinkAvatar = data?.linkAvatar?.childImageSharp?.fixed
-  const totalTimeToRead = post.timeToRead + " mins"
+  let totalTimeToRead
+
+  if (post.timeToRead === 1) {
+    totalTimeToRead = post.timeToRead + " min"
+  } else {
+    totalTimeToRead = post.timeToRead + " mins"
+  }
+  
 
   return (
     <Layout location={location} title={siteTitle}>
