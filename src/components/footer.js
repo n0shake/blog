@@ -26,12 +26,20 @@ const Footer = () => {
 	      }
 	    }
 	  }
+    githubAvatar: file(absolutePath: { regex: "/github.png/" }) {
+      childImageSharp {
+        fixed(width: 32, height: 32, quality: 95) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
 	}
   `)
 
   const linkedInAvatar = data?.linkedInAvatar?.childImageSharp?.fixed
   const igImage = data?.instagramAvatar?.childImageSharp?.fixed
   const twitterAvatar = data?.twitterAvatar?.childImageSharp?.fixed
+  const githubAvatar = data?.githubAvatar?.childImageSharp?.fixed
 
   return (
      <footer>
@@ -41,6 +49,15 @@ const Footer = () => {
       <Img
        fixed={linkedInAvatar}
        alt={`Linkedin`}
+     />
+     )}
+     </a>
+     &nbsp;&nbsp;
+     <a href="https://www.github.com/n0shake/">
+     {githubAvatar && (
+      <Img
+       fixed={githubAvatar}
+       alt={`Github`}
      />
      )}
      </a>
