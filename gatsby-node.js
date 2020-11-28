@@ -85,6 +85,7 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     }
   
     if (fileNode) {
+      console.log(fileNode)
       node.localFile___NODE = fileNode.id
     } else {
       console.log('there is node')

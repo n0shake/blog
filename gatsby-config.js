@@ -12,19 +12,19 @@ module.exports = {
   },
   plugins: [
     {
+        resolve: "@jamesdanylik/gatsby-source-goodreads",
+        options: {
+            key: 'rZd38ab4hcn1CrEjP5UDvw',
+            id: '6566801-abhishek'
+        },
+    },
+    {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "GTM-T6L28LB",
         includeInDevelopment: true,
         defaultDataLayer: { platform: "gatsby" },
       },
-    },
-    {
-        resolve: "@jamesdanylik/gatsby-source-goodreads",
-        options: {
-            key: 'rZd38ab4hcn1CrEjP5UDvw',
-            id: '6566801-abhishek'
-        },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,

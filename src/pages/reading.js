@@ -21,6 +21,9 @@ const Reading = ({ data, location }) => {
     return element1.reviews.concat(element2.reviews)
   })
 
+  const sortedAllBooks = allBooks.sort((one, two) => (one.readAt < two.readAt ? -1 : 1));
+  console.log(sortedAllBooks)
+
 	return (
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Reading" />
@@ -59,6 +62,7 @@ export const pageQuery = graphql`
     }
     allGoodreadsShelf(
       filter: {name: { in: ["currently-reading", "read"] } }
+      sort: { order: DESC, fields: reviews___read_at }
       ) {
       nodes {
         reviews {
