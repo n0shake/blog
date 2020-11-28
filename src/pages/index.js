@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="Posts" />
+        <SEO title="Abhishek" />
         <Bio />
         <p>
           No blog posts found.
@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={newSiteTitle}>
-      <SEO title="Posts" />
+      <SEO title="Abhishek" />
       <Bio />
       <div class="grid-child-sidebar">
         <NavBar />

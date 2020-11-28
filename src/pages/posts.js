@@ -11,7 +11,7 @@ const Posts = ({ data, location }) => {
 
 	return (
 		<Layout location={location} title={siteTitle}>
-		<SEO title="Clocker-Privacy-Policy" />
+		<SEO title="Posts" />
 			<div>
 				<h2> posts </h2>
 				<ol style={{ listStyle: `none` }}>

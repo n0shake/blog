@@ -17,7 +17,7 @@ const PrivacyPolicy = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
 	return (
 		<Layout location={location} title={siteTitle}>
-        	<SEO title="Clocker-Privacy-Policy" />
+        	<SEO title="Clocker Privacy Policy" />
 			<div>
 				<h1> privacy </h1>
 				<p>This policy applies to all information collected or submitted on Clocker’s app for macOS and any other devices and platforms.</p>

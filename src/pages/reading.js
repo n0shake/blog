@@ -30,9 +30,9 @@ const Reading = ({ data, location }) => {
             {allBooks && allBooks.map(review => {
               return (
                <GridItem>
-               {review.book.localFile.childImageSharp?.fluid && (
+               {review.book.localFile?.childImageSharp?.fluid && (
                   <Img
-                  fluid={review.book.localFile.childImageSharp?.fluid}
+                  fluid={review.book.localFile?.childImageSharp?.fluid}
                   alt={review.book.title}
                   />
               )}

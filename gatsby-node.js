@@ -66,7 +66,7 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     const { createNode } = actions
 
     var excludedISBNS = new Set("9350296918")
-    if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn != "") {
+    if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn !== "") {
       imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
     }
     
