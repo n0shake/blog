@@ -21,4 +21,4 @@ This project was hacked in a week thanks to:
 
 ## License
 
-Gatsby and their starter project have their own licenses and most of my code is license under MIT.
+Gatsby and their starter project have their own licenses and most of my code is licensed under MIT.
