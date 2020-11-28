@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e6a4257-22ce-4408-8898-f78415a399c6/deploy-status)](https://app.netlify.com/sites/goofy-rosalind-0c65bb/deploys)
+
 ## Stack
 
 This is a static site powering my blog built using Gatsby, Markdown and some TypeScript.
