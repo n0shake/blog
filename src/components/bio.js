@@ -25,7 +25,7 @@ const Bio = () => {
       {author?.name && (
         <p>
           I'm Abhishek. I'm an iOS engineer working out of the Bay Area.
-          If you would like to talk, please feel free to <a href={`mailto:me@abhishekbanthia.com`}>email me</a>.
+          If you would like to talk, please feel free to <a href={`mailto:abhishekbanthia@me.com`}>email me</a>.
           {` `}
           You can follow me on <a href={`https://twitter.com/${social?.twitter || ``}`}>
             Twitter</a> or read my code on <a href={`https://github.com/n0shake`}>Github</a>.
