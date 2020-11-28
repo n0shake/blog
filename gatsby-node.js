@@ -58,7 +58,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 }
 
-exports.onCreateNode = ({ node, actions, store, getNode, getCache }) => {
+exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `GoodreadsBook`) {
@@ -70,7 +70,7 @@ exports.onCreateNode = ({ node, actions, store, getNode, getCache }) => {
     let fileNode 
 
     try {
-      fileNode = createRemoteFileNode({
+      fileNode = await createRemoteFileNode({
         url: imageURL, // The actual image url
         node, // The id of the parent node (i.e. the node to which the new remote File node will be linked to.
         getCache,  // Gatsby's cache which the helper uses to check if the file has been downloaded already.
@@ -85,9 +85,7 @@ exports.onCreateNode = ({ node, actions, store, getNode, getCache }) => {
     if (fileNode) {
       console.log(fileNode.id)
       node.localFile___NODE = fileNode.id
-    } else {
-      console.log('No file node')
-    }
+    } 
   }
 
   if (node.internal.type === `MarkdownRemark`) {

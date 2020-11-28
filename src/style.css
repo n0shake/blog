@@ -301,20 +301,19 @@ a:focus {
   background: #ede4e0;
 }
 
-.read-book li:hover {
+.read-book a {
+  text-decoration: none;
+}
+
+.read-book a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
   background: #ede4e0;
-  text-decoration: none;
 }
 
-.read-book li {
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.read-book a {
-  text-decoration: none;
+.read-book {
+  text-align: center;
+  padding-top: 2px;
 }
 
 .subpage a:hover {

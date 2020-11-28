@@ -3,28 +3,47 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
+import styled from 'styled-components'
+
+const GridContainer = styled.div` 
+ display: grid;
+ grid-template-columns: auto auto auto;
+`
+const GridItem = styled.div`
+ padding: 15px;
+ padding-left: 0px;
+`
 
 const Reading = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
-  const readBooks = data.goodreadsShelf.reviews
+  const allBooks = data.allGoodreadsShelf?.nodes.reduce((element1, element2) => {
+    return element1.reviews.concat(element2.reviews)
+  })
 
 	return (
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Reading" />
         	<h1> reading </h1>
           <p> Keeping a track of books that I've read: </p>
-          <ol style={{ listStyle: `none` }}>
-            {readBooks.map(book => {
+            <GridContainer>
+            {allBooks && allBooks.map(review => {
               return (
-               <div className="read-book">
-               <a href={book.link}>
-              <li key={book.book.id}> 
-               {book.book.title}
-              </li>
-              </a>
+               <GridItem>
+               {review.book.localFile.childImageSharp?.fluid && (
+                  <Img
+                  fluid={review.book.localFile.childImageSharp?.fluid}
+                  alt={review.book.title}
+                  />
+              )}
+              <div className="read-book">
+                <a href={review.link}>
+                 {review.book.title}
+                </a>
               </div>
+              </GridItem>
             )})}
-          </ol>
+            </GridContainer>
 		</Layout>
 	)
 }
@@ -38,15 +57,25 @@ export const pageQuery = graphql`
         title
       }
     }
-    goodreadsShelf {
-      reviews {
-        id
-        link
-        book {
-          title
-          image_url
+    allGoodreadsShelf(
+      filter: {name: { in: ["currently-reading", "read"] } }
+      ) {
+      nodes {
+        reviews {
+          id
+          link
+          book {
+            title
+            localFile {
+              childImageSharp {
+                fluid(quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
       }
     }
   }
+}
 `
