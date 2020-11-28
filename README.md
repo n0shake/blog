@@ -1,6 +1,6 @@
 ## Stack
 
-This is a static site powering my blog powered by Gatsby, Markdown and some TypeScript.
+This is a static site powering my blog built using Gatsby, Markdown and some TypeScript.
 
 ## Quick start
 
