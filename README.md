@@ -7,7 +7,7 @@ This is a static site powering my blog built using Gatsby, Markdown and some Typ
 ```
 git clone https://github.com/n0shake/blog.git
 cd blog
-yarn start # To install all the GitHub plugin
+yarn start # To install all the required plugins
 ```
 
 ## Acknowledgment
