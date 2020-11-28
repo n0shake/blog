@@ -42,8 +42,9 @@ const ClockerSupport = ({ data, location }) => {
           </p>
           <RoundedDiv>
           <form 
-            name="clocker-feedback" 
-            action="clockerformsubmission">
+            name="clocker-feedback"
+            data-netlifly="true" 
+            method="POST">
             <h3> your feedback/suggestion </h3>
             <FieldName><b>Name*</b></FieldName>
             <input name="name" type="text" />

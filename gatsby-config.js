@@ -12,6 +12,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-T6L28LB",
+        includeInDevelopment: true,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
+    {
         resolve: "@jamesdanylik/gatsby-source-goodreads",
         options: {
             key: 'rZd38ab4hcn1CrEjP5UDvw',
@@ -79,7 +87,6 @@ module.exports = {
       resolve: `gatsby-plugin-styled-components`,
       options: {},
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
