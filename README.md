@@ -12,7 +12,7 @@ yarn start # To install all the required plugins
 
 ## Acknowledgment
 
-This project was hacked in a week thanks to the following:
+This project was hacked in a week thanks to:
 
 - [Gatsby](https://www.gatsbyjs.com/)
 - [Gatsby GoodReads Plugin](https://www.gatsbyjs.com/plugins/@jamesdanylik/gatsby-source-goodreads/?=goodreads)
