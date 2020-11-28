@@ -62,13 +62,15 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `GoodreadsBook`) {
-    const imageURL = node.image_url
+    let imageURL = node.image_url
     const { createNode } = actions
-    // download image and create a File node
-    // with gatsby-transformer-sharp and gatsby-plugin-sharp
-    // that node will become an ImageSharp
-    let fileNode 
 
+    var excludedISBNS = new Set("9350296918")
+    if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn != "") {
+      imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
+    }
+    
+    let fileNode
     try {
       fileNode = await createRemoteFileNode({
         url: imageURL, // The actual image url
@@ -79,13 +81,14 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
         ext: ".png",
       })
     } catch (e) {
-      console.log('Exception occured')
+      console.log(e)
     }
   
     if (fileNode) {
-      console.log(fileNode.id)
       node.localFile___NODE = fileNode.id
-    } 
+    } else {
+      console.log('there is node')
+    }
   }
 
   if (node.internal.type === `MarkdownRemark`) {
