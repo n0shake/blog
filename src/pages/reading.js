@@ -9,10 +9,10 @@ import styled from 'styled-components'
 const GridContainer = styled.div` 
  display: grid;
  grid-template-columns: auto auto auto auto;
- @media (max-width: 400px) {
+ @media only screen and (max-width: 700px) {
     grid-template-columns: auto auto auto;
  }
- @media (max-width: 300px) {
+ @media only screen and (max-width: 350px) {
     grid-template-columns: auto auto;
  }
 `
