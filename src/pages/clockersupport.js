@@ -6,6 +6,9 @@ import SEO from "../components/seo"
 import styled from 'styled-components'
 
 const TextContainer = styled.textarea`
+ @media screen and (max-width: 400px) {
+    width: 250px;
+ }
  width: 400px;
  height: 75px; 
  max-height: 150px;
@@ -15,13 +18,16 @@ const RoundedDiv = styled.div`
  background-color: white;
  border: none;
  color: black;
- padding-right: 40px;
- padding-bottom: 20px;
- padding-left: 15px;
  text-align: left;
  text-decoration: none;
  display: inline-block;
  border-radius: 8px;
+ @media screen and (max-width: 700px) {
+    padding: 5px;
+ }
+ padding-right: 40px;
+ padding-bottom: 20px;
+ padding-left: 15px;
 `
 const FieldName = styled.p` 
   margin-bottom: 1px;
@@ -45,7 +51,7 @@ const ClockerSupport = ({ data, location }) => {
             name="clocker-feedback"
             data-netlifly="true" 
             method="POST">
-            <h3> your feedback/suggestion </h3>
+            <h3> your feedback </h3>
             <FieldName><b>Name*</b></FieldName>
             <input name="name" type="text" />
             <FieldName><b>Email*</b></FieldName>

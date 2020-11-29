@@ -8,13 +8,13 @@ import styled from 'styled-components'
 
 const GridContainer = styled.div` 
  display: grid;
- grid-template-columns: auto auto auto auto;
- @media only screen and (max-width: 700px) {
+ @media screen and (max-width: 700px) {
     grid-template-columns: auto auto auto;
  }
- @media only screen and (max-width: 350px) {
+ @media screen and (max-width: 350px) {
     grid-template-columns: auto auto;
  }
+ grid-template-columns: auto auto auto auto;
 `
 const GridItem = styled.div`
  padding: 15px;
