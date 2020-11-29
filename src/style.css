@@ -238,6 +238,11 @@ a:focus {
   text-decoration: none;
 }
 
+a:active {
+  padding: 3px 0px 2px 0px;
+  text-decoration: none;
+}
+
 /* Custom classes */
 
 .grid-child-sidebar {
@@ -296,6 +301,12 @@ a:focus {
 }
 
 .bio a:hover {
+  padding: 3px 0px 2px 0px;
+  color: blue;
+  background: #ede4e0;
+}
+
+.bio a:active {
   padding: 3px 0px 2px 0px;
   color: blue;
   background: #ede4e0;

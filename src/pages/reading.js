@@ -9,6 +9,12 @@ import styled from 'styled-components'
 const GridContainer = styled.div` 
  display: grid;
  grid-template-columns: auto auto auto auto;
+ @media (max-width: 400px) {
+    grid-template-columns: auto auto auto;
+ }
+ @media (max-width: 300px) {
+    grid-template-columns: auto auto;
+ }
 `
 const GridItem = styled.div`
  padding: 15px;
