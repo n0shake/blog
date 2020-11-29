@@ -7,7 +7,7 @@ import Img from "gatsby-image"
 
 const Clocker = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
-  const clockerSplashImage = data?.clockerSplashImage?.childImageSharp?.fixed
+  const clockerSplashImage = data?.clockerSplashImage?.childImageSharp?.fluid
 
 	return (
 		<Layout location={location} title={siteTitle}>
@@ -20,7 +20,7 @@ const Clocker = ({ data, location }) => {
           </p>
 		      {clockerSplashImage && (
             <Img
-            fixed={clockerSplashImage}
+            fluid={clockerSplashImage}
             alt={`Clocker`}
           />)}
           <h5>Few Links: </h5>
@@ -45,8 +45,8 @@ export const pageQuery = graphql`
     }
     clockerSplashImage: file(absolutePath: { regex: "/clocker.png/" }) {
       childImageSharp {
-        fixed(width: 600, height: 375, quality: 95) {
-         ...GatsbyImageSharpFixed
+        fluid(quality: 95) {
+         ...GatsbyImageSharpFluid
         }
       }
     }
