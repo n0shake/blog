@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 import SeeAllButton from "../components/see_all_button"
 import Footer from "../components/footer"
 import NavBar from "../components/navbar"
+import styled from 'styled-components'
+
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -89,7 +91,7 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(fromNow: true, difference: "hours")
           title
           description
         }
