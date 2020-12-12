@@ -306,6 +306,10 @@ a:active {
   background: #ede4e0;
 }
 
+.bio a {
+  text-decoration: none;
+}
+
 .bio a:active {
   padding: 3px 0px 2px 0px;
   color: blue;
@@ -331,6 +335,10 @@ a:active {
   padding: 3px 0px 2px 0px;
   color: blue;
   background: #ede4e0;
+}
+
+.subpage a {
+  text-decoration: none;
 }
 
 .post-list-item h2 {
