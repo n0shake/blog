@@ -85,6 +85,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-netlify`,
     {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {}
+      }
+    }
+    {
       resolve: `gatsby-plugin-styled-components`,
       options: {},
     },
