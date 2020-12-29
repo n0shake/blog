@@ -89,7 +89,7 @@ module.exports = {
       options: {
         headers: {}
       }
-    }
+    },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {},

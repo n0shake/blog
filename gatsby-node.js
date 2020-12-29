@@ -66,6 +66,7 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     const { createNode } = actions
 
     var excludedISBNS = new Set("9350296918")
+    excludedISBNS.add("1982126809")
     if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn !== "") {
       imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
     }
@@ -81,11 +82,11 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
         ext: ".png",
       })
     } catch (e) {
+      console.log('Exception occurred')
       console.log(e)
     }
   
     if (fileNode) {
-      console.log(fileNode)
       node.localFile___NODE = fileNode.id
     } else {
       console.log('there is node')
