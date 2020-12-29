@@ -18,6 +18,7 @@ module.exports = {
             id: '6566801-abhishek'
         },
     },
+    `gatsby-plugin-netlify`,
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
