@@ -1,7 +1,7 @@
 ---
 title: spelunking hbo-max
-date: "2020-12-10T22:12:03.284Z"
-description: "how does the new kid on the video-streaming block interact with the webz?"
+date: "2018-12-10T22:12:03.284Z"
+description: "how does the new kid on the video-streaming block interact with the web?"
 ---
 
 It's been a while since I [reverse-engineered APIs](https://github.com/n0shake/dash) and I realized I missed it. I missed the world of the jailbreaking, mitm and good' ol deconstructing how the sauce is actually made. I decided to play around with HBO-Max. Why HBO-Max? It's a newish app and in today's **M0ve Fast** companies, security (certificate pinning in our case) is usually low down in the Jira ticket list.
