@@ -1,3 +1,11 @@
+if (process.env.NODE_ENV === 'production') {
+  require('dotenv').config({ path: './.env.production', debug: true })
+}
+
+if (process.env.NODE_ENV === 'development') {
+  require('dotenv').config({ path: './.env.development', debug: true })
+}
+
 module.exports = {
   siteMetadata: {
     title: `Abhishek`,
@@ -14,15 +22,15 @@ module.exports = {
     {
         resolve: "@jamesdanylik/gatsby-source-goodreads",
         options: {
-            key: 'rZd38ab4hcn1CrEjP5UDvw',
-            id: '6566801-abhishek'
+            key: process.env.GATSBY_GR_KEY,
+            id: process.env.GATSBY_GR_IDENTIFIER,
         },
     },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-T6L28LB",
-        includeInDevelopment: true,
+        id: process.env.GATSBY_TAG_ID,
+        includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
       },
     },
@@ -39,7 +47,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "253965246",
+        trackingId: process.env.GATSBY_GA_IDENTIFIER,
         head: true,
         anonymize: true,
       },
