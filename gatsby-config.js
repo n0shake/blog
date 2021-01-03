@@ -1,8 +1,10 @@
 if (process.env.NODE_ENV === 'production') {
+  require('dotenv').config({ path: './.env.production.local', debug: true })
   require('dotenv').config({ path: './.env.production', debug: true })
 }
 
 if (process.env.NODE_ENV === 'development') {
+  require('dotenv').config({ path: './.env.development.local', debug: true })
   require('dotenv').config({ path: './.env.development', debug: true })
 }
 
