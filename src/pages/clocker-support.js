@@ -49,8 +49,8 @@ const ClockerSupport = ({ data, location }) => {
           <RoundedDiv>
           <form 
             name="clocker-feedback"
-            data-netlifly="true" 
-            method="POST">
+            method="POST"
+            data-netlifly="true">
             <h3> your feedback </h3>
             <FieldName><b>Name*</b></FieldName>
             <input name="name" type="text" />
@@ -63,7 +63,7 @@ const ClockerSupport = ({ data, location }) => {
             </select>
             <FieldName><b>Comment*</b></FieldName>
             <TextContainer name="feedback" /><br/><br/>
-            <button><b>Submit</b></button>
+            <input type="Submit" value="Submit"></input>
           </form>
           </RoundedDiv>
 		</Layout>
