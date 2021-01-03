@@ -53,7 +53,7 @@ const ClockerSupport = ({ data, location }) => {
             data-netlifly="true"
             action="/clockerformsubmission/">
             <input type="hidden" name="bot-field" />
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="form-name" value="clocker-feedback" />
             <h3> your feedback </h3>
             <FieldName><b>Name*</b></FieldName>
             <input name="name" type="text" />
