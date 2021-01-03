@@ -47,11 +47,7 @@ const ClockerSupport = ({ data, location }) => {
             by navigating to <b>Preferences</b> -> <b>About</b> tab and clicking on the <b>Report Issue</b> button.
           </p>
           <RoundedDiv>
-          <form 
-            name="clocker-feedback"
-            method="post"
-            data-netlifly="true"
-            action="/clockerformsubmission/">
+          <form name="clocker-feedback" method="post" data-netlifly="true" action="/clockerformsubmission">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="clocker-feedback" />
             <h3> your feedback </h3>
