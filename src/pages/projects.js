@@ -23,7 +23,7 @@ const Projects = ({ data, location }) => {
         		<a href="https://github.com/n0shake/dash">Dash</a> allows you to browse restaurants from your macOS terminal. Fun little project where I learnt on how perform <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">MITM attacks</a>.
         	</p>
         	<p> 
-        		Python bot which tweets all the post titles and URLs from the <a href="https://www.reddit.com/r/chelseafc/">r/chelsea</a> subreddit to a twitter account <a href="https://twitter.com/chelseareddit">(@chelseareddit)</a>. <i>Defunct.</i>
+        		Python bot which tweets all the post titles and URLs from the <a href="https://www.reddit.com/r/chelseafc/">r/chelsea</a> subreddit to a twitter account <a href="https://twitter.com/chelseareddit">(@chelseareddit)</a>.
         	</p>
         	<br/>
             </div>
