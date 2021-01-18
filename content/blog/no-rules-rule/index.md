@@ -4,7 +4,7 @@ date: "2021-01-18T22:12:03.284Z"
 description: "quick review of reed hastings and erin meyer's deep-dive into the unique culture traits that makes netflix thrive"
 ---
 
-As an engineer, I've always been fascinated by myths surrounding Netflix and their employee culture. My first introduction to this was through their (in)famous culture deck and later [through this Reed Hastings interview on Blitzscaling](https://www.youtube.com/watch?v=jYhP08uuffs). And so when I saw [No Rules Rule](https://www.goodreads.com/book/show/49099937-no-rules-rules) trending in the world of books, I immediately grabbed a copy from the local library! Here are the insights and my takeaways from the book:
+As an engineer, I've always been fascinated by myths surrounding Netflix and their employee culture. My first introduction to this was through their (in)famous culture deck and later [through this Reed Hastings interview on Blitzscaling](https://www.youtube.com/watch?v=jYhP08uuffs). And so when I saw [No Rules Rule](https://www.goodreads.com/book/show/49099937-no-rules-rules) trending in the world of books, I immediately grabbed a copy from my local library! Here are the key insights and my takeaways from the book:
 
 ## Maximize Talent Density
 
