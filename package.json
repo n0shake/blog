@@ -42,7 +42,7 @@
     "react-is": "^17.0.1",
     "styled-components": "^5.2.1",
     "typeface-merriweather": "1.1.13",
-    "typeface-montserrat": "0.0.75"
+    "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
     "prettier": "2.2.1",
