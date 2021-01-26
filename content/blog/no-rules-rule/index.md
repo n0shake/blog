@@ -1,5 +1,5 @@
 ---
-title: no rules rule
+title: book review - no rules rule
 date: "2021-01-18T22:12:03.284Z"
 description: "quick review of reed hastings and erin meyer's deep-dive into the unique culture traits that makes netflix thrive"
 ---

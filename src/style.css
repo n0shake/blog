@@ -58,6 +58,7 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --color-hover: #ede4e0;
 }
 
 /* HTML elements */
@@ -294,7 +295,7 @@ a:active {
 .bio a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
-  background: #ede4e0;
+  background: var(--color-hover);
 }
 
 .bio a {
@@ -304,7 +305,7 @@ a:active {
 .bio a:active {
   padding: 3px 0px 2px 0px;
   color: blue;
-  background: #ede4e0;
+  background: var(--color-hover);
 }
 
 .read-book a {
@@ -314,7 +315,7 @@ a:active {
 .read-book a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
-  background: #ede4e0;
+  background: var(--color-hover);
 }
 
 .read-book {
@@ -325,19 +326,26 @@ a:active {
 .subpage a:hover {
   padding: 3px 0px 2px 0px;
   color: blue;
-  background: #ede4e0;
+  background: var(--color-hover);
 }
 
 .subpage a {
   text-decoration: none;
 }
 
+.post-list-div span:hover {
+  background-color: var(--color-hover);
+}
+
 .post-list-headline {
   font-size: var(--fontSize-2);
   color: var(--color-primary);
-  margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-2);
   font-weight: var(--fontWeight-bold);
+}
+
+.post-list-headline span:hover {
+  color: yellow;
 }
 
 .post-list-item header {
@@ -368,6 +376,8 @@ a:active {
   border-radius: 100%;
 }
 
+/* Blog Post */
+
 .blog-post header h1 {
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
 }
@@ -379,6 +389,22 @@ a:active {
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+}
+
+.article-body a {
+  text-decoration: none;
+}
+
+.article-body a:hover {
+  background-color: var(--color-hover);
+}
+
+.article-body li {
+  padding: 5px 0px;
+}
+
+.article-body ul {
+  line-height: 2px;
 }
 
 .gatsby-highlight {

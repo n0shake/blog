@@ -46,8 +46,8 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                <Link className="card-class" to={post.fields.slug} itemProp="url">
-                <div>
-                 <span className="post-list-date"> {post.frontmatter.date} </span>
+                <div className="post-list-div">
+                 <span className="post-list-date">{post.frontmatter.date} </span>
                  <span className="post-list-headline">{title}</span> 
                 </div>
                </Link>

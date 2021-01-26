@@ -30,7 +30,7 @@ const Posts = ({ data, location }) => {
 		                itemType="http://schema.org/Article"
 		              >
 		                <Link className="card-class" to={post.fields.slug} itemProp="url">
-		                <div>
+		                <div className="post-list-div">
                  			<span className="post-list-date"> {post.frontmatter.date} </span>
                  			<span className="post-list-headline">{title}</span> 
                 		</div>

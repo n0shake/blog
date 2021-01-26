@@ -50,8 +50,3 @@ Takes you straight to the Downloads page with the CTA saying "You're offline. Ch
 - Studio Ghibli Movies
 - No untoward crashes
 - "Last Chance" before they're gone seems like a nice category
-
-## Things to improve
-
-- Sucker for 3D Touch Interactions which are missing!
-- 
