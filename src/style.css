@@ -409,6 +409,10 @@ a:active {
 
 .article-body img {
   border-radius: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .article-body ul {

@@ -3,9 +3,10 @@ title: cracking the facebook engineer interview (2/2)
 date: "2020-02-12T22:40:32.169Z"
 description: Time for the onsite.
 ---
-Okay. Time for the onsite.
 
 ![Juliani](./cracking1.gif)
+
+Okay. Time for the onsite.
 
 After the phone interviews went well, the recruiter scheduled a call with me to discuss dates and preparation strategies. The call was insanely helpful and it actually felt like that he wanted me to succeed. I decided to schedule the onsite a month from my phone interviews hoping this would give me enough time to prepare (while not lazing at work).
 
