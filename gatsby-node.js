@@ -65,11 +65,11 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     let imageURL = node.image_url
     const { createNode } = actions
 
-    var excludedISBNS = new Set("9350296918")
-    excludedISBNS.add("1982126809")
-    if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn !== "") {
-      imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
-    }
+    // var excludedISBNS = new Set("9350296918")
+    // excludedISBNS.add("1982126809")
+    // if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn !== "") {
+    //   imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
+    // }
     
     let fileNode
     try {
