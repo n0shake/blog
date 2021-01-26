@@ -65,11 +65,19 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     let imageURL = node.image_url
     const { createNode } = actions
 
-    // var excludedISBNS = new Set("9350296918")
-    // excludedISBNS.add("1982126809")
-    // if (node.image_url.includes("nophoto") && !excludedISBNS.has(node.isbn) && node.isbn !== "") {
-    //   imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
-    // }
+    var excludedISBNS = new Set()
+    excludedISBNS.add("1982126809")
+    excludedISBNS.add("9350296918")
+    excludedISBNS.add("0593152387")
+    excludedISBNS.add("1912248700")
+    excludedISBNS.add("1514803534")
+    excludedISBNS.add("0552113824")
+
+    if (excludedISBNS.has(node.isbn) == false && node.isbn !== "") {
+      imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
+    }
+
+    console.log(imageURL)
     
     let fileNode
     try {
