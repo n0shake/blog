@@ -163,7 +163,7 @@ p {
   line-height: var(--lineHeight-relaxed);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-3) var(--spacing-0);
   padding: var(--spacing-0);
 }
 
@@ -403,9 +403,27 @@ a:active {
   padding: 5px 0px;
 }
 
-.article-body ul {
-  line-height: 2px;
+.article-body ol {
+  /*line-height: 2px;*/
 }
+
+.article-body img {
+  border-radius: 3%;
+}
+
+.article-body ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.article-body ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--color-primary);
+  font-weight: bold;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
