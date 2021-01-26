@@ -13,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const newSiteTitle = "hi there! 👋"
   const posts = data.allMarkdownRemark.nodes
-  const reducedPosts = posts.slice(0, 3);
+  const reducedPosts = posts.slice(0, 10);
 
   if (posts.length === 0) {
     return (
@@ -31,7 +31,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={newSiteTitle}>
       <SEO title="Abhishek" />
       <Bio />
-      <div class="grid-child-sidebar">
+      <div class="grid-child-navbar">
         <NavBar />
       </div>
       <div class="grid-child-main">
@@ -46,20 +46,10 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                <Link className="card-class" to={post.fields.slug} itemProp="url">
-                <header>
-                  <h2>
-                    <span itemProp="headline">{title}</span>
-                  </h2>
-                </header>
-                <section>
-                  <p
-                    className="post-list-excerpt"
-                    dangerouslySetInnerHTML={{
-                      __html: post.excerpt,
-                    }}
-                    itemProp="description"
-                  />
-                </section>
+                <div>
+                 <span className="post-list-date"> {post.frontmatter.date} </span>
+                 <span className="post-list-headline">{title}</span> 
+                </div>
                </Link>
               </article>
             </li>
@@ -89,7 +79,7 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(fromNow: true, difference: "hours")
+          date(formatString:"MMM-DD-YY")
           title
           description
         }

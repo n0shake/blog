@@ -4,6 +4,11 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
+import styled from 'styled-components'
+
+const BottomSpacingHeader = styled.h2` 
+ padding-bottom: 20px;
+`
 
 const Posts = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -13,7 +18,7 @@ const Posts = ({ data, location }) => {
 		<Layout location={location} title={siteTitle}>
 		<SEO title="Posts" />
 			<div>
-				<h2> posts </h2>
+				<BottomSpacingHeader> posts </BottomSpacingHeader>
 				<ol style={{ listStyle: `none` }}>
         			{posts.map(post => {
           		  const title = post.frontmatter.title || post.fields.slug
@@ -25,20 +30,10 @@ const Posts = ({ data, location }) => {
 		                itemType="http://schema.org/Article"
 		              >
 		                <Link className="card-class" to={post.fields.slug} itemProp="url">
-		                <header>
-		                  <h2>
-		                    <span itemProp="headline">{title}</span>
-		                  </h2>
-		                </header>
-		                <section>
-		                  <p
-		                  	className="post-list-excerpt"
-		                    dangerouslySetInnerHTML={{
-		                      __html: post.excerpt,
-		                    }}
-		                    itemProp="description"
-		                  />
-		                </section>
+		                <div>
+                 			<span className="post-list-date"> {post.frontmatter.date} </span>
+                 			<span className="post-list-headline">{title}</span> 
+                		</div>
 		               </Link>
 		             </article>
 		            </li>
@@ -68,7 +63,7 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD, YYYY")
+          date(formatString: "MMM-DD-YY")
           title
           description
         }

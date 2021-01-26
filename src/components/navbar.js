@@ -20,7 +20,8 @@ const RoundedDiv = styled.div`
 `
 
 const SidebarDiv = styled.div`
- padding-top: 30px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 `
 
 const NavBar = () => {
