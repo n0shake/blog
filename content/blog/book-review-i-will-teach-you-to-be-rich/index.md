@@ -22,7 +22,9 @@ Most employers offer 401(K) matching of some sort and the book says it's an unfo
 
 > You should be fearful when others are greedy and greedy when others are fearful.
 
-Ramit spends an inordinate amount of time explaining how active management of your monies through financial advisors won't return 8% annualized returns close to 75% of the time. On top of this, financial advisors will charge hefty (sometimes hard to justify) maintenance fees. TL;DR: Financial advisors aren't worth it for the common folks.
+Ramit spends an inordinate amount of time explaining how active management of your monies through financial advisors won't return 8% annualized returns close to 75% of the time. On top of this, financial advisors will charge hefty (sometimes hard to justify) maintenance fees. TL;DR: Financial advisors aren't worth it for the common folks. This John Stewart video about retirement plans sums up the book's sentiment:
+
+`video:https://www.youtube.com/watch?v=gvZSpET11ZY`
 
 Other interesting bullet points:
 

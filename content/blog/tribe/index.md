@@ -1,0 +1,9 @@
+---
+title: tribe
+date: "2021-01-28T22:40:32.169Z"
+description: Excerpt
+---
+
+I've been reading up Sebastian Junger's Tribe and this following excerpt really resonated with me.
+
+> Humans don't ind hardship; in fact they thrive on it. What they mind is not feeling necessary. Modern society has perfected the art of making people not necessary.
