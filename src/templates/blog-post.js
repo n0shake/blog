@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Footer from "../components/footer"
 import Layout from "../components/layout"
@@ -13,7 +13,6 @@ const DateContainer = styled.p`
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
   let totalTimeToRead
 
   if (post.timeToRead === 1) {

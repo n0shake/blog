@@ -77,7 +77,14 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
       imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
     }
 
-    console.log(imageURL)
+    if (node.isbn === "") {
+      console.log(node.title)
+      if (node.title === "Tribe: On Homecoming and Belonging") {
+        imageURL = "https://covers.openlibrary.org/b/ISBN/9781455566389-M.jpg"
+      } else if (node.title.includes("Big Nerd Ranch Guide")) {
+        imageURL = "https://covers.openlibrary.org/b/ISBN/0321706285-M.jpg"
+      }
+    }
     
     let fileNode
     try {

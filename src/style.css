@@ -331,14 +331,10 @@ a:active {
   color: black;
 }
 
-.bio a:hover {
-  padding: 3px 0px 2px 0px;
-  color: blue;
-  background: var(--color-hover);
-}
-
 .bio a {
   text-decoration: none;
+  background-color: var(--color-hover);
+  padding: 2px;
 }
 
 .bio a:active {
@@ -362,21 +358,15 @@ a:active {
   padding-top: 2px;
 }
 
-.subpage a:hover {
-  padding: 3px 0px 2px 0px;
-  color: blue;
-  background: var(--color-hover);
-}
-
 .subpage a {
   text-decoration: none;
+  background-color: var(--color-hover);
+  padding: 2px;
 }
 
 .post-list-div span:hover {
   background-color: var(--color-hover);
 }
-
-
 
 .post-list-headline {
   font-size: var(--fontSize-2);
@@ -403,7 +393,6 @@ a:active {
 
 .bio {
   display: flex;
-  /*margin-bottom: var(--spacing-4);*/
 }
 
 .bio p {
