@@ -58,7 +58,8 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
-  --color-hover: #ede4e0;
+  --color-hover: #efe2a3;
+  --color-blockquote: #fefaf1;
 }
 
 /* HTML elements */
@@ -433,6 +434,8 @@ a:active {
 
 .article-body a {
   text-decoration: none;
+  background-color: var(--color-hover);
+  padding: 2px;
 }
 
 .article-body a:hover {
@@ -466,10 +469,15 @@ a:active {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-bottom: 1px;
+}
+
+.article-body ul li {
+  margin-bottom: 1px;
 }
 
 .article-body blockquote {
-  background: var(--color-hover);
+  background: var(--color-blockquote);
   padding: 8px 16px 8px;
   margin-left: 0px;
     /* Add shadows to create the "card" effect */

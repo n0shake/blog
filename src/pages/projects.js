@@ -13,18 +13,20 @@ const Projects = ({ data, location }) => {
         	<h1> projects </h1>
         	<h2> Open Source </h2>
         	<hr/><br/>
-        	<p> 
+            <ul>
+        	<li> 
         		<a href="https://github.com/n0shake/Clocker">Clocker</a> is a menu bar utility to keep track of your friends in different time zones. 150K+ downloads. 
-        	</p>
-        	<p> 
+        	</li>
+        	<li> 
         		<a href="https://github.com/n0shake/Public-APIs">Public-Api(s)</a> is a curated list of common and obscure APIs from around the web. 
-        	</p>
-        	<p> 
+        	</li>
+        	<li> 
         		<a href="https://github.com/n0shake/dash">Dash</a> allows you to browse restaurants from your macOS terminal. Fun little project where I learnt on how perform <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">MITM attacks</a>.
-        	</p>
-        	<p> 
+        	</li>
+        	<li> 
         		Python bot which tweets all the post titles and URLs from the <a href="https://www.reddit.com/r/chelseafc/">r/chelsea</a> subreddit to a twitter account <a href="https://twitter.com/chelseareddit">(@chelseareddit)</a>.
-        	</p>
+        	</li>
+            </ul>
         	<br/>
             </div>
 		</Layout>

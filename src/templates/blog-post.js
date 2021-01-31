@@ -35,14 +35,7 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <div>
-          <DateContainer>{post.frontmatter.date}
-          &nbsp;
-          <span>&#183;</span>
-          &nbsp;
-          {totalTimeToRead}
-          </DateContainer>
-        </div>  
+
         </header>
         <section
           className="article-body"
@@ -61,21 +54,15 @@ const BlogPostTemplate = ({ data, location }) => {
             padding: 0,
           }}
         >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
         </ul>
+        <div>
+          <DateContainer>{post.frontmatter.date}
+          &nbsp;
+          <span>&#183;</span>
+          &nbsp;
+          {totalTimeToRead}
+          </DateContainer>
+        </div>  
       </nav>
       <Footer />
     </Layout>
