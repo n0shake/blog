@@ -2,6 +2,7 @@
 title: analyzing ~10 months of togetherness
 date: "2019-01-10T23:46:37.121Z"
 description: 2018, for me, had many highlights. A new job, getting a chance to see my fam, new cities and states, but more importantly; I met you.
+category: blog
 ---
 
 2018, for me, had many highlights. A new job, getting a chance to see my fam, new cities and states, but more importantly; I met you. We had an incredible year together, and so, for Valentines day, I wanted to do something nerdy and take at a look at relationship closely. I dig through our chats (7584 odd messages) and our online history to find out some interesting things.

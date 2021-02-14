@@ -2,6 +2,7 @@
 title: cracking the Facebook Engineer Interview (1/2)
 date: "2020-02-05T22:40:32.169Z"
 description: I've learned a lot through other engineers sharing their interview experiences. Maybe someone can learn something from mine.
+category: blog
 ---
 
 > The views expressed below are mine and mine only! I’ve learned a lot through other engineers sharing their interview experiences. Maybe someone can learn something from mine.

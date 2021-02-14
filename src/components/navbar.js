@@ -29,7 +29,7 @@ const NavBar = () => {
   return (
     <SidebarDiv>
     { Object.entries(sidebarButtons).map(([key, value]) => {
-       return <Link to={value}><RoundedDiv key={key}><b>{key}</b></RoundedDiv></Link>
+       return <Link key={key} to={value}><RoundedDiv key={key}><b>{key}</b></RoundedDiv></Link>
     })}
     </SidebarDiv>
   )

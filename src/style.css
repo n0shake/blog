@@ -58,7 +58,7 @@
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
-  --color-hover: #efe2a3;
+  --color-hover: #F1F4FFFF;
   --color-blockquote: #fefaf1;
 }
 
@@ -285,6 +285,13 @@ a:active {
   color: var(--color-text-light);
 }
 
+.post-list-category { 
+  font-size: var(--fontSize-1);
+  background-color: var(--color-hover);
+  padding: 4px;
+  border-radius: 8px;
+}
+
 .card-class {
   text-decoration: none;
 }
@@ -297,8 +304,8 @@ a:active {
     align-items: baseline;
   }
 
-  .post-list-div span:last-of-type {
-    margin-left: 10px;
+  .post-list-div span {
+    margin-right: 10px;
   }
 }
 
@@ -373,10 +380,6 @@ a:active {
   color: var(--color-primary);
   margin-top: var(--spacing-2);
   font-weight: var(--fontWeight-bold);
-}
-
-.post-list-headline span:hover {
-  color: yellow;
 }
 
 .post-list-item header {

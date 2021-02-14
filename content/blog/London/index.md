@@ -2,6 +2,7 @@
 title: london
 date: "2020-03-10T22:12:03.284Z"
 description: "9 days in an overcast London."
+category: blog
 ---
 
 I've always counted 4 major cities as the hub for pioneering industries, fashion, creativity and diversity. Mass swaths of outsiders (mostly millennials) are attracted to these cities because they're hip. Peoples want to live the lifestyle of these cities and claim to be a local. One of the four cities is **London**.

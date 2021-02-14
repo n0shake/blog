@@ -1,7 +1,8 @@
 ---
-title: book review - i will teach you to be rich
+title: i will teach you to be rich
 date: "2021-01-26T22:40:32.169Z"
 description: Do I feel rich after reading Ramit Sethi's bestseller?
+category: book-review
 ---
 
 I've been on a personal-finance, [FIRE movement](https://en.wikipedia.org/wiki/FIRE_movement) bender these past couple of weeks. That has led me to discover FIRE figures including [Mr. Money Mustache](mrmoneymustache.com), [Mad Fientist](https://www.madfientist.com/) and plenty of others. As much as I like consuming podcasts and reductionist articles, majority of my learning usually comes through books. I begin digging the reading list of these FIRE figures and that's how I stumbled onto Ramit Sethi's [I Will Teach You to be Rich](https://www.goodreads.com/book/show/40591670-i-will-teach-you-to-be-rich). Here are my key-takeaways:

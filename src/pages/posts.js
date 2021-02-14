@@ -22,6 +22,9 @@ const Posts = ({ data, location }) => {
 				<ol style={{ listStyle: `none` }}>
         			{posts.map(post => {
           		  const title = post.frontmatter.title || post.fields.slug
+          		  const showTag = post.frontmatter.category === "book-review" 
+                          ? <span role="img" aria-label="book" className="post-list-category">📚 review</span>
+                          : ""
 		          return (
 		            <li key={post.fields.slug}>
 		              <article
@@ -32,7 +35,7 @@ const Posts = ({ data, location }) => {
 		                <Link className="card-class" to={post.fields.slug} itemProp="url">
 		                <div className="post-list-div">
                  			<span className="post-list-date"> {post.frontmatter.date} </span>
-                 			<span className="post-list-headline">{title}</span> 
+                 			<span className="post-list-headline">{title} {showTag}</span> 
                 		</div>
 		               </Link>
 		             </article>
@@ -66,6 +69,7 @@ export const pageQuery = graphql`
           date(formatString: "MMM-DD-YY")
           title
           description
+          category
         }
       }
     }

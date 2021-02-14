@@ -2,6 +2,7 @@
 title: working at a FAANG
 date: "2020-05-10T23:46:37.121Z"
 description: "What even makes working at a FAANG worth it?"
+category: blog
 ---
 
 > Disclaimer: View described below are my own and do not reflect those of my employer!

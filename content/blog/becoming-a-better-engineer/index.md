@@ -2,6 +2,7 @@
 title: becoming a better engineer
 date: "2020-10-10T23:46:37.121Z"
 description: Reflecting a little.
+category: blog
 ---
 
 I've been reflecting a little too much about career growth these days. Specifically thinking about how to make the leap from a task-executing engineer to some-one that's ... slightly better. Having talked to my manager and skip, I wanted to document three of my most important learnings:
