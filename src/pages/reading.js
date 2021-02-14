@@ -26,10 +26,7 @@ const Reading = ({ data, location }) => {
   const allBooks = data.allGoodreadsShelf?.nodes.reduce((element1, element2) => {
     return element1.reviews.concat(element2.reviews)
   })
-
-  const sortedAllBooks = allBooks.sort((one, two) => (one.readAt < two.readAt ? -1 : 1));
-  console.log(sortedAllBooks)
-
+  
 	return (
 		<Layout location={location} title={siteTitle}>
         	<SEO title="Reading" />
@@ -38,7 +35,7 @@ const Reading = ({ data, location }) => {
             <GridContainer>
             {allBooks && allBooks.map(review => {
               return (
-               <GridItem>
+               <GridItem key={review.id}>
                {review.book.localFile?.childImageSharp?.fluid && (
                   <Img
                   fluid={review.book.localFile?.childImageSharp?.fluid}

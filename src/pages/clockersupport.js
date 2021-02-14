@@ -62,7 +62,7 @@ const ClockerSupport = ({ data, location }) => {
             </select>
             <FieldName><b>Comment*</b></FieldName>
             <TextContainer name="feedback" /><br/><br/>
-            <input type="Submit" value="Submit"></input>
+            <input type="Submit"></input>
           </form>
           </RoundedDiv>
 		</Layout>
