@@ -44,7 +44,7 @@ Buying a house only makes sense for good income earners if you're planning to st
 
 Ramit suggests you shouldn't buy a house for investment purposes, pay at least 20% down and check out your state government tax-reduction housing initiatives/subsidies if you're planning for this big purchase.
 
-## Summary
+## Opinion
 
 Although the title is pretty click-baity and the principles won't apply to readers outside the US, this book provides plenty of refreshing insights on how you can optimize/automate most of your personal finance infrastructure. It has recalibrated my outlook towards real-estate, wedding spending (staying under the 28K budget is going to very hard :/), financial advisors and the power of index funds. Worth a read!
 
