@@ -4,7 +4,7 @@ date: "2021-02-14T22:40:32.169Z"
 description: Things that most don't consider regarding the FIRE movement.
 ---
 
-Bill Perkin's Die With Zero was an instant download after I came across it through an r/fatFire post. The FIRE community evangelizes the benefits of frugality, extreme saving and investing most of your salary. There's no arguing that these are the right things to pursue when you're young and trying to get out of debt. 
+[Bill Perkin's Die With Zero](https://www.goodreads.com/book/show/52950915-die-with-zero) was an instant download after I came across it through an r/fatFire post. The FIRE community evangelizes the benefits of frugality, extreme saving and investing most of your salary. There's no arguing that these are the right things to pursue when you're young and trying to get out of debt. 
 
 Bill, on the other hand, believes the "business of life is an acquisition of memories". Delaying gratification up until retirement is often a fool' errand since our health and interests are bound to wane with the passage of time. He emphasizes procuring experiences and acquiring memory dividends which are bound to compound over time. As an example, in the early chapters of the book, he mentions how his debt-ridden 23 yr old roommate decided to quit his job and travel to Western Europe gathering unique memories which he most likely will not have had if he had waited until he had retired.
 
