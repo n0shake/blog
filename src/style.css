@@ -288,7 +288,7 @@ a:active {
 .post-list-category { 
   font-size: var(--fontSize-1);
   background-color: var(--color-hover);
-  padding: 4px;
+  padding: 4px 6px 4px 4px;
   border-radius: 8px;
 }
 

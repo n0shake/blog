@@ -31,7 +31,7 @@ YNAB is expensive ($80/yr) and you can make a decent argument about how a good, 
 
 With that said, I did encounter that on a few occasions, my Chase account syncing was delayed by over a week. There's also the fact that YNAB handles credit-cards in an unusual manner and it did take a signficant learning curve for me personally to figure it out!
 
-![Cook](./YNAB-1.png)
+![YNAB Categories](./YNAB-1.png)
 
 ## Investment Allocation
 

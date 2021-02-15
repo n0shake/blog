@@ -39,7 +39,7 @@ const BlogIndex = ({ data, location }) => {
         {reducedPosts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
           const showTag = post.frontmatter.category === "book-review" 
-                          ? <span role="img" aria-label="book" className="post-list-category">📚 review</span>
+                          ? <span role="img" aria-label="book" className="post-list-category">📚review</span>
                           : ""
           return (
             <li key={post.fields.slug}>
