@@ -13,7 +13,7 @@ As a company show-runner, your number 1 goal should be to hire 10x rock-stars ex
 
 The "No Bonuses" policy is pretty unique and brilliant. Companies often dangle bonuses as carrots and use them as additional motivators. Bonuses are often attached to vaguely defined metrics (#impact) and those quickly change!
 
-![Book Preview](./preview.jpg)
+![Hard-covers > e-books](./preview.jpg)
 
 ## The Keeper's Test
 

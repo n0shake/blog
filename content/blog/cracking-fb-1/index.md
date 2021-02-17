@@ -25,7 +25,7 @@ Well, I’ve my 6-month co-op at Apple to thank for. When I was in my final seme
 
 The interview process is divided into two stages i.e. phone screens and a final onsite round. Number of phone-screens can vary based on your performance.
 
-![1](./cracking1.png "Credits: Facebook Careers")
+![](./cracking1.png "Credits: Facebook Careers")
 
 The date for the initial phone-screen was chosen and I started studying. I half-assed a ridiculously optimistic study plan (completing CTCI and ~50 Leetcode questions) and I failed the interview. Failed because I couldn’t complete an absurdly easy Linked List question. Looking back, I was extremely fearful of failing and making me a fool of myself in front of the interviewer. Scared that I might get asked the one question I skipped, or failing to answer something trivial that every CS student must know.
 
@@ -65,7 +65,7 @@ Everyday as soon I as got back from work, I started doing 3 things:
 
 I tried to follow this routine religiously up until the week of my interview. I also tried to do 2-3 mock interviews every week (which helped me immensely to get into the interview groove). Since I was going to interview for an iOS role, I also spent significant time during the week to focus on basic and advanced iOS, Objective-C and Swift topics.
 
-## Data Structures and Algorithms I covered:
+## Data Structures and Algorithms I covered
 
 - String Manipulation and Linked Lists
 - Arrays, Sets and Maps
@@ -78,37 +78,7 @@ I tried to follow this routine religiously up until the week of my interview. I 
 
 The approach of simultaneously working on Leetcode and DS/Algorithm really helped solidify my understanding of the trade-offs.
 
-## The Day Before
-I made sure to print all questions I solved on Leetcode so that I have enough reading material for my flights. After reaching my hotel, I ordered light snacks, did some more prep and decided to sleep-in early at about 9 PM (thinking I would be up at 3 AM and do one final study sprint before the interview).
-
-## The D-Day
-I did do the final hard-sprint (~6 1/2 hours woooof), had my breakfast and called for an Uber at around 9:45 AM. You always end up at a hotel close to the campus so traffic isn’t that much of a worry.
-
-> Leaving the hotel, my nerves were on the edge because they could literally ask me anything. You're going to have FB engineers watch you write gibberish code on a whiteboard. Not nerve-wracking at all /s.
-
-In total, I had 5 arounds with each being around 45 mins. All of these rounds focused on a combination of data structures, algorithms and my iOS know-how. My lunch was at Biryani where I remember having a Biryani (doh!) with some Lassi. I, unfortunately, can’t go into much details about questions. Safe to say they were grueling and by the end, my mind was sapped of all my brain juice. The last interviewer dropped me off to the lobby and I handed over my visitor badge to Security.
-
-> Let me tell you that calling an Uber after a mind-numbing month of prep and ~5 hours of = interviews has got to be one of the best feelings ever.
-
-# Initial Reaction
-Once I started introspecting my performance, I was 15% hopeful that I was going to receive an offer. I did well in all interviews but I still felt I could have done 10x better. Looking back, the interview questions and the interviewers were perfectly reasonable. This was a great interviewing experience (in my biased opinion of-course)
-
-# Decision Time
-I was told I’ll hear feedback within a week. I gave my interview on a Friday and actually heard back from the recruiter on the next Tuesday. Great turnaround time! What boggled me was the amazingly detailed feedback. The recruiter walked me through all my rounds listing the things I did well and things that I could have done better. This level of feedback was unprecedented for me. The recruiter said this feedback was going to be presented to the hiring committee who’ll make the final hiring decision. I was told to wait 24 hours. At this point, I was 30% hopeful of getting an offer.
-
-Flash forward to Wednesday. The time was 2:45 PM and I was at work. I see a missed call from a California number on my cell made at around 1 PM. Almost immediately, I give it a dial back but nobody picks up. I check my personal email and I see a message from my recruiter asking for a good time to call on Thursday to discuss the final hiring decision. We decide on a time and the recruiter ends the email with this cryptic message:
-
-![Email](./cracking2.png)
-
-What did he mean by “What life would be living in California working at Facebook?”. I was 90% hopeful by this time (my imposter syndrome wouldn’t let me be 100% confident). The next day rolled around and I wasn’t half-surprised when I was told that I’ll be getting an offer. This was a stressful last couple of months with a happy ending.
-
-![1](./cracking3.jpeg)
-
-![2](./cracking4.jpeg)
-
-![3](./cracking5.jpg)
-
-### Ending this one with some tips:
+### Tips
 
 Inform the interviewer of the brute force solution immediately (this way they’ll at least know that you’re not stupid). After this, try and optimize the run-time or space-time. This’ll let the interviewer know about your thought-process and critical thinking abilities.
 Don’t worry if you’re completely stumped by a question. Be calm, clarify the question and try and see if you can come up with a brute-force solution at-least

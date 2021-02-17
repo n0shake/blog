@@ -9,7 +9,7 @@ category: blog
 
 Granted it’s been not a long time since I’ve been working at my new job; but the macro below is pretty apt! Ever since graduating, I’ve worked more than a few jobs. I started off as a technical editor and moved on to becoming an app engineer! What was different with a FAANG? Let me list it out.
 
-![Cook](./faang-1.png)
+![Ain't that the truth!](./faang-1.png)
 
 ## Pace
 There’s a lot to do and you’ve got to do it fast! There are a couple of important reasons why:

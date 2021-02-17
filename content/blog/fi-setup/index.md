@@ -25,24 +25,31 @@ Admittedly, even after you setup your budget, YNAB does require a very hands-on 
 
 YNAB is expensive ($80/yr) and you can make a decent argument about how a good, strategic spreadsheet can do most of YNAB offers. But there two, good reasons why YNAB wins out:
 
-1. Automatic, up-to-date transaction syncing
-2. Easy to share most of the info with a SO
-3. Convenient apps for phone, watch and the web!
+- Automatic, up-to-date transaction syncing
+- Easy to share most of the info with a SO
+- Convenient apps for phone, watch and the web!
 
 With that said, I did encounter that on a few occasions, my Chase account syncing was delayed by over a week. There's also the fact that YNAB handles credit-cards in an unusual manner and it did take a signficant learning curve for me personally to figure it out!
 
-![YNAB Categories](./YNAB-1.png)
+![Fixed Expenses include Rent, Internet. Living expenses include variable expenses like utility bills, laundry etc. Long term expenses include year-long subscriptions, credit card fees.](./1.png)
 
 ## Asset Allocation
 
-![YNAB Categories](./YNAB-2.jpeg)
+![Cash is mostly kept in a high-yield savings account. Retirement accounts include 401(K) and IRA accounts.](./2.jpeg)
 
 Given that we've no dependents, debt and are doing okay health-wise (touch wood), my SO and I can take a bit of risk. Just by looking at the pie-chart, I can see a few areas where can make signficant changes. Few things that're in the 2021 pipeline in the order of importance:
 
 - Open a IRA (one of the reccomendations [from this book](/book-review-i-will-teach-you-to-be-rich/))
 - Deviate more cash to ETFs/index-funds
 - Dollar-cost average investments
+- Divert $$$ from low performing individual stocks to ARK ETFs
+- Consolidate my various bank accounts
 
+### Index Funds vs ETFs
+
+### ARK ETFs
+
+I'm a Cathie Wood fanboy ever since her ballsy 2018 $TSLA bets. She's a OG betting on innovation especially exponential innovation. Their picks have historically done well (cynics might say the whole stock market is doing extremely well). Few have said this might be the Midas Touch phenomenon. This might be true or the reality is Cathie and her team are extremely good at picking stocks! What I know is that the expense ratio of these ETFs (~0.03%) are comparable to low-cost index funds (~0.02%).  I'm going to be closely following and potentially investing a lot of my $$$ in ARK ETFs (Ark Space ETF -> I'm coming 🚀). 
 
 ### Bank Account Bonuses are meh
 
@@ -53,13 +60,9 @@ Let's say I've $15K in principle and I earn about $3K in salary/month. To meet F
 Now if I had invested the same amount of the money in $AAPL back in November 2020, my portfolio would be up to $33K (up by 11%). The $750 bonus seems measly compared to this. Forget the real-estate market, forget the bank bonuses, forget the bonds; there's isn't a better wealth-building tool than the stock market. I chose $AAPL since it's a reliable stock but if I wanted to play it safe I would've go with SPY or ARK ETF.
 
 
-
-
 - Talk about asset allocation strategy
-  - Pie Chart about distribution in individual stocks, ETFs, Index Funds, RSUs, 401(K)
   - Index Funds
   - ETFs 
-  	- Cathie Wood and ARK
   - 4% Rule
 - Risk Strategy
 - Gambling

@@ -5,7 +5,7 @@ description: Time for the onsite.
 category: blog
 ---
 
-![Juliani](./cracking1.gif)
+![phew](./cracking1.gif)
 
 Okay. Time for the onsite.
 
@@ -67,15 +67,15 @@ I was told I’ll hear feedback within a week. I gave my interview on a Friday a
 
 Flash forward to Wednesday. The time was 2:45 PM and I was at work. I see a missed call from a California number on my cell made at around 1 PM. Almost immediately, I give it a dial back but nobody picks up. I check my personal email and I see a message from my recruiter asking for a good time to call on Thursday to discuss the final hiring decision. We decide on a time and the recruiter ends the email with this cryptic message:
 
-![Email](./cracking2.png)
+![](./cracking2.png)
 
 What did he mean by “What life would be living in California working at Facebook?”. I was 90% hopeful by this time (my imposter syndrome wouldn’t let me be 100% confident). The next day rolled around and I wasn’t half-surprised when I was told that I’ll be getting an offer. This was a stressful last couple of months with a happy ending.
 
-![1](./cracking3.jpeg)
+![Days before the D-day](./cracking3.jpeg)
 
-![2](./cracking4.jpeg)
+![On the way to California](./cracking4.jpeg)
 
-![3](./cracking5.jpg)
+![Post Interview Wait for Uber](./cracking5.jpg)
 
 ### Ending this one with some tips:
 

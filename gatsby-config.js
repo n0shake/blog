@@ -74,6 +74,10 @@ module.exports = {
         plugins: [
           `gatsby-plugin-twitter`,
           {
+            resolve: `gatsby-remark-figure-caption`,
+            options: {figureClassName: 'md-figure'},
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,

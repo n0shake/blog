@@ -5,7 +5,7 @@ description: Notes from my interview.
 category: blog
 ---
 
-![Image1](./h1b1.png)
+![](./h1b1.png)
 
 My first H1-B interview happened last week and I wanted to share my experience for documentation purposes.
 
