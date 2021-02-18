@@ -12,7 +12,7 @@ After scouring plenty of books/blogs/podcasts on this subject -- full list below
 
 ## Budgeting
 
-This is something that we started doing pretty recently using [YNAB](https://www.youneedabudget.com/). I personally gave YNAB a try when I was in Mumbai; but back then YNAB required frequent manual book-keeping (recording transactions, making sure everything is up-to-date) and was extremely US centric. YNAB is still mainly catered around needs of US residents but has added a plethora of features like automatic transaction syncing through Plaid, easier credit-card handling and more. 
+Where your money is being spent is fundamental to a sound financial footing. Budgeting leads to cost-cutting in areas you don't care which leads to more money being available for wealth building. This is something that we started doing pretty recently using [YNAB](https://www.youneedabudget.com/). I personally gave YNAB a try when I was in Mumbai; but back then YNAB required frequent manual book-keeping (recording transactions, making sure everything is up-to-date) and was extremely US centric. YNAB is still mainly catered around needs of US residents but has added a plethora of features like automatic transaction syncing through Plaid, easier credit-card handling and more. 
 
 ### Why YNAB?
 
@@ -21,7 +21,6 @@ Admittedly, even after you setup your budget, YNAB does require a very hands-on 
 - Set explicit, time-constrained saving/spending goals
 - Budget reports ([Toolkit for YNAB](https://github.com/toolkit-for-ynab/toolkit-for-ynab/) provides even more granular income and spending breakdown)
 - Account Reconcilliation which forces you to go to cross-check balances
-
 
 YNAB is expensive ($80/yr) and you can make a decent argument about how a good, strategic spreadsheet can do most of YNAB offers. But there two, good reasons why YNAB wins out:
 
@@ -40,16 +39,28 @@ With that said, I did encounter that on a few occasions, my Chase account syncin
 Given that we've no dependents, debt and are doing okay health-wise (touch wood), my SO and I can take a bit of risk. Just by looking at the pie-chart, I can see a few areas where can make signficant changes. Few things that're in the 2021 pipeline in the order of importance:
 
 - Open a IRA (one of the reccomendations [from this book](/book-review-i-will-teach-you-to-be-rich/))
-- Deviate more cash to ETFs/index-funds
-- Dollar-cost average investments
+- Deviate more cash to ETFs/index-funds (more below on which asset we prefer)
+- Dollar-cost average large investments
 - Divert $$$ from low performing individual stocks to ARK ETFs
-- Consolidate my various bank accounts
+- Consolidate our various bank accounts (we have 7 accounts between me and my SO)
+- Build a gambling fund to buy meme stocks (more below)
 
-### Index Funds vs ETFs
+### ETFs > Index Funds
+
+The general crowd seems to prefer index funds since the price updates only at EOD; whereas ETFs are like regular stocks with the ticker price updating every few seconds. This volatility can influence people to make rash selling decisions. The expense ratio for both these asset types are low since they're passively managed. Personally, however I prefer ETFs for two reasons:
+
+- Convienence (easy to buy through RH)
+- No minimum balance restriction (Vanguard requires $3K minimum)
 
 ### ARK ETFs
 
 I'm a Cathie Wood fanboy ever since her ballsy 2018 $TSLA bets. She's a OG betting on innovation especially exponential innovation. Their picks have historically done well (cynics might say the whole stock market is doing extremely well). Few have said this might be the Midas Touch phenomenon. This might be true or the reality is Cathie and her team are extremely good at picking stocks! What I know is that the expense ratio of these ETFs (~0.03%) are comparable to low-cost index funds (~0.02%).  I'm going to be closely following and potentially investing a lot of my $$$ in ARK ETFs (Ark Space ETF -> I'm coming 🚀). 
+
+### Gambling Fund
+
+The whole GME story has brought about the trend of viral meme stocks (usually propped by the baddies of r/wsb) to the forefront. ARK and other investment funds have categorically stated that it follows social media trends closely. I felt a big tinge of FOMO all through $PLTR, $GME, $ROKO etc sky-rocketing and dropping a few weeks later. It made me seriously consider keeping aside a small % of my investment allotments for "gambling" purposes. This allotment could go into meme stocks, crypto-currency or an old-fashioned penny stock. 
+
+Why? Nobody has gotten "rich-rich" by investing consistently in index funds. Index Funds/ETFs will guarantee wealth preservation but are not great tools for wealth-building. All the rich guys out are making money either through entreprenurship or by concentrating all their $$$ in a selectively hand-picked stock. Warren Buffet chose individual stocks. Chamath and friends allegedly owned 5% of the world's bitcoin. I do know that I need to be substantially lucky if I want to make money in this fashion but I feel a small gambling fund is a good fail-safe that can appease my FOMO.
 
 ### Bank Account Bonuses are meh
 
@@ -59,23 +70,6 @@ Let's say I've $15K in principle and I earn about $3K in salary/month. To meet F
 
 Now if I had invested the same amount of the money in $AAPL back in November 2020, my portfolio would be up to $33K (up by 11%). The $750 bonus seems measly compared to this. Forget the real-estate market, forget the bank bonuses, forget the bonds; there's isn't a better wealth-building tool than the stock market. I chose $AAPL since it's a reliable stock but if I wanted to play it safe I would've go with SPY or ARK ETF.
 
-
-- Talk about asset allocation strategy
-  - Index Funds
-  - ETFs 
-  - 4% Rule
-- Risk Strategy
-- Gambling
-	- GME FOMO 
-- Bank Accounts
-	- Savings Account
-		- Ally and Marcus
-		- Consolidate in one
-	- Bonuses
-		- First Republic Bank
-		- Explain why these days maybe behind me.
-	- CDs
-	- Fixed Deposits in IN
 
 ## Opinion
 
