@@ -7,7 +7,7 @@ category: blog
 
 Now that Sony and I have stable jobs that we hope to stay at for the new few years, it's time to think deeply about our finances. Money is a powerful tool; if used well, money can provide you with freedom, autonomy, and the capability to optimize your lives around your belief system. This freedom can be in the form of being able to work in the field of your choice or it can be the ability to work from anywhere you want.
 
-After scouring plenty of books/blogs/podcasts on personal finance and FIRE, we've made a few radical changes that I list below; These resources has also made us think deeply about our long-term goals and what we want from life. I'm going to take this post to present our current financial thinking in depth.
+After scouring plenty of books/blogs/podcasts on personal finance and FIRE, we've made a few radical changes that I list below; These resources have made us think deeply about our long-term goals and what we want from life. I'm going to take this post to present our current financial thinking in depth.
 
 ## Goals
 
