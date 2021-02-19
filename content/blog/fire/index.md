@@ -5,9 +5,19 @@ description: "Detailing my path and journey into the world of FIRE"
 category: blog
 ---
 
-Now that Sony and I have stable jobs that we hope to stay at for the new few years, it's time to think deeply about our finances. Money is a powerful tool; if you use it correctly, money can provide you with freedom, autonomy, and the capability to optimize our lives around our personal value system. This freedom can be in the form of being able to work in the field of your choice or it can be the ability to work from anywhere you want.
+Now that Sony and I have stable jobs that we hope to stay at for the new few years, it's time to think deeply about our finances. Money is a powerful tool; if used well, money can provide you with freedom, autonomy, and the capability to optimize your lives around your belief system. This freedom can be in the form of being able to work in the field of your choice or it can be the ability to work from anywhere you want.
 
 After scouring plenty of books/blogs/podcasts on personal finance and FIRE, we've made a few radical changes that I list below; These resources has also made us think deeply about our long-term goals and what we want from life. I'm going to take this post to present our current financial thinking in depth.
+
+## Goals
+
+I'm a hedonist. If there was something that I think I would enjoy, I would be willing to spend money on it. At the same time, I (try to) follow a **buy-once-but-buy-it-for-life** approach. Now that we're somewhat stable in our lives, I've realized I don't want to work away my precious young years. 
+
+We're potentially looking at buying a house in our near future which means we'll need to get a mortgage. [Mortgage forces most people to work at jobs they don't like](https://earlyretirementextreme.com/why-financial-independence-part-i-early-motivations.html). That's not going to be us! 
+
+> We allegedly live in a free society. We pride ourselves on our freedom. We use freedom as a slogan to go to war. Thinking about it though, most people voluntarily, indeed without a second thought, sign away their freedom for most of the daytime hours. They sign away their freedom to go where they want between 9 in the morning and 5 in the evening. The are not free to choose what clothes to wear. They are restricted in what they can say. They are restricted in what they can think about. This isn't freedom.
+
+Our goal is to achieve [FIRE](https://en.wikipedia.org/wiki/FIRE_movement). We believe we can reach that goal by working hard, living frugally and investing any surplus we have. Visa status is one big complication in our lives which might lead to us holding onto our jobs for longer than we want to; but we believe we can find ways around that. For FIRE, our goal is to save up until we're able to live off 4% annual withdrawal of our investments for the rest of our lives. Easier said than done, but hey, at least we've a plan.
 
 ## Budgeting
 
@@ -73,7 +83,7 @@ Now if I had invested the same amount of the money in $AAPL back in November 202
 
 ## Opinion
 
-We're lucky in a way that we stumbled onto FIRE quite early during the year. We've also made good financial decisions in the past which has helped us build a substantial egg-nest. 2021 is going to be the year when we dive-deep into our finances, turning the right knobs and tweaking it enough so that we can hit our 🔥 goals.
+We're lucky in a way that we stumbled onto FIRE in our late 20s. We've also made good financial decisions in the past which has helped us build a substantial egg-nest. 2021 is going to be the year when we dive-deep into our finances, turn the right knobs and tweak it enough so that we can hit our 🔥 goals.
 
 ## Resources
 
