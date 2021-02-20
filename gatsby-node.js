@@ -78,11 +78,14 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     }
 
     if (node.isbn === "") {
-      console.log(node.title)
       if (node.title === "Tribe: On Homecoming and Belonging") {
         imageURL = "https://covers.openlibrary.org/b/ISBN/9781455566389-M.jpg"
       } else if (node.title.includes("Big Nerd Ranch Guide")) {
         imageURL = "https://covers.openlibrary.org/b/ISBN/0321706285-M.jpg"
+      } else if (node.title === "Can't Hurt Me: Master Your Mind and Defy the Odds") {
+        imageURL = "https://covers.openlibrary.org/b/ISBN/1544512287-M.jpg"
+      } else {
+        console.log(node.title)
       }
     }
     
