@@ -21,7 +21,7 @@ Our goal is to achieve [FIRE](https://en.wikipedia.org/wiki/FIRE_movement). We b
 
 ## Budgeting
 
-Where your money is being spent is fundamental to a sound financial footing. Budgeting leads to cost-cutting in areas you don't care which leads to more money being available for wealth building. Budgeting is something that we started doing pretty recently using [YNAB](https://www.youneedabudget.com/). I personally gave YNAB a try when I was in Mumbai; but back then it required frequent manual book-keeping (recording transactions, making sure everything is up-to-date) and was extremely US centric. The tool is still mainly catered around needs of US residents but has added a plethora of features like automatic transaction syncing through Plaid/Chase, easier credit-card handling and more. 
+Where your money is being spent is fundamental to a sound financial footing. Budgeting leads to cost-cutting in areas you don't care which leads to more money being available for wealth building. Budgeting is something that we started doing pretty recently using [YNAB](https://ynab.com/referral/?ref=DNUpEP_S_rP7VdUr&utm_source=customer_referral). I personally gave YNAB a try when I was in Mumbai; but back then it required frequent manual book-keeping (recording transactions, making sure everything is up-to-date) and was extremely US centric. The tool is still mainly catered around needs of US residents but has added a plethora of features like automatic transaction syncing through Plaid/Chase, easier credit-card handling and more. 
 
 ### Why YNAB?
 
