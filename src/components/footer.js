@@ -19,13 +19,6 @@ const Footer = () => {
 	      }
 	    }
 	  }
-	  instagramAvatar: file(absolutePath: { regex: "/ig.png/" }) {
-	    childImageSharp {
-	      fixed(width: 32, height: 32, quality: 95) {
-	        ...GatsbyImageSharpFixed
-	      }
-	    }
-	  }
     githubAvatar: file(absolutePath: { regex: "/github.png/" }) {
       childImageSharp {
         fixed(width: 32, height: 32, quality: 95) {
@@ -37,13 +30,11 @@ const Footer = () => {
   `)
 
   const linkedInAvatar = data?.linkedInAvatar?.childImageSharp?.fixed
-  const igImage = data?.instagramAvatar?.childImageSharp?.fixed
   const twitterAvatar = data?.twitterAvatar?.childImageSharp?.fixed
   const githubAvatar = data?.githubAvatar?.childImageSharp?.fixed
 
   return (
      <footer>
-     <h5>elsewhere,</h5>
      <a href="https://www.linkedin.com/in/abhishekbanthia/">
      {linkedInAvatar && (
       <Img
@@ -67,15 +58,6 @@ const Footer = () => {
      <Img
        fixed={twitterAvatar}
        alt={`Twitter`}
-     />
-     )}
-     </a>
-     &nbsp;&nbsp;
-     <a href="https://www.instagram.com/n0shake/">
-     {igImage && (
-     <Img
-       fixed={igImage}
-       alt={`Instagram`}
      />
      )}
      </a>

@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import SeeAllButton from "../components/see_all_button"
 import Footer from "../components/footer"
 import NavBar from "../components/navbar"
 
@@ -13,7 +12,7 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const newSiteTitle = "hi there! 👋"
   const posts = data.allMarkdownRemark.nodes
-  const reducedPosts = posts.slice(0, 10);
+  const reducedPosts = posts
 
   if (posts.length === 0) {
     return (
@@ -60,7 +59,6 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <SeeAllButton />
       <Footer />
       </div>
     </Layout>
