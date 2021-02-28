@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children, navigation }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
@@ -15,7 +15,7 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
+      <Link className="header-link-home" to={navigation}>
         {title.toLowerCase()}
       </Link>
     )

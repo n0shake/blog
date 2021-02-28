@@ -10,7 +10,7 @@ const Clocker = ({ data, location }) => {
   const clockerSplashImage = data?.clockerSplashImage?.childImageSharp?.fluid
 
 	return (
-		<Layout location={location} title={siteTitle}>
+		<Layout location={location} title={siteTitle} navigation="/">
       <SEO title="Clocker" />
         <div className="subpage">
         	<h1> clocker for macOS </h1>

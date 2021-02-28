@@ -15,7 +15,7 @@ const Posts = ({ data, location }) => {
 	const posts = data.allMarkdownRemark.nodes
 
 	return (
-		<Layout location={location} title={siteTitle}>
+		<Layout location={location} title={siteTitle} navigation="/">
 		<SEO title="Posts" />
 			<div>
 				<BottomSpacingHeader> posts </BottomSpacingHeader>

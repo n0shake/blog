@@ -60,6 +60,7 @@
   --color-accent: #d1dce5;
   --color-hover: #F1F4FFFF;
   --color-blockquote: #fefaf1;
+  --color-background: #ffffff;
 }
 
 /* HTML elements */
@@ -75,7 +76,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
+  background-color: var(--color-background);
 }
 
 body {

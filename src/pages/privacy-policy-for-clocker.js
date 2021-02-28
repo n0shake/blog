@@ -14,9 +14,9 @@ const OuterBulletPoint = styled.ul`
 `
 
 const PrivacyPolicy = ({ data, location }) => {
-	const siteTitle = data.site.siteMetadata?.title || `Title`
+	const siteTitle = 'clocker'
 	return (
-		<Layout location={location} title={siteTitle}>
+		<Layout location={location} title={siteTitle} navigation="/clocker">
         	<SEO title="Clocker Privacy Policy" />
 			<div>
 				<h1> privacy </h1>

@@ -28,7 +28,7 @@ const Reading = ({ data, location }) => {
   })
   
 	return (
-		<Layout location={location} title={siteTitle}>
+		<Layout location={location} title={siteTitle} navigation="/">
         	<SEO title="Reading" />
         	<h1> reading </h1>
           <p> Keeping a track of books that I've read: </p>

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Projects = ({ data, location }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
 	return (
-		<Layout location={location} title={siteTitle}>
+		<Layout location={location} title={siteTitle} navigation="/">
         	<SEO title="Projects" />
             <div className="subpage">
             	<h1> projects </h1>

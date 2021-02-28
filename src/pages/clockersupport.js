@@ -35,9 +35,9 @@ const FieldName = styled.p`
 `
 
 const ClockerSupport = ({ data, location }) => {
-	const siteTitle = data.site.siteMetadata?.title || `Title`
+	const siteTitle = 'clocker'
 	return (
-		<Layout location={location} title={siteTitle}>
+		<Layout location={location} title={siteTitle} navigation="/clocker">
         	<SEO title="Clocker Support" />
         	<h1> clocker support </h1>
           <hr/>
