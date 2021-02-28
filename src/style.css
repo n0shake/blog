@@ -61,6 +61,7 @@
   --color-hover: #F1F4FFFF;
   --color-blockquote: #fefaf1;
   --color-background: #ffffff;
+  /*DAD2BF*/
 }
 
 /* HTML elements */
@@ -246,21 +247,6 @@ table thead tr th {
 
 /* Link */
 
-a {
-  color: var(--color-primary);
-}
-
-a:hover,
-a:focus {
-  padding: 3px 0px 2px 0px;
-  text-decoration: none;
-}
-
-a:active {
-  padding: 3px 0px 2px 0px;
-  text-decoration: none;
-}
-
 /* Custom classes */
 
 .grid-child-navbar {
@@ -360,19 +346,13 @@ a:active {
   padding: 2px;
 }
 
-.bio a:active {
-  padding: 3px 0px 2px 0px;
-  color: blue;
-  background: var(--color-hover);
-}
-
 .read-book a {
   text-decoration: none;
 }
 
 .read-book a:hover {
   padding: 3px 0px 2px 0px;
-  color: blue;
+  text-decoration: none;
   background: var(--color-hover);
 }
 
@@ -381,7 +361,7 @@ a:active {
   padding-top: 2px;
 }
 
-.subpage a {
+.styled-link {
   text-decoration: none;
   background-color: var(--color-hover);
   padding: 2px;
@@ -446,19 +426,11 @@ a:active {
   padding: 2px;
 }
 
-.article-body a:hover {
-  background-color: var(--color-hover);
-}
-
 .article-body li {
   padding: 5px 0px;
 }
 
-.article-body ol {
-  /*line-height: 2px;*/
-}
-
-.article-body img {
+img {
   border-radius: 3%;
   display: block;
   margin-left: auto;

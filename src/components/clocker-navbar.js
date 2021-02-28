@@ -18,20 +18,23 @@ const RoundedDiv = styled.div`
  	background-color: #ede4e0;
  }
 `
-
-const SidebarDiv = styled.div`
- padding-top: 20px;
+const NavigationBarDiv = styled.div`
  padding-bottom: 20px;
+ background-color: #ffffff;
 `
 
+const StyledLink = styled(props => <Link {...props} />)`
+  text-decoration: none;
+`;
+
 const ClockerNavBar = () => {
-  const sidebarButtons = {"feedback": "/clockersupport", "privacy": "/privacy-policy-for-clocker", "changelog": "/changelog"}
+  const sidebarButtons = {"faq": "/faq", "privacy": "/privacy-policy-for-clocker", "feedback": "/clockersupport"}
   return (
-    <SidebarDiv>
+    <NavigationBarDiv>
     { Object.entries(sidebarButtons).map(([key, value]) => {
-       return <Link key={key} to={value}><RoundedDiv key={key}><b>{key}</b></RoundedDiv></Link>
+       return <StyledLink key={key} to={value}><RoundedDiv key={key}><b>{key}</b></RoundedDiv></StyledLink>
     })}
-    </SidebarDiv>
+    </NavigationBarDiv>
   )
 }
 
