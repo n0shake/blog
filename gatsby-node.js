@@ -84,7 +84,7 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
         imageURL = "https://covers.openlibrary.org/b/ISBN/0321706285-M.jpg"
       } else if (node.title === "Can't Hurt Me: Master Your Mind and Defy the Odds") {
         imageURL = "https://covers.openlibrary.org/b/ISBN/1544512287-M.jpg"
-      } else {
+      } else if (imageURL === "") {
         console.log(node.title)
       }
     }
