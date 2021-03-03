@@ -219,7 +219,6 @@ blockquote {
   margin-left: calc(-1 * var(--spacing-6));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
-  border-left: var(--spacing-1) solid var(--color-primary);
   font-size: var(--fontSize-2);
   font-style: italic;
   margin-bottom: var(--spacing-8);
@@ -460,7 +459,6 @@ img {
   background: var(--color-blockquote);
   padding: 8px 16px 8px;
   margin-left: 0px;
-  color: var(--color-text);
   border-radius: 8px;
   font-size: var(--fontSize-1);
 }
@@ -474,6 +472,10 @@ img {
   font-style: italic;
   font-size: var(--fontSize-0);
   padding: 16px;
+}
+
+.educational {
+  width: 100%;
 }
 
 /* Media queries */
