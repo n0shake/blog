@@ -34,16 +34,8 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-
         </header>
-        <section
-          className="article-body"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-        <hr />
-      </article>
-      <nav className="blog-post-nav">
+        <nav className="blog-post-nav">
         <ul
           style={{
             display: `flex`,
@@ -63,6 +55,14 @@ const BlogPostTemplate = ({ data, location }) => {
           </DateContainer>
         </div>  
       </nav>
+        <section
+          className="article-body"
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          itemProp="articleBody"
+        />
+        <hr />
+      </article>
+
       <Footer />
     </Layout>
   )
