@@ -13,7 +13,7 @@ This episode is slightly different in that it has three tangents i.e. Monica + J
 
 #### 2. The One with the Memorial Service
 
-There' might be recency bias at play here, but this episode cracks me up. Ross and Chandler going back-and-forth writing ridiculous things on their college alumni website eventually leading Ross to organize a memorial service to see which of his high-school friends will show up is down-right hilarious. The other plot-line between Joey and Rachel concerning Hugsy is tight and equally hilarious. The episode was good because it banked upon previous story-lines (Chandler acting gay, Joey' fascination with Hugsy) while still exploring new scenarios.
+There' might be recency bias at play here, but this episode cracks me up. Ross and Chandler going back-and-forth writing ridiculous things on their college alumni website eventually leading Ross to organize a memorial service to see which of his high-school friends will show up is down-right hilarious. The other plot-line between Joey and Rachel concerning Hugsy is tight and equally hilarious. The episode was good because it banked upon previous story-lines (Chandler acting feminine and gay, Joey' fascination with Hugsy) while still exploring new scenarios.
 
 #### 1. The One with the Embryos
 
