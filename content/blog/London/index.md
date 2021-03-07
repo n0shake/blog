@@ -72,7 +72,7 @@ More work and caught the amazing Book of Mormon!
 
 ---
 
-Day 6 – Work. Work. Work.
+# Day 6 – Work. Work. Work.
 The penultimate day before my presentation about Health to our collaborating team. As usual, my eyes perked up at around 6 AM and I was up early. The rest of my day was spent trying to fix Navigation for the Playgrounds app simultaneously trying to prepare for tomorrow.
 
 My style of working is usually waiting until the second to last day before the deadline. Surprise Surprise. Nothing changed. The only preparation I did during official work timings was working on the getting the dashboard up and ready. I was up late at night working on finishing up work and the presentation reaching the hotel room at around 8:50. Dosas were ordered and I went to sleep at around 11:30ish hoping to an early morning start to finish up my presentation.
