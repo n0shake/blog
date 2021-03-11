@@ -1,5 +1,5 @@
 ---
-title: cracking the facebook iOS engineering interview
+title: cracking the facebook engineering interview
 date: "2020-02-05T22:40:32.169Z"
 description: I've learned a lot through other engineers sharing their interview experiences. Maybe someone can learn something from mine.
 category: blog
