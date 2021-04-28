@@ -1,13 +1,13 @@
 ---
 title: hawaii trip report 
-date: "2021-04-05T23:46:37.121Z"
+date: "2021-04-26T23:46:37.121Z"
 description: How do you plan the perfect Hawaii trip?
 category: blog
 ---
 
 Hawaii is often cited as one of those *bucket list* locations. If you're still not fully convinced on why you need to visit Hawaii, so you try to find a vlog or top things to do video about Hawaii ([exhibit A](https://www.youtube.com/watch?v=7mpqkHLyi-A)); you're halfway there. You then decide to order a book ([this is a must-read](https://www.goodreads.com/book/show/44451059-hawaii-the-big-island-revealed)) to read about the history of the islands, which is when you'll know, you need to go there soon.
 
-We're on the verge of completing our 2-week trip to the Hawaiian islands and I wanted to take the time out and write down our travel plan . Given its remoteness, a trip to Hawaii costs significant $$$; in order to limit our spending, we're relying on cooking more (AirBNBs with kitchens), cheaper non-luxurious stays and leveraging discounts/points for car rentals and flights.
+We're on the verge of completing our 2-week trip to the Hawaiian islands and I wanted to take the time out and write down our travel report . Given its remoteness, a trip to Hawaii costs significant $$$; in order to limit our spending, we relied on cooking more (AirBNBs with kitchens), cheaper non-luxurious stays and leveraging discounts/points for car rentals and flights.
 
 ## Travel Restrictions
 
@@ -58,7 +58,6 @@ Our plan is to spend the first week of our trip on the **Big Island**. Since we 
 - I saw plenty of "locals" dissuading people not to visit the islands right now both on YouTube and IG; however, locals (we ran into) were incredibly nice and polite.
 - Birds and mongooses like walking on the road; I can't remember the number of times I cursed the birds while driving.
 - Roaches are pretty common (read: inevitable) on the Big Island. We ran into a whole bunch of them while we were in the Kona AirBNB.
-- 
 
 ## Tips
 
@@ -70,3 +69,5 @@ Our plan is to spend the first week of our trip on the **Big Island**. Since we 
 - Highways in the Big Island are one-lane; drive carefully.
 - Drive around with the [Gypsy guide app](https://gypsyguide.com/).
 - Try a Mai Tai or Shaved Ice or Poi while you're there.
+
+We actually loved the Big Island a lot. Oahu could easily pass as a mainland city, but the vibe at Big Island is completely different. There's literally a new thing to explore every 5 mins of driving. 
