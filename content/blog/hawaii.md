@@ -5,7 +5,11 @@ description: How do you plan the perfect Hawaii trip?
 category: blog
 ---
 
-Hawaii is often cited as one of those *bucket list* locations. If you're still not fully convinced on why you need to visit Hawaii, so you try to find a vlog or top things to do video about Hawaii ([exhibit A](https://www.youtube.com/watch?v=7mpqkHLyi-A)); you're halfway there. You then decide to order a book ([this is a must-read](https://www.goodreads.com/book/show/44451059-hawaii-the-big-island-revealed)) to read about the history of the islands, which is when you'll know, you need to go there soon.
+Hawaii is often cited as one of those *bucket list* locations. If you're still not fully convinced on why you need to visit Hawaii: 
+
+1. Find a vlog or top things to do video about Hawaii ([exhibit A](https://www.youtube.com/watch?v=7mpqkHLyi-A)). 
+
+2. If 1 doesn't convince you, order this book ([this is a must-read](https://www.goodreads.com/book/show/44451059-hawaii-the-big-island-revealed)) to read about the history of the islands, which is when you'll know, you need to go there soon.
 
 We're on the verge of completing our 2-week trip to the Hawaiian islands and I wanted to take the time out and write down our travel report . Given its remoteness, a trip to Hawaii costs significant $$$; in order to limit our spending, we relied on cooking more (AirBNBs with kitchens), cheaper non-luxurious stays and leveraging discounts/points for car rentals and flights.
 
