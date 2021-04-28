@@ -1,5 +1,5 @@
 ---
-title: planning a hawaii trip
+title: hawaii trip report 
 date: "2021-04-05T23:46:37.121Z"
 description: How do you plan the perfect Hawaii trip?
 category: blog
@@ -7,7 +7,7 @@ category: blog
 
 Hawaii is often cited as one of those *bucket list* locations. If you're still not fully convinced on why you need to visit Hawaii, so you try to find a vlog or top things to do video about Hawaii ([exhibit A](https://www.youtube.com/watch?v=7mpqkHLyi-A)); you're halfway there. You then decide to order a book ([this is a must-read](https://www.goodreads.com/book/show/44451059-hawaii-the-big-island-revealed)) to read about the history of the islands, which is when you'll know, you need to go there soon.
 
-We've an upcoming 2-week trip to the Hawaiian islands in late April and I wanted to take the time out and write down our travel plan. Given its remoteness, a trip to Hawaii costs significant $$$; in order to limit our spending, we're relying on cooking more (AirBNBs with kitchens), cheaper non-luxurious stays and leveraging discounts/points for car rentals and flights.
+We're on the verge of completing our 2-week trip to the Hawaiian islands and I wanted to take the time out and write down our travel plan . Given its remoteness, a trip to Hawaii costs significant $$$; in order to limit our spending, we're relying on cooking more (AirBNBs with kitchens), cheaper non-luxurious stays and leveraging discounts/points for car rentals and flights.
 
 ## Travel Restrictions
 
@@ -26,25 +26,47 @@ The state of Hawaii consists of a few islands:
 - Lanai: The island owned by Larry Ellison.
 - and a few more small islands
 
-Our plan is to spend the first week of our trip on the Big island. Since we can only take a week's vacation at most, we'll need to work 8 hours/day as part of the second leg of our trip. As such, Oahu works great since it's more urban + many areas have good internet speeds.
+Our plan is to spend the first week of our trip on the **Big Island**. Since we can only take a week's vacation at most, we'll need to work 8 hours/day as part of the second leg of our trip. As such, **Oahu** works great since it's more urban + many areas have good internet speeds.
 
 ## Week 1
 
-- Fly to Kailua-Kona reaching there around 10 PM. Get a rental car and drive to our AirBNB (< 15 minutes drive from the airport). Rest and recharge.
+- Fly to Kailua-Kona; done  there around 10 PM. Get a rental car and drive to our AirBNB (< 15 minutes drive from the airport). Rest and recharge.
+- Drive around the island; learn more about the history through the [Gypsy app](https://gypsyguide.com/tour/big-island-hawaii/)
+- Visit the Puʻukoholā Heiau National Historic Site
 - Stargaze at Mauna Kea through [this AirBNB experience](https://www.airbnb.com/experiences/232756?guests=1&adults=1&s=67&unique_share_id=cc229562-e8be-49ac-b0f3-d4c09495bcec)
-- Night Manta-Ray snorkeling adventure
-- Attend Farmers Market and buy local produce
+- 45 minute Coffee Plantation tour at Greenwell Farms (free)
+- Attend Farmers Market at Kona (and this one in Hilo) and buy local produce (especially fruits)
 - Try the famous Kona Coffee
 - Hike in the Hawaii Volcano National Park
-- Waterfalls and beaches of-course.
+- Frolick in the Green Sand beach at Papakolea (after doing the hike) and the Black Sand beach at Punalu'u
+- Visit Waipio Valley and the Polulu Valley lookout
+- Do some snorkelling
+- Try the Mai Tais at Don's
 
 ## Week 2
 
-- Wakiki Beaches
-- Flytography
+- Explore Wakiki, Ala Moana and surrounding beaches
+- Flytography at the Ho‘omaluhia Botanical Garden
+- Swim at the Lanikai beach
+- Do one of those Pillbox hikes
+- Work
+- Drive around the North Shore
+- Explore the Pearl Harbour Museum
+
+## Observations
+
+- I saw plenty of "locals" dissuading people not to visit the islands right now both on YouTube and IG; however, locals (we ran into) were incredibly nice and polite.
+- Birds and mongooses like walking on the road; I can't remember the number of times I cursed the birds while driving.
+- Roaches are pretty common (read: inevitable) on the Big Island. We ran into a whole bunch of them while we were in the Kona AirBNB.
+- 
 
 ## Tips
 
-- You'll need a 4x4 AWD if you'd to go to Mauna Kea and off-road beaches
-- You can find a cute dog-companion for a day through the [Field Trip program](http://hihs.org/adoption/dogs) run by the amazing Hawaii Island Humane Society (two branches on the Big island)
-- Carry rain-jackets and umbrellas because the weather in Hawaii is unpredictable
+- If I had to re-do the trip again, I'd spend more time at the Volcanoes National Park.
+- Get a car. You'll need a 4x4 AWD if you'd to go to Mauna Kea and off-road beaches.
+- You can find a cute dog-companion for a day through the [Field Trip program](http://hihs.org/adoption/dogs) run by the amazing Hawaii Island Humane Society (two branches on the Big island).
+- Carry rain-jackets and umbrellas because the weather in Hawaii is unpredictable.
+- Car break-ins are common here. Don't leave any important valuables in your car while you're out exploring.
+- Highways in the Big Island are one-lane; drive carefully.
+- Drive around with the [Gypsy guide app](https://gypsyguide.com/).
+- Try a Mai Tai or Shaved Ice or Poi while you're there.
