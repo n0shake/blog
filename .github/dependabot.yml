@@ -1,0 +1,44 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "13:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: gatsby-plugin-sharp
+    versions:
+    - 2.13.3
+    - 2.13.4
+  - dependency-name: minimist
+    versions:
+    - 1.2.5
+  - dependency-name: gatsby-plugin-manifest
+    versions:
+    - 2.11.0
+  - dependency-name: gatsby-plugin-preload-fonts
+    versions:
+    - 1.8.0
+  - dependency-name: gatsby-plugin-google-analytics
+    versions:
+    - 2.10.0
+  - dependency-name: gatsby-plugin-offline
+    versions:
+    - 3.9.0
+  - dependency-name: gatsby-plugin-react-helmet
+    versions:
+    - 3.9.0
+  - dependency-name: gatsby-remark-smartypants
+    versions:
+    - 2.9.0
+  - dependency-name: gatsby-transformer-remark
+    versions:
+    - 2.15.0
+  - dependency-name: gatsby-source-filesystem
+    versions:
+    - 2.10.0
+  - dependency-name: gatsby-plugin-styled-components
+    versions:
+    - 3.9.0
