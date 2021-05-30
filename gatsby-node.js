@@ -72,6 +72,8 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
     excludedISBNS.add("1912248700")
     excludedISBNS.add("1514803534")
     excludedISBNS.add("0552113824")
+    excludedISBNS.add("0062102427")
+    excludedISBNS.add("0789334453")
 
     if (excludedISBNS.has(node.isbn) == false && node.isbn !== "") {
       imageURL = "https://covers.openlibrary.org/b/ISBN/" + node.isbn + "-M.jpg"
@@ -88,7 +90,7 @@ exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
         console.log(node.title)
       }
     }
-    
+
     let fileNode
     try {
       fileNode = await createRemoteFileNode({
