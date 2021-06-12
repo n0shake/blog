@@ -73,16 +73,9 @@ export const pageQuery = graphql`
           link
           book {
             title
-            localFile {
-              childImageSharp {
-                fluid(quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
           }
         }
       }
     }
-  }
 }
 `

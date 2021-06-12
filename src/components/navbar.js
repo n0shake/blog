@@ -25,7 +25,7 @@ const SidebarDiv = styled.div`
 `
 
 const NavBar = () => {
-  const sidebarButtons = {"clocker": "/clocker", "projects": "/projects", "reading": "/reading"}
+  const sidebarButtons = {"clocker": "/clocker", "projects": "/projects"}
   return (
     <SidebarDiv>
     { Object.entries(sidebarButtons).map(([key, value]) => {

@@ -11,7 +11,6 @@ const Projects = ({ data, location }) => {
         	<SEO title="Projects" />
             <div className="subpage">
             	<h1> projects </h1>
-            	<h2> Open Source </h2>
             	<hr/><br/>
                 <ul>
             	<li> 
