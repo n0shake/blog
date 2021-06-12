@@ -15,7 +15,7 @@ const Projects = ({ data, location }) => {
             	<hr/><br/>
                 <ul>
             	<li> 
-            		<a href="https://github.com/n0shake/Clocker">Clocker</a> is a menu bar utility to keep track of your friends in different time zones. 150K+ downloads. 
+            		<a href="https://github.com/n0shake/Clocker">Clocker</a> is a menu bar utility to keep track of your friends in different time zones. 175K+ downloads. 
             	</li>
             	<li> 
             		<a href="https://github.com/n0shake/Public-APIs">Public-Api(s)</a> is a curated list of common and obscure APIs from around the web. 
