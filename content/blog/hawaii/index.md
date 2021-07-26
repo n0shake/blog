@@ -16,15 +16,15 @@ Hawaii was added to our bucket list a few years ago. However, like most *haoles*
 1. YouTube travel vlogs ([exhibit A](https://www.youtube.com/watch?v=7mpqkHLyi-A)). 
 2. Andrew Doughty's travel guides ([this is a must-read](https://www.goodreads.com/book/show/44451059-hawaii-the-big-island-revealed)) 
 
-We started thinking seriously about this trip in the last week of March and wrapped up booking all the essentials (flights, lodging etc.) by March 27th. We planned to vacay for 1 week and work/travel for 1 week. A lot of newly vaccinated travelers (including us) were flocking to Hawaii which led to a rental car shortage on the island. This caused [prices to soar](https://www.hawaiinewsnow.com/2021/03/29/day-rent-car-low-supply-surging-demand-are-pushing-up-prices-hawaii/) with some travelers resorting to booking U-Hauls to get around. Luckily for us, we had access to corporate codes which brought our costs down to $490/week. This was still steep given we're used to daily rates between $30-$45 and was a nice foreshadowing of how expensive our trip was going to be.
+We started thinking seriously about this trip in the last week of March and wrapped up booking all the essentials (flights, lodging etc.) by March 27th. We planned to vacation for 1 week and work/travel the next week. A lot of newly vaccinated travelers (including us) were flocking to Hawaii which led to a rental car shortage on the island. This caused [prices to soar](https://www.hawaiinewsnow.com/2021/03/29/day-rent-car-low-supply-surging-demand-are-pushing-up-prices-hawaii/) with some travelers resorting to booking U-Hauls to get around. Luckily for us, we had access to corporate codes which brought our costs down to $490/week. This was still steep given we're used to daily rates between $30-$45 and was a nice foreshadowing of how expensive our trip was going to be.
 
 ### Which Islands to visit?
 
 The state of Hawaii consists of a few islands: 
 
-- Oahu: Home to the city of Honolulu, Oahu is a touristy city with a YouTuber describing it as the NYC of the islands; don't let that distract you from the fact that still is ludicrously beautiful. 
+- Oahu: Home to the city of Honolulu, Oahu is a touristy city with a YouTuber describing it as the NYC of the islands; don't let that distract you from the fact that it still is ludicrously beautiful. 
 - Maui: The resort island; crystal clear blue water, humpback whales and the green Yao valley can all be found here.
-- Hawaii: Also known as the Big Island, this island has less city vibes and more nature to explore. You'll find the Volcanoes National Park and Mauna Kea observatory here.
+- Hawaii: Also known as the Big Island, this island feels less like a modern city and offers a lot more nature to explore. You'll find the Volcanoes National Park and Mauna Kea observatory here.
 - Kauai: More laid-back, nature getaway with the insta-worthy [Na Pali coast](https://www.kauai.com/napali-coast).
 - Lanai: The island owned by Larry Ellison.
 - and a few more small islands
@@ -37,7 +37,7 @@ For week 1, we were looking at Big Island and Maui (ruling out Kauai because a w
 
 Hawaii is taking the pandemic seriously. In order to get entry to the islands, you need to show a negative COVID-19 test when you arrive at the airport. This test should be taken within a 72-hour window from your last leg of departure. You'll need to quarantine for 10-days at pre-approved locations if your result isn't in the 72-hour time window *or* your result is positive *or* your result hasn't yet arrived. The strict adherence to this policy has meant reduced number of positive cases among the locals. 
 
-Both (my SO and I) have received our first dose of vaccine and our plan is to get the booster dose before we leave. Although there have been talks, there's no consensus right now whether you'll be waived from the strict testing formalities if you're vaccinated; so our plan was to get a RAPID NAAT test done at Walgreens (approved testing partner) the day before we travel. Rapid tests are quick (took around an hour for our result to come through) and are free which works out perfectly for us.
+Luckily, both -- my SO and I -- took our two vaccine shots before we embarked on our trip. Although there have been talks, there's no consensus right now (as of April '21) whether you'll be waived from the strict testing formalities if you're vaccinated; so our plan revolved around taking a RAPID NAAT test done at Walgreens (approved testing partner) the day before we travel. Rapid tests are quick (took around an hour for our result to come through) and are free which works out perfectly for us.
 
 Here's how our two weeks panned out.
 
