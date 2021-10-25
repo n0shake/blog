@@ -1,7 +1,7 @@
 ---
 title: daily routines (how artists work)
 date: "2021-08-29T22:40:32.169Z"
-description: Everest.
+description: Daily routines.
 category: blog
 ---
 
