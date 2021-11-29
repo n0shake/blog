@@ -63,19 +63,5 @@ export const pageQuery = graphql`
         title
       }
     }
-    allGoodreadsShelf(
-      filter: {name: { in: ["currently-reading", "read"] } }
-      sort: { order: DESC, fields: reviews___read_at }
-      ) {
-      nodes {
-        reviews {
-          id
-          link
-          book {
-            title
-          }
-        }
-      }
-    }
 }
 `
