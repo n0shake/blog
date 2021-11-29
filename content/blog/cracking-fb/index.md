@@ -5,7 +5,7 @@ description: I've learned a lot through other engineers sharing their interview 
 category: blog
 ---
 
-> The views expressed below are mine and mine only! I’ve learned a lot through other engineers sharing their interview experiences. Maybe someone can learn something from mine.
+> I’ve learned a lot through other engineers sharing their interview experiences. Maybe someone can learn something from mine.
 
 Ever since my friends/colleagues heard that I joined Facebook, there’s been a common theme around the questions that I’ve been asked:
 
@@ -14,11 +14,11 @@ Ever since my friends/colleagues heard that I joined Facebook, there’s been a 
 - “How many interviews were there?”
 - “How did you prepare?”
 
-I'm going to answer all the questions in one long post.
+I'm going to **attempt** answering all the questions in this post.
 
 > How did I end up getting an interview call from Facebook?
 
-Well, I’ve my 6-month co-op at Apple to thank for. When I was in my final semester (Spring 2017), I applied to all the Big Ns and ton of medium-sized and small startups. Sure enough, I had a university recruiter at Facebook reach out to me. The initial recruiter screening mostly centered around my internship (ignoring my side-projects and other past experiences) helping me draw a strong conclusion on why I got selected.
+Well, I’ve my 6-month co-op at Apple to thank for. When I was in my final semester (Spring 2017), I applied to all BigTech companies and ton of medium-sized and small startups. Sure enough, I had a university recruiter at Facebook reach out to me. The initial recruiter screening mostly centered around my internship (ignoring my side-projects and other past experiences) helping me draw a strong conclusion on why I got selected.
 
 The interview process is divided into two stages i.e. phone screens and a final onsite round. Number of phone-screens can vary based on your performance.
 
@@ -29,15 +29,13 @@ The date for the initial phone-screen was chosen and I started studying. I half-
 
 > Fast-forward to one afternoon in July 2018, I receive an email from a different Facebook recruiter this time hiring for iOS engineers.
 
-We schedule an initial call which surprisingly included a 5-question iOS quiz that I was not prepared for. Luckily, I managed to answer all of them correctly proceeding towards the phone screen.
+We schedule an initial call which surprisingly included a 5-question iOS quiz that I didn't foresee. Luckily, I managed to answer all of them correctly proceeding towards the phone screen.
 
 This time around, I was serious. I created a quick list of questions and books that I wanted to tackle before the phone-screen and decided to go all in. I didn’t want to bow out this time because of my inability to answer a Linked List question. This was an extremely intense month for me as I had to juggle work and my interview prep. I did very little socializing during this time and concentrated solely to getting onto the onsite round. I completed almost all Leetcode Easy and Medium questions asked for FB. I researched the company values and had my post-interview questions prepared.
 
-> My body was ready.
+My body was ready.
 
-Facebook phone screens have a typical format that the interviewer will walk you through. The first 5 minutes are for small-talk, while the last 10 minutes are reserved for questions for the interviewer. The 45-mins in between are to solve 2 coding questions that test your algorithm and data-structure knowledge.
-
-Unlike the last time, I was better prepared and passed my phone-screens fairly easily. Here are a few things that helped me immensely in my prep:
+Facebook phone screens have a typical format that the interviewer will walk you through. The first 5 minutes are for small-talk, while the last 10 minutes are reserved for questions for the interviewer. The 45-mins in between are to solve 2 coding questions that test your algorithm and data-structure knowledge. Unlike the last time, I was better prepared and passed my phone-screens fairly easily. Here are a few things that helped me immensely in my prep:
 
 ## Preparation
 
@@ -94,13 +92,13 @@ After the phone interviews went well, the recruiter scheduled a call with me to 
 I made sure to print all questions I solved on Leetcode so that I have enough reading material for my flights. After reaching my hotel, I ordered light snacks, did some more prep and decided to sleep-in early at about 9 PM (thinking I would be up at 3 AM and do one final study sprint before the interview).
 
 ## The D-Day
-I did do the final hard-sprint (~6 1/2 hours woooof), had my breakfast and called for an Uber at around 9:45 AM. You always end up at a hotel close to the campus so traffic isn’t that much of a worry.
+I did do the final hard-sprint (6 1/2 hours woooof), had my breakfast and called for an Uber at around 9:45 AM. You always end up at a hotel close to the campus so traffic isn’t that much of a worry.
 
 > Leaving the hotel, my nerves were on the edge because they could literally ask me anything. You're going to have FB engineers watch you write gibberish code on a whiteboard. Not nerve-wracking at all /s.
 
 In total, I had 5 arounds with each being around 45 mins. All of these rounds focused on a combination of data structures, algorithms and my iOS know-how. My lunch was at Biryani where I remember having a Biryani (doh!) with some Lassi. I, unfortunately, can’t go into much details about questions. Safe to say they were grueling and by the end, my mind was sapped of all my brain juice. The last interviewer dropped me off to the lobby and I handed over my visitor badge to Security.
 
-> Let me tell you that calling an Uber after a mind-numbing month of prep and ~5 hours of = interviews has got to be one of the best feelings ever.
+> Let me tell you that calling an Uber after a mind-numbing month of prep and 5 hours of = interviews has got to be one of the best feelings ever.
 
 # Initial Reaction
 Once I started introspecting my performance, I was 15% hopeful that I was going to receive an offer. I did well in all interviews but I still felt I could have done 10x better. Looking back, the interview questions and the interviewers were perfectly reasonable. This was a great interviewing experience (in my biased opinion of-course)

@@ -5,7 +5,7 @@ description: 2018, for me, had many highlights. A new job, getting a chance to s
 category: blog
 ---
 
-2018, for me, had many highlights. A new job, getting a chance to see my fam, new cities and states, but more importantly; I met you. We had an incredible year together, and so, for Valentines day, I wanted to do something nerdy and take at a look at relationship closely. I dig through our chats (7584 odd messages) and our online history to find out some interesting things.
+2018, for me, had many personal highlights. A new job, getting a chance to see my family, new cities and states, but more importantly; I met you. We had an incredible year together, and so, for Valentines day, I wanted to do something nerdy and take at a look at relationship closely. I dig through our chats (7584 odd messages) and our online history to find out some interesting things.
 
 Start
 

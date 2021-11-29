@@ -15,13 +15,13 @@ The central theme of the book is around prioritizing spending money while you're
 
 > Chase memorable experiences, give money to your kids when they can best use it, donate to charity while you're still alive. That's the way to live life.
 
-One of the biggest counters to the book is the fact that most people hoard money because they're afraid of dying in poverty. Bill references this mentioning that depriving your current self just to care about a future older self isn't the way to go. He advises using **income annuities**, **reverse mortgages**, **long-term care insurance** in order to prepare for the no-income post retirement years. Depending on your age and health, income annuities can be foregone and replaced through a mix of retirement investments and dividend income. To calculate your survival threshold (or how much you might end up requiring post-retirement), Bill suggests using this formula:
+One of the biggest counters to the book is the fact that most people hoard money because they're afraid of dying in poverty. Bill references this mentioning that depriving your current self just to care about a future older self isn't the way to go. He advises using **income annuities**, **reverse mortgages**, **long-term care insurance** in order to prepare for the no-income post retirement years. Depending upon on your age and health, income annuities can be foregone and replaced through a mix of retirement investments and dividend income. To calculate your survival threshold (or how much you might end up requiring post-retirement), Bill suggests using this formula:
 
 > Survival Threshold = 0.7 * Annual Expenses * Years Left to Live (can be calculated using a longetivity calculator)
 
 The books also brings up an interesting facet of spending over the course of an Average Joe's life. Most people's spending can be categorized into three patterns:
 
-- Go-go years: Observed between the ages of 20-30
+- Go-go years: Observed between the ages of 20-40
 - Slow-go years: Observed between the ages of 40-65
 - No-go years: 75 and later ages
 
