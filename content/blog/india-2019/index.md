@@ -3,6 +3,7 @@ title: india 2019
 date: "2020-01-20T23:46:37.121Z"
 description: "Much awaited."
 category: blog
+show: 0
 ---
 
 My pre-planned — yet inadvertently a surprise for many — trip to India was something that I was looking forward to since the last 3 years. 2019 was extremely challenging work-wise and I was intensely home-sick. I wanted to meet my relatives, my neighbors, my friends and most all my family. Suffice to say, I was excited beyond my usual amount.

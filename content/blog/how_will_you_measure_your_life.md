@@ -3,6 +3,7 @@ title: how will you measure your life?
 date: "2021-05-15T22:40:32.169Z"
 description: Excerpt
 category: blog
+show: 0
 ---
 
 From Clayton Christensen's How Will You Measure Your Life:

@@ -3,6 +3,7 @@ title: hawaii trip report
 date: "2021-04-26T23:46:37.121Z"
 description: How do you plan the perfect Hawaii trip?
 category: blog
+show: 1
 ---
 
 We're on the verge of completing our 2-week trip to the Hawaiian islands and I wanted to take the time out and write down a travel report. Given its remoteness, a trip to Hawaii costs significant $$$; in order to limit our spending, we relied on cooking (AirBNBs with kitchens), cheaper non-luxurious stays and leveraging discounts as well as points for car rentals and flights.

@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Footer from "../components/footer"
 import NavBar from "../components/navbar"
 
 
@@ -12,7 +11,10 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const newSiteTitle = "hi there! 👋"
   const posts = data.allMarkdownRemark.nodes
-  const reducedPosts = posts
+  const vettedPosts = posts.filter(post => post.frontmatter.show === 1);
+  const reducedPosts = vettedPosts
+  console.log(posts)
+  console.log(vettedPosts)
 
   if (posts.length === 0) {
     return (
@@ -51,7 +53,6 @@ const BlogIndex = ({ data, location }) => {
                 <div className="post-list-div">
                  <span className="post-list-date">{post.frontmatter.date} </span>
                  <span className="post-list-headline">{title} {showTag} </span> 
-                 
                 </div>
                </Link>
               </article>
@@ -59,7 +60,6 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <Footer />
       </div>
     </Layout>
   )
@@ -85,6 +85,7 @@ export const pageQuery = graphql`
           title
           description
           category
+          show
         }
       }
     }

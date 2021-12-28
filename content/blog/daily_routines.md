@@ -3,6 +3,7 @@ title: daily routines (how artists work)
 date: "2021-08-29T22:40:32.169Z"
 description: Daily routines.
 category: blog
+show: 0
 ---
 
 I've been reading Mason Currey's [Daily Rituals: How Artists Work](https://www.goodreads.com/book/show/15799151-daily-rituals) since the past few weeks and I'm thoroughly impressed by the research carried out for the book. The book covers the day-to-day rituals of several interesting folks across the fields of writing, theater, music, architecture, engineering etc. It attempts to summarize how they managed to do meaningful creative work while devoting themselves to earning a living and spending time with family and friends. A good percentage of artists managed to be creative through sheer self-discipline, willpower and optimism while another portion were lazy and lethargic and managed to create when inspiration arrived. Here's the choicest few rituals that stood out for me personally:

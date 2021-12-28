@@ -3,6 +3,7 @@ title: ride of a lifetime
 date: "2021-10-17T22:40:32.169Z"
 description: Excerpt
 category: book-review
+show: 0
 ---
 
 Robert Iger's [Ride of a Lifetime](https://www.goodreads.com/book/show/44525305-the-ride-of-a-lifetime) is a stereo-typical autobiography sprinkled with clichéd insights and dry stories. It does an okayish job in describing the challenges in the entertainment business, as Bob rises through the ranks to become the CEO of Disney. Going into the book, I expected to learn more about Bob's management style along with the conflicts, but I didn't expect:

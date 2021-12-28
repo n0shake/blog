@@ -3,6 +3,7 @@ title: into thin air
 date: "2021-06-12T22:40:32.169Z"
 description: Everest.
 category: book-review
+show: 1
 ---
 
 [Into Thin Air](https://www.goodreads.com/book/show/1898.Into_Thin_Air) by Jon Krakauer is an utterly distressing page-turner. This book blends the author's journey to top of Everest with personal stories and (hackneyed) quotes from previous climbers. I have always known that high-altitude mountain climbing is physically arduous. This book woke me up to the realities surrounding Everest:

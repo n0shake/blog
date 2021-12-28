@@ -3,6 +3,7 @@ title: our financial setup
 date: "2021-02-21T23:46:37.121Z"
 description: "Detailing my path and journey into the world of FIRE"
 category: blog
+show: 1
 ---
 
 Now that Sony and I have stable jobs that we hope to stay at for the new few years, it's time to think deeply about our finances. Money is a powerful tool; if used well, money can provide you with freedom, autonomy, and the capability to optimize your lives around your belief system. This freedom can be in the form of being able to work in the field of your choice or it can be the ability to work from anywhere you want.

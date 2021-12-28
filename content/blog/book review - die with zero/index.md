@@ -3,6 +3,7 @@ title: die with zero
 date: "2021-02-14T22:40:32.169Z"
 description: Things that most don't consider regarding the FIRE movement.
 category: book-review
+show: 1
 ---
 
 [Bill Perkin's Die With Zero](https://www.goodreads.com/book/show/52950915-die-with-zero) was an instant download after I came across it through an r/fatFire post. The FIRE community evangelizes the benefits of frugality, extreme saving and investing most of your salary. There's no arguing that these are the right things to pursue when you're young and trying to get out of debt. 

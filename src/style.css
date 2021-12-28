@@ -27,8 +27,8 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Karla";
-  --fontFamily-serif: "Karla", "Roboto", "Helvetica", "Times New Roman",
+  --fontFamily-sans: "Roboto Mono";
+  --fontFamily-serif: "Roboto Mono", "Helvetica", "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
@@ -53,9 +53,9 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #2e353f;
+  --color-text: #4b4b4b;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
+  --color-heading: #4b4b4b;
   --color-heading-black: black;
   --color-accent: #d1dce5;
   --color-hover: #F1F4FFFF;
@@ -107,6 +107,9 @@ h2 {
   font-weight: var(--fontWeight-bold);
   color: var(--color-heading);
   font-size: var(--fontSize-5);
+  text-transform: lowercase;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cad2d4;
 }
 
 h3 {

@@ -1,8 +1,9 @@
 ---
-title: why i can't stop thinking about succession
+title: i can't stop thinking about succession
 date: "2021-11-28T22:40:32.169Z"
 description: Blog
 category: tv
+show: 1
 ---
 
 Over the course of the last decade, there have been incredibly few TV shows ([exhibit 1](https://en.wikipedia.org/wiki/Breaking_Bad), [2](https://en.wikipedia.org/wiki/Veep)) that just suck you into their universe and occupy precious cerebral real-estate for weeks since you've watched it. Succession is one of those shows! 

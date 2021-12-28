@@ -40,7 +40,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Karla`,
+          `Roboto Mono`,
         ],
         display: 'swap',
       },

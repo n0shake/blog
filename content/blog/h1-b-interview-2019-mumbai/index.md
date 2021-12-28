@@ -3,6 +3,7 @@ title: H1-B Interview Notes – December 2019 – Mumbai
 date: "2020-01-10T23:46:37.121Z"
 description: Notes from my interview.
 category: blog
+show: 1
 ---
 
 ![](./h1b1.png)

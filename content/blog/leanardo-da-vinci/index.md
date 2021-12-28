@@ -3,6 +3,7 @@ title: leonardo da vinci's contradictions
 date: "2021-03-02T22:12:03.284Z"
 description: "Da Vinci's romanticism with the country-side"
 category: blog
+show: 0
 ---
 
 Based on Bill Gates's favorable review, I've just begun reading [Walter Issacson's biography of Leonardo Da Vinci](https://www.simonandschuster.com/books/Leonardo-da-Vinci/Walter-Isaacson/9781501139161). It's fair to say that the opening chapters themselves have been eye-opening and have revealed things about Leonardo's genius, curiosity, sexuality (among other things) that I was completely unaware of. I wanted to take this post to highlight one particular thing: Da Vinci's fascination with the country-side.

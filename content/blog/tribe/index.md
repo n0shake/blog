@@ -3,6 +3,7 @@ title: tribe
 date: "2021-01-28T22:40:32.169Z"
 description: Excerpt
 category: blog
+show: 0
 ---
 
 I've been reading Sebastian Junger's Tribe and this following excerpt resonated with me:
