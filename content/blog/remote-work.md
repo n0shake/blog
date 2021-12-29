@@ -14,6 +14,14 @@ Before I dive into the meat and potatoes, let me provide some context regarding 
 
 As March seems to be around the corner, I've been diving into books, papers, and articles in the hope of gathering pointers. Here's a round-up of some not so typical advice I came about: 
 
+## Consolidate Social Media Use
+
+An open office (or even a cubicle environment) places an unutterable restraint on your usage of time-sink holes like Twitter, Reddit, Hacker News etc. That restraint goes away once you start working from your home. It's fairly easy to open a Chrome tab to divert your attention while your code is building. In order to combat this, [Cal Newport](https://www.calnewport.com/blog) suggests a few things:
+
+1. Delete social media apps from your phone. Prefer using it on the web.
+2. Completely abstaining from social media works until you have an hour to kill while waiting at your Doctor's. What's proven to work is 30-40 minutes of consolidated, deliberate usage of social media per week.
+3. Don't click on Like. Don't comment. Prefer IRL conversations with your friends.
+
 ## prefer richer communication channels 
 
 [This Nature paper](https://www.nature.com/articles/s41562-021-01196-4) has a pretty interesting take vis-à-vis knowledge transfer and the remote worker. It postulates that the efficacy of the knowledge transfer depends largely on the strength of the relationship. It argues the switch to remote work actually causes the number of ties between individual in XFN teams to reduce. This leads to less time being spent collaborating, resulting in ineffective knowledge transfers.
