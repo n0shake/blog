@@ -30,7 +30,7 @@
     "gatsby-plugin-twitter": "^2.9.0",
     "gatsby-remark-copy-linked-files": "^2.10.0",
     "gatsby-remark-dropcap": "^0.1.2",
-    "gatsby-remark-embed-video": "^3.0.10",
+    "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-remark-embedder": "^4.2.0",
     "gatsby-remark-figure-caption": "^2.0.0",
     "gatsby-remark-images": "^3.11.1",
