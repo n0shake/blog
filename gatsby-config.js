@@ -1,13 +1,3 @@
-if (process.env.NODE_ENV === 'production') {
-  require('dotenv').config({ path: './.env.production.local', debug: true })
-  require('dotenv').config({ path: './.env.production', debug: true })
-}
-
-if (process.env.NODE_ENV === 'development') {
-  require('dotenv').config({ path: './.env.development.local', debug: true })
-  require('dotenv').config({ path: './.env.development', debug: true })
-}
-
 module.exports = {
   siteMetadata: {
     title: `Abhishek`,
@@ -22,11 +12,10 @@ module.exports = {
   },
   plugins: [
     {
-        resolve: "@jamesdanylik/gatsby-source-goodreads",
-        options: {
-            key: process.env.GATSBY_GR_KEY,
-            id: process.env.GATSBY_GR_IDENTIFIER,
-        },
+      resolve: `gatsby-plugin-goatcounter`,
+      options: {
+        code: 'abhishek',
+      }
     },
     {
       resolve: "gatsby-plugin-google-tagmanager",
