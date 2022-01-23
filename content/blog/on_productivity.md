@@ -49,9 +49,9 @@ Meetings cost more than time, especially for programmers. From the [maker's sche
 
 > For someone on the maker's schedule, having a meeting is like throwing an exception. It doesn't merely cause you to switch from one task to another; it changes the mode in which you work.
 
-- Always have an agenda. Having 1-1s or meetings just for the sake of meeting isn't useful. If there isn't any agenda, you can convert your meeting into a social.
-- Be it with chat or a meeting, always try to come up with action items and follow-ups. This is also generally good practice if geographically diverse teams are working together. 
-- Decline meetings especially if you think your presence isn't going to be useful. Do not feel obligated to attend a meeting just because you're invited. If you're not planning to attend a meeting, message the meeting organizer letting them before hand. You don't want to piss off your manager by skipping all meetings, but it's important to understand the meeting cost: 5 engineers * 30 mins + 15-20 mins of context-switching overhead every week.
+- **Always have an agenda**. Having 1-1s or meetings just for the sake of meeting isn't useful. If there isn't any agenda, you can convert your meeting into a social.
+- Be it with chat or a meeting, always try to **come up with action items** and follow-ups. This is also generally good practice if geographically diverse teams are working together. 
+- **Decline meetings** especially if you think your presence isn't going to be useful. Do not feel obligated to attend a meeting just because you're invited. If you're not planning to attend a meeting, message the meeting organizer letting them before hand. You don't want to piss off your manager by skipping all meetings, but it's important to understand the meeting cost: 5 engineers * 30 mins + 15-20 mins of context-switching overhead every week.
 
 ## Closing Thoughts
 
