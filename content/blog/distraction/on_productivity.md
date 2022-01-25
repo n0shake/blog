@@ -1,5 +1,5 @@
 ---
-title: distaction and deep work
+title: distraction and deep work
 date: "2022-01-22T22:40:32.169Z"
 description: Blog
 category: blog
