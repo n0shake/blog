@@ -18,7 +18,7 @@ const ClockerLayout = ({ splashImage, children, navigation }) => {
             fixed={splashImage}
             alt={`Clocker`}
         />)} 
-      <span>&nbsp;clocker for macOS</span>
+      <span>&nbsp;clocker</span>
       <hr/>
       <ClockerNavBar/>
       </VerticalCenteredParentDiv>

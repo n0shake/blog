@@ -30,7 +30,6 @@ const CenteredRoundedDiv = styled.div`
  margin: auto;
  text-align: center;
  text-decoration: none;
- width: 25%;
  font-size: 16px;
  font-weight: bold;
  border-radius: 8px;
@@ -38,6 +37,7 @@ const CenteredRoundedDiv = styled.div`
  &:hover {
   background-color: #ede4e0;
  }
+ width: 35%;
 `
 
 const NoUnderlineAnchor = styled.a`

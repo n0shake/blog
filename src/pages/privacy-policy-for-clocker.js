@@ -26,8 +26,10 @@ const PrivacyPolicy = ({ data, location }) => {
 				<h3>Information we collect</h3>
 				<p> If you encounter a crash while using Clocker, the stack-trace, device-state information, unique device identifiers can be collected by <a href='https://firebase.google.com/products/crashlytics'>Crashlytics</a>. See their privacy policy <a href="https://firebase.google.com/support/privacy">here</a>.</p>
 				<p>You may optionally send feedback including your email address through the in-app support window.
-				Email addresses are only used to reply to your feedback and nothing else. Emails (including email ids) may be deleted periodically or after the feedback is addressed.
-				Your preferences (your selected timezones, theme, display preferences etc.) are also sent along with your feedback for better issue reproducibility. If you've sent feedback previously, you can email us <a href="mailto:abhishekbanthia@me.com">here</a> to erase the email / preferences from our databases. </p>
+				Email addresses are only used to reply to your feedback and nothing else. 
+				Your preferences (selected timezones, theme, display preferences etc.) are also sent along with your feedback for better issue reproducibility. 
+				Email ids, associated feedback & preferences may be deleted periodically or after the feedback is addressed.
+				If you've sent feedback previously, you can email us <a href="mailto:abhishekbanthia@me.com">here</a> to erase the email / preferences from our databases. </p>
 				<h3>Information usage</h3>
 				<p> We use the information we collect to operate and improve our app, website, and customer support. </p>
 				<p> We do not share personal information with outside parties except to the extent necessary to accomplish Clocker’s functionality. </p>
