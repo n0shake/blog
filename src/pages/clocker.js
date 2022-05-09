@@ -29,7 +29,7 @@ const CenteredRoundedDiv = styled.div`
  &:hover {
   background-color: #ede4e0;
  }
- width: 35%;
+ width: 150px;
 `
 
 const NoUnderlineAnchor = styled.a`

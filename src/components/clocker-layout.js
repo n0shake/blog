@@ -9,19 +9,29 @@ const VerticalCenteredParentDiv = styled.div`
   align-items:center;
 `
 
+const ParentDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+
+const RightAlignedDiv = styled.div`
+  justify-content: flex-end;
+`
+
 const ClockerLayout = ({ splashImage, children, navigation }) => {
   const header = (
       <Link className="header-link-home" to={navigation}>
+      <ParentDiv>
       <VerticalCenteredParentDiv>
         {splashImage && (
           <Img
             fixed={splashImage}
             alt={`Clocker`}
         />)} 
-      <span>&nbsp;clocker</span>
-      <hr/>
-      <ClockerNavBar/>
+      <div>&nbsp;clocker</div>
       </VerticalCenteredParentDiv>
+      <ClockerNavBar/>
+      </ParentDiv>
       </Link>
     )
 
