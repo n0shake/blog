@@ -13,8 +13,6 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
   const vettedPosts = posts.filter(post => post.frontmatter.show === 1);
   const reducedPosts = vettedPosts
-  console.log(posts)
-  console.log(vettedPosts)
 
   if (posts.length === 0) {
     return (
@@ -86,27 +84,6 @@ export const pageQuery = graphql`
           description
           category
           show
-        }
-      }
-    }
-    twitterAvatar: file(absolutePath: { regex: "/twitter.png/" }) {
-      childImageSharp {
-        fixed(width: 32, height: 32, quality: 95) {
-           ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    linkedInAvatar: file(absolutePath: { regex: "/linkedin.png/" }) {
-      childImageSharp {
-          fixed(width: 32, height: 32, quality: 95) {
-            ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    instagramAvatar: file(absolutePath: { regex: "/ig.png/" }) {
-      childImageSharp {
-          fixed(width: 32, height: 32, quality: 95) {
-            ...GatsbyImageSharpFixed
         }
       }
     }

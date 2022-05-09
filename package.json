@@ -50,8 +50,10 @@
     "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-flow": "^7.16.7",
     "gatsby-plugin-goatcounter": "^0.4.0",
     "prettier": "2.2.1",
+    "stylex": "^0.3.0",
     "typescript": "^4.1.3"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",

@@ -19,7 +19,6 @@ const RoundedDiv = styled.div`
  }
 `
 const NavigationBarDiv = styled.div`
- padding-bottom: 20px;
  background-color: #ffffff;
 `
 
@@ -28,7 +27,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 `;
 
 const ClockerNavBar = () => {
-  const sidebarButtons = {"faq": "/clocker/faq", "privacy": "/privacy-policy-for-clocker", "feedback": "/clockersupport"}
+  const sidebarButtons = {"privacy": "/privacy-policy-for-clocker", "feedback": "/clockersupport"}
   return (
     <NavigationBarDiv>
     { Object.entries(sidebarButtons).map(([key, value]) => {

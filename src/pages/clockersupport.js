@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from 'styled-components'
+import { Link } from "gatsby"
 
 const TextContainer = styled.textarea`
  @media screen and (max-width: 400px) {
@@ -34,12 +35,21 @@ const FieldName = styled.p`
   margin-top: 15px;
 `
 
+const HighlightBlockQuote = styled.blockquote`
+  background: var(--color-blockquote);
+  padding: 8px 16px 8px;
+  margin-left: 0px;
+  border-radius: 8px;
+  font-size: var(--fontSize-1);
+`
+
 const ClockerSupport = ({ data, location }) => {
 	const siteTitle = 'clocker'
 	return (
 		<Layout location={location} title={siteTitle} navigation="/clocker">
         	<SEO title="Clocker Support" />
         	<h1> clocker support </h1>
+          <HighlightBlockQuote> Check-out our Frequently Asked Questions <Link to="/clocker/faq/">here</Link>.</HighlightBlockQuote>
           <hr/>
           <p> Clocker is developed and maintained with <span role="img" aria-label="love">❤️</span> by a single dev. 
             There is no big company or VC backed investors here.
