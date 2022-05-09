@@ -4,22 +4,14 @@ import { graphql } from "gatsby"
 import ClockerLayout from "../components/clocker-layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
+import ClockerStyledHeader from "../components/clocker-styled-header"
+import ClockerCards from "../components/clocker-cards"
 
 import styled from 'styled-components'
 
 const StyledHeader5 = styled.h5`
   margin-top: 2rem;
   margin-bottom: 2rem;
-`
-const StyledParagraph = styled.p`
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-`
-
-const StyledHeader3 = styled.h3`
-  font-size: 42px;
-  text-align: center;
 `
 
 const CenteredRoundedDiv = styled.div` 
@@ -48,19 +40,12 @@ const Clocker = ({ data, location }) => {
   const clockerSplashImage = data?.clockerSplashImage?.childImageSharp?.fluid
   const clockerIcon = data.clockerIconImage?.childImageSharp?.fixed
 
-  console.log(clockerIcon)
-
 	return (
 		<ClockerLayout navigation="/clocker" splashImage={clockerIcon}>
       <SEO title="Clocker" />
         <div className="subpage">
           <br/>
-          <StyledHeader3> Keep track of your friends & colleagues 
-          from your menubar
-          </StyledHeader3>
-          <StyledParagraph>
-          Distraction free way to check-up on time and your upcoming meetings.
-          </StyledParagraph>
+          <ClockerStyledHeader title="Keep track of your friends & colleagues from your menubar" subtitle="Distraction free way to check-up on time and your upcoming meetings." />
           <NoUnderlineAnchor href='https://apps.apple.com/us/app/clocker/id1056643111?mt=12'><CenteredRoundedDiv> Download > </CenteredRoundedDiv></NoUnderlineAnchor>
           <br/><br/>
 		      {clockerSplashImage && (
@@ -68,8 +53,11 @@ const Clocker = ({ data, location }) => {
             fluid={clockerSplashImage}
             alt={`Clocker`}
           />)}
+          <br/><br/><br/>
+          <ClockerStyledHeader title="Works flawlessly out-of-the box" subtitle="Plus tons of customization options." />
           <br/>
-          <br/>
+          <ClockerCards />
+          <br/><br/><br/>
           <p> 
             Picture the cleanest, distraction free world clock integrated right in your status bar allowing you to quickly check up on your colleagues/friends/family in different time zones. That’s what you get with Clocker. 
           </p>
