@@ -27,7 +27,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 `;
 
 const ClockerNavBar = () => {
-  const sidebarButtons = {"privacy": "/privacy-policy-for-clocker", "feedback": "/clockersupport"}
+  const sidebarButtons = {"privacy": "/privacy-policy-for-clocker"}
   return (
     <NavigationBarDiv>
     { Object.entries(sidebarButtons).map(([key, value]) => {
