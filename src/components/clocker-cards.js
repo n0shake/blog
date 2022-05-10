@@ -37,21 +37,21 @@ const ClockerCards = () => {
     <RowDiv>
       <ColumnDiv>
         <CardDiv>
-          <h3> 🚅 </h3>
+          <h3> <span role="img" aria-label="speed">🚅 </span></h3>
           <p> No need to open an app or a website to see world times.</p>
         </CardDiv>
       </ColumnDiv>
 
       <ColumnDiv>
         <CardDiv>
-          <h3> 🧠 </h3>
+          <h3><span role="img" aria-label="brain"> 🧠 </span></h3>
           <p> Plan meetings across timezones in the future with the <b>Time Scroller.</b></p>
         </CardDiv>
       </ColumnDiv>
       
       <ColumnDiv>
         <CardDiv>
-          <h3>📆</h3>
+          <h3><span role="img" aria-label="calendar">📆</span></h3>
           <p>View your upcoming events right in your menubar.</p>
         </CardDiv>
       </ColumnDiv>

@@ -14,10 +14,6 @@ const ParentDiv = styled.div`
   justify-content: space-between;
 `
 
-const RightAlignedDiv = styled.div`
-  justify-content: flex-end;
-`
-
 const ClockerLayout = ({ splashImage, children, navigation }) => {
   const header = (
       <Link className="header-link-home" to={navigation}>

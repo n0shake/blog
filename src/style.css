@@ -10,6 +10,7 @@
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
   --maxWidth-4xl: 56rem;
+  --maxWidth-5xl: 64rem;
   --maxWidth-full: "100%";
   --maxWidth-wrapper: var(--maxWidth-2xl);
   --spacing-px: "1px";
@@ -263,7 +264,7 @@ table thead tr th {
 
 .clocker-wrapper {
   margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-4xl);
+  max-width: var(--maxWidth-5xl);
   padding: var(--spacing-10) var(--spacing-5);
 }
 
