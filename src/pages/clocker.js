@@ -11,11 +11,6 @@ import ClockerRightFeatureCard from "../components/clocker-right-feature-card"
 
 import styled from 'styled-components'
 
-const StyledHeader5 = styled.h5`
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-`
-
 const CenteredRoundedDiv = styled.div` 
  background-color: #f5f7f9;
  border: none;
