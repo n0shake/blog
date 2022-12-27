@@ -48,4 +48,4 @@ It's a masterpiece in stupidity. 11/10.
 
 ## Closing Thoughts
 
-As I wrap up this note, 2022 looks eerily similar to 2020 / 2021 in that my consumption far exceeded my creations. **Going into 2023, I want my ratio of creation overconsumption to reach a healthy state.** Circumstances, motivation, and priorities change drastically through the year so concrete goal-ing like reading **x** books or completing **y** substantial side-projects over the course of the year are not the right metrics; rather I want to come out of 2023.
+As I wrap up this note, 2022 looks eerily similar to 2020 / 2021 in that my consumption far exceeded my creations. My side-projects were neglected more than usual and there were no new projects that were kicked off. **Going into 2023, I want my ratio of creation overconsumption to reach a healthy state.** Circumstances, motivation, and priorities change drastically through the year so concrete goal-ing like reading **x** books or completing **y** substantial side-projects over the course of the year are not the right metrics; rather I want to come out of 2023.
