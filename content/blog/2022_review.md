@@ -3,7 +3,7 @@ title: 2022 - The Year That Was
 date: "2022-12-26T22:40:32.169Z"
 description: Year in review.
 category: blog
-show: 1
+show: 0
 ---
 
 Best of the year lists are pointless. They are highly subjective and unless your taste mirrors the author / publication, you are not going to take a lot away from reading them. Not to mention, these are long and rambling for the most part ([exhibit A](https://www.washingtonpost.com/magazine/2022/12/25/dave-barrys-2022-year-review/)). My theory is that folks read these pieces for the same reasons they read listicles. There is curiosity in knowing which movies that you've already seen end up in the best movies list for the year. 
