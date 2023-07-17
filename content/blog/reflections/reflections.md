@@ -3,7 +3,7 @@ title: May - July Reflections
 date: "2023-07-17T22:40:32.169Z"
 description: Blog
 category: blog
-show: 0
+show: 1
 ---
 
 I'm writing this a day before my parents and my sister catch their flight back to Mumbai. The past 60 days have gone through like a season of Succession: your perception of time shifts in that **I'll probably end up describing the months of May <-> July 2023 as the period when my family visited**. Reminiscing the past two months through photos, transactions and just plain memories was an eye-opener on how mid our hosting skills were. We did do the quintessential trips, experiences but my parents (especially my mom) expressed concealed anticipation for the day of the return trip. Alas, here are things to remember for the next time my parents come over.
