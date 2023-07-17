@@ -22,7 +22,7 @@ I'm writing this a day before my parents and my sister catch their flight back t
 ## Reflections
 
 - Booking business class tickets for parents was a no-brainer. Future follow-up would be if this is required for all flights or for only long duration journeys.
-- Travelling back home is way easier since we have way many public modes of transportation. This wasn't the case in the US for my parents since they do not drive. Having extra CSPs for Dad and sis helped tremendously. 
+- Traveling back home is way easier since we have way many public modes of transportation. This wasn't the case in the US for my parents since they do not drive. Having extra CSPs for Dad and sis helped tremendously. 
 - After initial stumbles, we landed on using Google Fi for my Dad and sis to communicate locally while we were out and about. ~$100 but reliable.
 - Mom suffered a small bout of vertigo prior to our Norfolk trip and we struggled to find relevant medicine(s). Carrying medicine for this ailment in-tow while departing from India might be more prudent next time.
 - I did spend $10 to subscribe to IPTV, although the ROI wasn't much. The big use-case for this service was to see latest Indian news, but there were two learnings: Indian news at ~8:30 PM EST isn't as captivating and although not exactly live, YouTube fills in the void just fine.
@@ -35,5 +35,5 @@ I'm writing this a day before my parents and my sister catch their flight back t
 - Mom isn't as adventurous in trying out other cuisines as my Dad / sis are. She won't say no but she's also not going to willingly ask.
 - We didn't get a chance to go to the Goat Yoga experience or the Honeybee farms - which is a personal regret.
 - Visiting the White House was a highlight and a must-do especially if someone is coming from far away.
-- Dad wanted to set us up and become more familiar with the folks staying in our community. While this is noble, this goes against my nature of self-independence as this paints the perception that Abhishek needs help in the friends department. This is a problem I recognize, and while we didn't publicly discuss this, my hope is that in the future, I'll learn to accept help from others.
-- Unlike the last time, I won't be able to hand over the photo book to my departing family. Next time, order photo books a week in advance ([Once Upon for printing](https://app.onceupon.photo/)).
+- Dad wanted to set us up and become more familiar with the folks staying in our community. While this is noble, this goes against my nature of self-independence as this paints the perception that Abhishek needs help in the friends department. This is a me problem that I recognize, and while we didn't publicly discuss this, my hope is that in the future, I'll learn to accept help from others.
+- Unlike last time, I won't be able to hand over the photo book to my departing family. Next time, order photo books a week in advance ([Once Upon for printing](https://app.onceupon.photo/)).
