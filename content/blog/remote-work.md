@@ -2,7 +2,7 @@
 title: optimizing remote work
 date: "2021-12-28T22:40:32.169Z"
 description: Blog
-category: tv
+category: blog
 show: 1
 ---
 
