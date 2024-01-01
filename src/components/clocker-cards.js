@@ -45,7 +45,7 @@ const ClockerCards = () => {
       <ColumnDiv>
         <CardDiv>
           <h3><span role="img" aria-label="brain"> 🧠 </span></h3>
-          <p> Plan meetings across timezones in the future with the <b>Time Scroller.</b></p>
+          <p> Plan meetings in the future with the <b>Time Scroller.</b></p>
         </CardDiv>
       </ColumnDiv>
       

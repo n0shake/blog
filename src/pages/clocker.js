@@ -39,7 +39,7 @@ const Clocker = ({ data, location }) => {
   const clockerFeature1 = data.clockerFeature1?.childImageSharp?.fluid
   const clockerFeature2 = data.clockerFeature2?.childImageSharp?.fluid
   const clockerFeature3 = data.clockerFeature3?.childImageSharp?.fluid
-  const clockerAwardImage = data.clockerAwardImage?.childImageSharp?.fluid
+  const clockerAwardImage = data.clockerAwardImage?.childImageSharp?.fixed
   const clockerFeature1Subtitle = `Clocker is perfect for showing just the UTC timezone in your menubar or tracking your team of 10 spread across the world.
                                    Advanced customization options allows you to customize the time-format, personalize the label, add a note and much more.`
   const clockerFeature2Subtitle = `Integrated with Apple's calendar, Clocker can quickly show your upcoming meeting details. See your schedule for today and tomorrow through the panel.
@@ -98,8 +98,8 @@ export const pageQuery = graphql`
     }
     clockerAwardImage: file(absolutePath: { regex: "/macapp_award.png/" }) {
       childImageSharp {
-        fluid(quality: 95) {
-         ...GatsbyImageSharpFluid
+        fixed(width: 220, height: 100, quality: 95) {
+         ...GatsbyImageSharpFixed
         }
       }
     }
