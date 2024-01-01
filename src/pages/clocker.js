@@ -39,6 +39,7 @@ const Clocker = ({ data, location }) => {
   const clockerFeature1 = data.clockerFeature1?.childImageSharp?.fluid
   const clockerFeature2 = data.clockerFeature2?.childImageSharp?.fluid
   const clockerFeature3 = data.clockerFeature3?.childImageSharp?.fluid
+  const clockerAwardImage = data.clockerAwardImage?.childImageSharp?.fluid
   const clockerFeature1Subtitle = `Clocker is perfect for showing just the UTC timezone in your menubar or tracking your team of 10 spread across the world.
                                    Advanced customization options allows you to customize the time-format, personalize the label, add a note and much more.`
   const clockerFeature2Subtitle = `Integrated with Apple's calendar, Clocker can quickly show your upcoming meeting details. See your schedule for today and tomorrow through the panel.
@@ -51,6 +52,11 @@ const Clocker = ({ data, location }) => {
         <div className="subpage">
           <br/>
           <ClockerStyledHeader title="Time zones made simpler!" subtitle="Distraction free way to check-up on world times and your upcoming meetings." />
+          {clockerAwardImage && (
+            <Img
+            fluid={clockerAwardImage}
+            alt={`Editor's Choice Award from Mac App Store`}
+          />)}
           <NoUnderlineAnchor href='https://apps.apple.com/us/app/clocker/id1056643111?mt=12'><CenteredRoundedDiv> Download > </CenteredRoundedDiv></NoUnderlineAnchor>
           <br/><br/>
 		      {clockerSplashImage && (
@@ -84,6 +90,13 @@ export const pageQuery = graphql`
       }
     }
     clockerIconImage: file(absolutePath: { regex: "/icon.png/" }) {
+      childImageSharp {
+        fixed(width: 40, height: 40, quality: 95) {
+         ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    clockerAwardImage: file(absolutePath: { regex: "/macapp_award.png/" }) {
       childImageSharp {
         fixed(width: 40, height: 40, quality: 95) {
          ...GatsbyImageSharpFixed
