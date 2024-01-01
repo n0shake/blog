@@ -24,11 +24,11 @@ const Bio = () => {
     <div className="bio">
       {author?.name && (
         <p>
-          I'm Abhishek. I'm an iOS engineer working out of the Bay Area.
+          Hey! I'm an engineer working out of the Bay Area.
           If you would like to talk, please feel free to <a href={`mailto:abhishekbanthia@me.com`}>email me</a>.
           {` `}
           You can follow me on <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter</a> or read my code on <a href={`https://github.com/n0shake`}>Github</a>.
+            X / Twitter</a> or read my code on <a href={`https://github.com/n0shake`}>Github</a>.
         </p>
       )}
     </div>
