@@ -98,7 +98,7 @@ export const pageQuery = graphql`
     }
     clockerAwardImage: file(absolutePath: { regex: "/macapp_award.png/" }) {
       childImageSharp {
-        fixed(width: 220, height: 100, quality: 95) {
+        fixed(width: 100, height: 100, quality: 95) {
          ...GatsbyImageSharpFixed
         }
       }
