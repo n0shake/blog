@@ -50,7 +50,7 @@ const Clocker = ({ data, location }) => {
       <SEO title="Clocker" />
         <div className="subpage">
           <br/>
-          <ClockerStyledHeader title="Keep track of your friends & colleagues from your menubar" subtitle="Distraction free way to check-up on world times and your upcoming meetings." />
+          <ClockerStyledHeader title="Time zones made simpler!" subtitle="Distraction free way to check-up on world times and your upcoming meetings." />
           <NoUnderlineAnchor href='https://apps.apple.com/us/app/clocker/id1056643111?mt=12'><CenteredRoundedDiv> Download > </CenteredRoundedDiv></NoUnderlineAnchor>
           <br/><br/>
 		      {clockerSplashImage && (
