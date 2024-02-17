@@ -22,7 +22,7 @@ As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic id
 
 - On top of this core investment, most regional centers will charge an admin fee ($60-$80K). You can negotiate these admin fees, but usually that's a sign that the regional center is desperate. There’s also lawyer and government fees which can add up to $30-$40K. In sum, you’re looking at $800K core investment and at least $100K in terms of various fees and expenses, with everything rounding up to **~$900K to $1M**.
 
-- **Lump-Sum vs. Installments**: Some regional centers are taking cognizant of the fact that it’s taking time for the EB-5 (I-526) to get approved, and so they provide an option to pay the investment amount in chunks, normally over a 1-2 year schedule. The consultant was unsure whether government approved rural projects will accept installments. 
+- **Lump-Sum vs. Installments**: Some regional centers are taking cognizant of the fact that it’s taking time for the I-526 (EB-5 application form) to get approved, and so they provide an option to pay the investment amount in chunks, normally over a 1-2 year schedule. The consultant was unsure whether government approved rural projects will accept installments. 
 
 ## Sourcing
 
