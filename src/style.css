@@ -110,7 +110,6 @@ h2 {
   font-size: var(--fontSize-5);
   text-transform: lowercase;
   margin-bottom: 20px;
-  border-bottom: 1px solid #cad2d4;
 }
 
 h3 {
