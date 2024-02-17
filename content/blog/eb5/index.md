@@ -76,5 +76,7 @@ Summarizing all the risk from the conversation; in no particular order:
 
 - Based on other accounts, you tend to lose $300K in opportunity costs with an EB-5 application.
 
+## Endnotes
+
 With an EB-5, you're gambling not just on a long wait or the visa merry-go-round but also kissing goodbye to a cool $200K in opportunity costs. And for what? A green card that's playing hard to get. Between you and me, we don't want it that badly.
 
