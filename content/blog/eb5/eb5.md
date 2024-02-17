@@ -8,9 +8,9 @@ show: 1
 
 The quest for American citizenship is sort of a spiritual pilgrimage to the promised land, especially viewed through the eyes of an educated Indian who immigrated in the last decade. Holding that coveted passport opens many proverbial doors, doors with the promise of unlimited refills. For someone born in Asia, the journey often involves a unique set of challenges, deeply rooted in bureaucracy and prolonged uncertainty. 
 
-As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic idea at its core -- $$$ in exchange for a green-card. Over the 8 years we've lived in the States, we've heard anecdotal stories about this golden visa and we decided it was time to meet a few EB-5 consultants to clear the air and bust myths. Here are my take-aways from our discussions.**
+As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic idea at its core -- $$$ in exchange for a green-card. Over the 8 years we've lived in the States, we've heard anecdotal stories about this golden visa and we decided it was time to meet a few EB-5 consultants to clear the air and bust myths. Here are my take-aways from our discussions.
 
-![Prompt: Millennial brown couple working in US as software engineers chasing the US dream in Memphis style.](./eb5.webp).
+![Prompt: Millennial brown couple working in US as software engineers chasing the US dream in Memphis style.](./eb5.webp)
 
 ## Investment
 
