@@ -22,7 +22,7 @@ As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic id
 
 - On top of this core investment, most regional centers will charge an admin fee ($60-$80K). You can negotiate these admin fees, but usually that's a sign that the regional center is desperate. There’s also lawyer and government fees which can add up to $30-$40K. In sum, you’re looking at $800K core investment and at least $100K in terms of various fees and expenses, with everything rounding up to **~$900K to $1M**.
 
-- **Lump-Sum vs. Installments**: Some regional centers are taking cognizant of the fact that it’s taking time for the I-526 to get approved, and so they provide an option to pay the investment amount in chunks, normally over a 1-2 year schedule. The consultant was unsure whether government approved rural projects will accept installments. 
+- **Lump-Sum vs. Installments**: Some regional centers are taking cognizant of the fact that it’s taking time for the EB-5 (I-526) to get approved, and so they provide an option to pay the investment amount in chunks, normally over a 1-2 year schedule. The consultant was unsure whether government approved rural projects will accept installments. 
 
 ## Sourcing
 
@@ -36,10 +36,7 @@ As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic id
 
 - EB-5 investment has similarities with P.E. / VC firms; these firms back a project by taking a look at the idea, execution history, and use their knowledge of the industry. They know it’s a big, risky proposition, and eventually it comes down to: do the people behind the project have a good track record? You should meet the folks behind the regional centers multiple times, examine their business plans with a Wealth Manager, do your due diligence and learn more about their business and come up with an assessment. Always **pay** one of these wealth managers. 
 
-- Few popular project bets:
-    - Elder Care Facilities in rural Florida
-    - Resorts 
-    - Condominiums in metro cities
+- Few popular project bets include elder Care Facilities in rural Florida, resorts and condominiums in metro cities.
 
 - The elder care facility for e.g., is based on a federal program which incentivizes completing the construction. Since the elder care facility will be built in a rural area, the investment will be lesser (as compared to a commercial project) and you’ll enjoy quicker I-526 processing time. On the flip side, there are commercial projects in California that’ll give you a 1% return on the top of the money you invest. You need to deeply understand why they’re giving a return vs. other developers who are not. There are thousands of registered regional centers - many with a few projects under their belt, some with none.
 
@@ -47,9 +44,9 @@ As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic id
 
 - With rural projects that have already received government approval, you’ll get conditional green-card (EAD) within 6–8 months. After 2 years, the project will provide with job-creation stats, after you apply for I-829 (application for permanent green card). There’s 1-2 year delay in I-829 application processing; so you might need to wait 4–5 years in total.
 
-- There are competing narratives here: Before the RIA act passed, EB-5 priority dates retrogressed for Indian citizens. With RIA, if you have a legitimate status in US, you can concurrently file a I-485 with the EB-5 (I-526) application. Irrespective of whether we are waiting either due to processing delays or due to visa delays for the I-526, USCIS provides you with an EAD card which is unrestricted till your final disposition of the EB-5 application. 
+- There are competing narratives when it comes to EB5 retrogression. Prior to the passing of the RIA act, EB-5 priority dates did actually retrogress for Indian citizens. With RIA, if you have legitimate visa status in US, you can concurrently file a I-485 with the EB-5 (I-526) application. Irrespective of whether we are waiting either due to processing delays or due to visa delays for the I-526, USCIS provides you with an EAD card which is unrestricted till your final disposition of the EB-5 application. 
 
-- There are some concerns about a provision on the government website which states that EAD cards can only be processed if your date is current (but our consultant hasn't heard this to be true.). With an EAD card, **you’re protected from layoffs since your job is not tied with your visa. However, there’s the risk that once your EB-5 application gets rejected, and since your H1B is gone out of the window since you filed an I-485 petition, you are left without any status**. 
+- There are some concerns about a provision on the government website which states that EAD cards can only be processed if your date is current (but our consultant hasn't heard this to be true). With an EAD card, **you’re protected from layoffs since your job is not tied with your visa. However, there’s the risk that once your EB-5 application gets rejected, and since your H1B has gone out of the window since you filed an I-485 petition, you are left without any status**. 
 
 - The difference between conditional and permanent green card is the expiry date; conditional expires within 2 years, but you can auto-renew if your I-829 is filed.
 
