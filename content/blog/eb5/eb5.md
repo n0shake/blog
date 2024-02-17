@@ -10,7 +10,7 @@ The quest for American citizenship is sort of a spiritual pilgrimage to the prom
 
 As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic idea at its core -- $$$ in exchange for a green-card. Over the 8 years we've lived in the States, we've heard anecdotal stories about EB-5. **We met a few EB-5 consultants to clear the air and bust myths we had. Here are my take-aways from our discussions.**
 
-![Prompt: Millennial brown couple working in US as software engineers chasing the US dream in Memphis style.](./EB-5.webp).
+![Prompt: Millennial brown couple working in US as software engineers chasing the US dream in Memphis style.](./eb5.webp).
 
 ## Investment
 
