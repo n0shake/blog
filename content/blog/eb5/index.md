@@ -16,7 +16,7 @@ As such, EB-5 emerges as a tantalizing alternative with a simple capitalistic id
 
 - To apply for an EB-5 visa, you need to invest with a regional center. A regional center is defined by [USCIS](https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-fifth-preference-eb-5/eb-5-immigrant-investor-regional-centers/approved-eb-5-immigrant-investor-regional-centers) as:
 
-> An EB-5 regional center is an economic unit, public or private, in the United States, involved with promoting economic growth. 
+> Economic unit, public or private, in the United States, involved with promoting economic growth. 
 
 - An investment of $500K was acceptable around 2018, nowadays, you need close to a total of $900K to $1M (includes lawyer, administrative fees). There's a new Reform and Immigration Act (RIA) passed a few years back which re-authorizes regional EB-5 centers. Under this new regulation, you need to invest at least $800K (excluding fees) if you have a rural or infrastructure based investment. If you'd like to invest in commercial projects, then the number goes up to $1M (excluding fees). There’s another EB-5 route of setting up your own business and creating jobs - which is the rather rarer. We’ll focus on the passive investing program for the purposes of this post.
 
