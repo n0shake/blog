@@ -43,6 +43,7 @@ const Faq = ({ data, location }) => {
 		  				<li><StyledLink to="/clocker/menubar-faq"> Why does Clocker not show up in my menubar while certain apps are in the foreground?</StyledLink> </li>
 		  				<li><StyledLink to="/clocker/startup-faq"> How do I start Clocker whenever my Mac boots or is restarted? </StyledLink> </li>
 		  				<li><StyledLink to="/clocker/customize-format-faq"> How do I customize the time format for my selected locations? </StyledLink> </li>
+		  				<li><StyledLink to="/clocker/reset-faq"> How do I reset Clocker? </StyledLink> </li>
 					</ul>
 					</section>
 					<hr />
