@@ -17,7 +17,7 @@ const ResetFAQ = ({ data, location }) => {
 				<p>
 				<ul>
 				 <li> Make sure Clocker is closed (force quit through Activity Monitor if necessary) </li>
-				 <li> Open up the Terminal app and type in the command: <b>defaults delete com.abhishek.Clocker<b> </li>
+				 <li> Open up the Terminal app and type in the command: <i>defaults delete com.abhishek.Clocker</i> </li>
 				 <li> Hit the return key </li>
 				 <li> Restart Clocker </li>
 				</ul>
