@@ -12,12 +12,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-goatcounter`,
-      options: {
-        code: 'abhishek',
-      }
-    },
-    {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: process.env.GATSBY_TAG_ID,
@@ -36,11 +30,14 @@ module.exports = {
     },
     `gatsby-plugin-preload-fonts`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GATSBY_GA_IDENTIFIER,
-        head: true,
-        anonymize: true,
+        trackingIds: [
+          `GA-${process.env.GATSBY_GA_IDENTIFIER}`
+        ],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
     {
@@ -62,10 +59,6 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-plugin-twitter`,
-          {
-            resolve: `gatsby-remark-figure-caption`,
-            options: {figureClassName: 'md-figure'},
-          },
           {
             resolve: `gatsby-remark-images`,
             options: {
