@@ -291,6 +291,7 @@ table thead tr th {
 @keyframes fadeIn {
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -370,6 +371,7 @@ table thead tr th {
 @keyframes fadeInUp {
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -381,6 +383,7 @@ table thead tr th {
   display: flex;
   align-items: center;
   opacity: 0;
+  transform: translateY(20px);
   animation: fadeInUp 1s ease forwards; /* Animation settings */
 }
 
