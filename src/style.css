@@ -363,6 +363,7 @@ table thead tr th {
   background-color: var(--color-hover);
   padding: 2px;
   color: var(--color-text);
+  border-radius: 4%;
 }
 
 .bio {

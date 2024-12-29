@@ -33,10 +33,11 @@ const Bio = () => {
       <div className="bio-parent">
         <div className="bio-pic">
           {bioPic && (
+            <a href={`https://linkedin.com/in/abhishekbanthia`}>
             <Img
               fixed={bioPic}
               alt={`Editor's Choice Award from Mac App Store`}
-          />)}
+          /></a>)}
         </div>
         <div className="bio">
           {author?.name && (
