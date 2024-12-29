@@ -28,8 +28,8 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Roboto Mono";
-  --fontFamily-serif: "Roboto Mono", "Helvetica", "Times New Roman",
+  --fontFamily-sans: "Barlow";
+  --fontFamily-serif: "Barlow", "Helvetica", "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
@@ -47,7 +47,7 @@
   /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
-  --fontSize-2: 1.2rem;
+  --fontSize-2: 1.1rem;
   --fontSize-3: 1.44rem;
   --fontSize-4: 1.728rem;
   --fontSize-5: 2.074rem;
@@ -59,9 +59,9 @@
   --color-heading: #4b4b4b;
   --color-heading-black: black;
   --color-accent: #d1dce5;
-  --color-hover: #F1F4FFFF;
+  --color-hover: #ede4e0;
   --color-blockquote: #fefaf1;
-  --color-background: #ffffff;
+  --color-background: #fcfcfc;
   /*DAD2BF*/
 }
 
@@ -349,10 +349,32 @@ table thead tr th {
   color: black;
 }
 
-.bio a {
+.bio  {
+  float: right;
+}
+
+.bio-parent {
+  display: flex;
+  align-items: center;
+}
+
+.actual-bio a, .subpage a {
   text-decoration: none;
   background-color: var(--color-hover);
   padding: 2px;
+  color: var(--color-text);
+}
+
+.bio {
+  padding: 20px;
+}
+
+.bio-subtitle {
+  font-size: var(--fontSize-0);
+}
+
+.bio-pic img {
+  border-radius: 50%;
 }
 
 .styled-link {
@@ -418,6 +440,7 @@ table thead tr th {
   text-decoration: none;
   background-color: var(--color-hover);
   padding: 2px;
+  color: var(--color-text);
 }
 
 .article-body li {

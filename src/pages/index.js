@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -8,23 +8,7 @@ import NavBar from "../components/navbar"
 
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const newSiteTitle = "hi there! 👋"
-  const posts = data.allMarkdownRemark.nodes
-  const vettedPosts = posts.filter(post => post.frontmatter.show === 1);
-  const reducedPosts = vettedPosts
-
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
-        <SEO title="Abhishek" />
-        <Bio />
-        <p>
-          No blog posts found.
-        </p>
-      </Layout>
-    )
-  }
+  const newSiteTitle = "👋"
 
   return (
     <Layout location={location} title={newSiteTitle}>
@@ -32,32 +16,6 @@ const BlogIndex = ({ data, location }) => {
       <Bio />
       <div className="grid-child-navbar">
         <NavBar />
-      </div>
-      <div className="grid-child-main">
-      <ol style={{ listStyle: `none` }}>
-        {reducedPosts.map(post => {
-          const title = post.frontmatter.title || post.fields.slug
-          const showTag = post.frontmatter.category === "book-review" 
-                          ? <span role="img" aria-label="book" className="post-list-category">📚review</span>
-                          : ""
-          return (
-            <li key={post.fields.slug}>
-              <article
-                className="post-list-item"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-               <Link className="card-class" to={post.fields.slug} itemProp="url">
-                <div className="post-list-div">
-                 <span className="post-list-date">{post.frontmatter.date} </span>
-                 <span className="post-list-headline">{title} {showTag} </span> 
-                </div>
-               </Link>
-              </article>
-            </li>
-          )
-        })}
-      </ol>
       </div>
     </Layout>
   )
@@ -70,21 +28,6 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt(truncate: false)
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString:"YYYY")
-          title
-          description
-          category
-          show
-        }
       }
     }
   }

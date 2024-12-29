@@ -20,10 +20,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts-v2`,
       options: {
         fonts: [
-          `Roboto Mono`,
+          {
+            family: `Barlow`,
+            weights: [
+              "100..400",
+            ]
+          }
         ],
         display: 'swap',
       },
