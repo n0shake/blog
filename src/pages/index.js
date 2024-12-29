@@ -13,9 +13,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={newSiteTitle}>
       <SEO title="Abhishek" />
-      <Bio />
-      <div className="grid-child-navbar">
-        <NavBar />
+        <Bio />
+        <div className="grid-child-navbar">
+          <NavBar />
+          <hr className="horizontal-line"/>
       </div>
     </Layout>
   )

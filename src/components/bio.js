@@ -36,7 +36,7 @@ const Bio = () => {
             <a href={`https://linkedin.com/in/abhishekbanthia`}>
             <Img
               fixed={bioPic}
-              alt={`Editor's Choice Award from Mac App Store`}
+              alt={`Link to the LinkedIn profile of the author`}
           /></a>)}
         </div>
         <div className="bio">
@@ -52,7 +52,9 @@ const Bio = () => {
        <br/>
         <p>
           I'm presently working as an engineer at <a href={`https://www.meta.com`}>Meta</a>. 
-          I also focus on improving <a href={`https://apps.apple.com/us/app/clocker/id1056643111?mt=12/`}>cross-timezone collaboration</a>. I grew up in Mumbai and previously studied at UF.
+          I also focus on improving <a href={`https://apps.apple.com/us/app/clocker/id1056643111?mt=12/`}>cross-timezone collaboration</a>. 
+          I grew up in Mumbai and previously studied at UF.
+          My email is <a href={`mailto:abhishekbanthia@me.com`}>abhishekbanthia@me.com</a>.
         </p>
       </div>
     </div>
