@@ -288,13 +288,6 @@ table thead tr th {
   width: 75%;
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .main-heading {
   font-size: var(--fontSize-5);
   margin: 0;
@@ -368,13 +361,6 @@ table thead tr th {
   color: black;
 }
 
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .bio  {
   float: right;
 }
@@ -382,9 +368,6 @@ table thead tr th {
 .bio-parent {
   display: flex;
   align-items: center;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease forwards; /* Animation settings */
 }
 
 .actual-bio a, .subpage a {
