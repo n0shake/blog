@@ -12,7 +12,7 @@ const DateContainer = styled.p`
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+  const siteTitle = `👋`
   let totalTimeToRead
 
   if (post.timeToRead === 1) {
@@ -22,7 +22,7 @@ const BlogPostTemplate = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle} navigation="/writing">
+    <Layout location={location} title={siteTitle} navigation="/">
       <SEO
         title={post.frontmatter.title}
         description={post.excerpt}

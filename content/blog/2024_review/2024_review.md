@@ -8,7 +8,7 @@ show: 1
 
 Year in end reviews are tacky but essential for intellectual reflection. Did we achieve what we set out to do? If yes, was it due to not setting the bar high? If no, was it due to unforeseen   issues or a failure of will? These questions don’t necessarily yield satisfactory answers, but then again, neither does the pursuit of excellence. 
 
-I did a "review" of my 2022 but that focused a lot on moments / things / apps that stood-out. There isn't enough _reflection_. As such, I'll follow a different format for this one.
+I did a "review" of my 2022 but that focused a lot on moments / things / apps that stood-out. There wasn't any _reflection_. As such, I'll follow a different format for this one.
 
 ## Highlights
 
@@ -34,7 +34,7 @@ Once you get past the basics with personal finance, the books and the general ad
 
 - [Profit from under-withholding RSUs](https://tctailwind.com/2024/05/21/how-to-profit-from-the-under-withholding-of-rsus-and-bonuses/)
 - [Maximizing Interest on Short Term Cash](https://tctailwind.com/2024/02/06/how-i-maximize-interest-on-my-short-term-cash-without-chasing-rates-across-banks/)
-- Extreme Retirement Early (Cutting down on “Stuff”)
+- Extreme Retirement Early (specially: [Cutting down on “Stuff”](https://earlyretirementextreme.com/day-2-decluttering-and-managing-stuf.html))
 - [The Missing Billionaires](https://www.economist.com/finance-and-economics/2023/09/21/how-to-avoid-a-common-investment-mistake)
 
 ![Allocation breakdown across various assets in 2024](./asset-allocation.png)
@@ -62,7 +62,7 @@ While I did manage to squeeze a decent amount of workouts, there were a few heal
 
 ### Reading
 
-I did get my hands on a number of books, but I didn't complete most of them. Although this is bad for my [Goodreads feed](https://www.goodreads.com/user/show/6566801-abhishek), book completion rate is a metric I don't care much about (thanks [Naval](https://www.youtube.com/shorts/ScD1uOUMXro)). While I did pivot a lot to read magazines, this is my low-lights as I didn't spend enough time reading as much as I'd like to.
+I did get my hands on a number of books, but I didn't complete most of them. Although this is bad for my [Goodreads](https://www.goodreads.com/user/show/6566801-abhishek), book completion rate is a metric I have stopped caring about thanks to [Naval](https://www.youtube.com/shorts/ScD1uOUMXro). While I did pivot a lot to read magazines, this is under low-lights as I didn't spend enough time reading as much as I'd like to.
 
 ## 2025
 

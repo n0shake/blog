@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Writing = ({ data, location }) => {
-	const siteTitle = data.site.siteMetadata?.title || `Title`
+	const siteTitle = `👋`
   const posts = data.allMarkdownRemark.nodes
   const vettedPosts = posts.filter(post => post.frontmatter.show === 1);
   const reducedPosts = vettedPosts
@@ -49,11 +49,6 @@ export default Writing
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       nodes {
         excerpt(truncate: false)

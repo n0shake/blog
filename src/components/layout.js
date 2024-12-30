@@ -24,11 +24,10 @@ const Layout = ({ location, title, clockerIcon, children, navigation}) => {
       </Link>
     )
   } else {
-    header = (
-      <Link className="header-link-home" to={navigation}>
-        {title.toLowerCase()}
-      </Link>
-    )
+      header = (
+      <h1 className="main-heading">
+        <Link to="/">{title}</Link>
+      </h1>)
   }
 
   return (
