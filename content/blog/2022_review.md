@@ -1,18 +1,15 @@
 ---
-title: 2022 - The Year That Was
+title: 2022 - the year that was
 date: "2022-12-26T22:40:32.169Z"
 description: Year in review.
 category: blog
-show: 0
+show: 1
 ---
 
 Best of the year lists are pointless. They are highly subjective and unless your taste mirrors the author / publication, you are not going to take a lot away from reading them. Not to mention, these are long and rambling for the most part ([exhibit A](https://www.washingtonpost.com/magazine/2022/12/25/dave-barrys-2022-year-review/)). My theory is that folks read these pieces for the same reasons they read listicles. There is curiosity in knowing which movies that you've already seen end up in the best movies list for the year. 
 
 Apropos, the following list is irrelevant. The reasons for writing this are mostly self-serving: reflecting and understanding how my choices have evolved this year. 2022 was my first year "officially" working remotely. This presented novel opportunities (flexible hours) and caused troublesome predicaments (burnout). My wife and I bought and shifted to a new house, which meant learning about wall studs, circuit breakers and kitchen backsplashes. One thing that has remained consistent has been our consumption habits. We consumed a ton of TV shows, movies, podcasts, music, and media in general. Here's what stood out for me personally:
 
-## Standout Experience
-
-There's recency bias at play here, but trying out a small dose of legalized psilocybin was a surreal, standout experience. Psilocybin elevated me to a state where I was seeing [Winamp visualizations in real-time](https://www.youtube.com/watch?v=RBkhUg1oVIE) while I was innocuously staring at my blanket. The invisible forces that underpin and are basic building blocks of the surrounding nature were observable to me. There were no strikingly brilliant insights that came from my quote-unquote trip, but it's safe to say it did alter my consciousness for a brief period of time. Although my body wasn't moving, my mind was drifting and dancing to the music I was listening to. Nostalgic memories where I was playing with my friend flashed, but all through the experience, I felt in control - I could ask my mind to switch to a different train of thought if one in particular induced pain or panic. My only regret being not spending enough time alone and joining my wife and her friend to watch a movie mid-way through. Oh, well. Still an 11/10.
 
 ## Standout Purchase
 
@@ -45,6 +42,10 @@ I don't need to look at my Letterboxd to know that I watched a lot of movies thi
 The movie has a respectable cast, a stellar director and an interesting premise (on surface at least). It starts out unremarkable before descending into total chaos. The movie has everything - references to Elon Musk, bonker plot twists, uploading your consciousness to the moon and more. 
 
 It's a masterpiece in stupidity. 11/10.
+
+## Standout Experience
+
+There's recency bias at play here, but trying out a small dose of legalized psilocybin was a surreal, standout experience. Psilocybin elevated me to a state where I was seeing [Winamp visualizations in real-time](https://www.youtube.com/watch?v=RBkhUg1oVIE) while I was innocuously staring at my blanket. The invisible forces that underpin and are basic building blocks of the surrounding nature were observable to me. There were no strikingly brilliant insights that came from my quote-unquote trip, but it's safe to say it did alter my consciousness for a brief period of time. Although my body wasn't moving, my mind was drifting and dancing to the music I was listening to. Nostalgic memories where I was playing with my friend flashed, but all through the experience, I felt in control - I could ask my mind to switch to a different train of thought if one in particular induced pain or panic. My only regret being not spending enough time alone and joining my wife and her friend to watch a movie mid-way through. Oh, well. Still an 11/10.
 
 ## Closing Thoughts
 
