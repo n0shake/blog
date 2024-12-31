@@ -8,14 +8,14 @@ show: 1
 
 Year in end reviews are tacky but essential for intellectual reflection. Did we achieve what we set out to do? If yes, was it due to not setting the bar high? If no, was it due to unforeseen   issues or a failure of will? These questions don’t necessarily yield satisfactory answers, but then again, neither does the pursuit of excellence. 
 
-I did a "review" of my 2022 but that focused a lot on moments / things / apps that stood-out. There wasn't any _reflection_. As such, I'll follow a different format for this one.
+I did a "review" of my 2022, but that focused a lot on moments / things / apps that stood-out. There wasn't any _reflection_. As such, I'll follow a different format for this one.
 
 ## Highlights
 
 
 ### Antarctica
 
-Ever since I realized you can actually visit the white contintent as a tourist, Antarctica has been on my bucket list. There are tons of reasons why visting might not make much sense: the unrelenting cold, the notorious 4-day trek through Drake Passage, the amount of PTOs needed and the usual question: "What's there to see?". I had one simple reason convince me: I knew this trip is going to be a **[core memory](https://knowyourmeme.com/memes/a-core-memory)**.
+Ever since I realized you can actually visit the white continent as a tourist, Antarctica has been on my bucket list. There are tons of reasons why visiting might not make much sense: the unrelenting cold, the notorious 4-day trek through Drake Passage, the amount of PTOs needed and the usual question: "What's there to see?". I had one simple reason: I knew this trip was going to be a **[core memory](https://knowyourmeme.com/memes/a-core-memory)**.
 
 The trip itself redefined expectations, largely because of the incredible people onboard—fellow tourists, crew, and even the cook. We stayed in touch and even met a cruise friend later this year. Antarctica was serene, cold, and unforgiving, even in summer. The journey was made even more special, as my father traveled 30 hours from Mumbai to join us. 
 
@@ -28,7 +28,7 @@ This was another bucket list experience I checked off this year, though not with
 
 ### Finance
 
-The US stock market doing well -- which meant we had a good financial year as well; While there have been a few changes, [our financial setup here](https://abhishekbanthia.com/fire/) hasn't changed much. There were unneccesary expenses (i.e. new subscriptions) which crept in, I was excited to hear and be able to use [Bilt](https://bilt.page/r/LAX4-CASE) to pay off our mortgage while accumulating points. 
+The US stock market doing well -- which meant we had a good financial year as well; While there have been a few changes, [our financial setup here](https://abhishekbanthia.com/fire/) hasn't changed much. There were unnecessary expenses (i.e., new subscriptions) which crept in, I was excited to hear and be able to use [Bilt](https://bilt.page/r/LAX4-CASE) to pay off our mortgage while accumulating points. 
 
 Once you get past the basics with personal finance, the books and the general advice on the internet becomes trite (“VTSAX and chill”). While trite isn’t bad, it does become nauseating reading the same questions (and answers) over and over again in different forums. There were definitely a few interesting ideas that I stumbled upon:
 
@@ -39,6 +39,14 @@ Once you get past the basics with personal finance, the books and the general ad
 
 ![Allocation breakdown across various assets in 2024](./asset-allocation.png)
 
+YNAB is still our budgeting tool of choice; they have raised prices but the app is half-usable now that it supports reports. Having spent some time looking at our asset allocation; there a few areas where we can optimize:
+
+- The amount of cash we've in hand is a bit too much.
+- We haven't audited our insurances -- car, home etc. 
+- We'll have a major life event if things go well in 2025, as such:
+	- Budgeting for baby expenses
+	- Add in a new potential 529 plan.
+	- New family car
 
 ### Family
 
@@ -50,13 +58,13 @@ I got a chance to fly back to India to spend a good chunk of a month with my fam
 
 ### Work
 
-Work was fullfilling.. but exacting. I've worked long hours for the most part of this job so I was already feeling a burnout symptoms, but I'm committed to the work I do and hence, I've managed. We had a few major launches which didn't neccesarily go as planned, making it impossible to seperate work and life -- it was honestly all work for a few weeks. It was exhausting. 
+Work was fulfilling.. but exacting. I've worked long hours for the most part of this job so I was already feeling burnout symptoms, but I'm committed to the work I do and hence, I've managed. We had a few major launches which didn't necessarily go as planned, making it impossible to separate work and life -- it was honestly all work for a few weeks. It was exhausting. 
 
-One of the biggest lessons this year was how working r1emotely from India isn't as good as it sounds. The belief that being a best of both worlds quickly fell apart as it was hard to sufficiently concentrate during 2 am meetings. The balance I'll try to pursue going forward will be to work during my first week (taking advantage of the jetlag) -- nothing more.
+One of the biggest lessons this year was how working remotely from India isn't as good as it sounds. The belief that being a best of both worlds quickly fell apart as it was hard to sufficiently concentrate during 2 am meetings. The balance I'll try to pursue going forward will be to work during my first week (taking advantage of the jet lag) -- nothing more.
 
 ### Health
 
-While I did manage to squeeze a decent amount of workouts, there were a few health surprises in 2024. It seems, staying “healthy” is going to take more and more work each passing year. The stress creeping in also doesn't help. The surprise this year was my lipid panels being borderline high across multiple blood tests. This did a positive effect in that I ended up trying a few new things: **Sauna** and **Continuous Glucose Monitor**. The first was mostly done as a way to detox and get me to sweat often. The other however was a real eye opener; the spikes I observed after eating rice or even just drinking tea were mind-boggling. There's a growing trend among Indian fitness influencers highlighting the lack of protein in our diet (which I vehemently agree with) -- and I'll make an effort to incorporate more protein into my meals. 
+While I did manage to squeeze a decent amount of workouts, there were a few health surprises in 2024. It seems, staying “healthy” is going to take more and more work each passing year. The stress creeping in also doesn't help. The surprise this year was my lipid panels being borderline high across multiple blood tests. This did a positive effect in that I ended up trying a few new things: **Sauna** and **Continuous Glucose Monitor**. The first was mostly done as a way to detox and get me to sweat often. The other however was the real eye-opener; the spikes I observed after eating rice or even just drinking tea were mind-boggling. There's a growing trend among Indian fitness influencers highlighting the lack of protein in our diet (which I vehemently agree with) -- and I'll make an effort to incorporate more protein into my meals. We did take a few steps in the right direction: swimming classes, a Peleton etc.
 
 ![Summary of my workouts in 2024](./health-recap.JPEG)
 
@@ -67,4 +75,12 @@ I did get my hands on a number of books, but I didn't complete most of them. Alt
 ## 2025
 
 
-I hope you have a good 2024.
+Going into 2025, we want to spend time doing what we like and outsource the mundane chores. We have found an amazing robot-vacuum which has already saved us countless hours; and in 2025, we'll be hiring a cook to come in weekly to help out with cooking. Our modest up-bringing does make us feel guilty about paying somebody else to do something we can easily do; but the work-stress leaves us only so much free time. Anywho, here's the list of goals:
+
+- Maintain and nurture the strong bond with my wife, especially as we'll have a big transition this year
+- Surprise my parents on their 50th wedding anniversary
+- Push on the health-front; become crazy-fit! Exercise a bit most-days, with special attention to weight training. 
+- Pursue weird projects and create more.
+- Run a 5K!
+
+2025 is going to be a grind; hope we survive.
