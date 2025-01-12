@@ -109,7 +109,6 @@ h2 {
   font-weight: var(--fontWeight-bold);
   color: var(--color-heading);
   font-size: var(--fontSize-5);
-  text-transform: lowercase;
   margin-bottom: 20px;
 }
 

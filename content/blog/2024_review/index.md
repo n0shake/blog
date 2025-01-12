@@ -78,6 +78,19 @@ While I did manage to squeeze a decent amount of workouts, there were a few heal
 
 I did get my hands on a number of books, but I didn't finish most of them. Although this is bad for my [Goodreads](https://www.goodreads.com/user/show/6566801-abhishek), book completion rate is a metric I have stopped caring about ([reason](https://www.youtube.com/shorts/ScD1uOUMXro)). While I did pivot a lot to read magazines, this is under low-lights as I didn't spend enough time reading as much as I'd like to.
 
+## Standouts
+
+Continuing the theme from 2022, here are the best ofs:
+
+- **Purchase**: Our dark wood flooring makes even the smallest speck of dust stand out, so we’ve always had to clean up immediately after meals. We decided to automate this problem away through the [Dreame](https://fburl.com/0u76tf51) robo-vaccums; they've proven to be reliable, seamlessly handling transition between our wood flooring and carpets, and okay at edge-cleaning. We actually ended up buying two of them.
+
+- **App**: I did spend an inordinate amount of time using Reddit (bye Apollo :() based on my Screen time stats; however, [ChatGPT](https://chatgpt.com/) has -- no exaggeration -- replaced Google for me. I spend it to find prices for different items, using o1 to talk through difficult decisions and use Voice Mode for hands-free communication. 
+
+- **Movies**: My Letterboxd says I watched [28 movies](https://letterboxd.com/abhish3k/) in 2024; but there wasn't any debate for the top shot. Denis Villeneuve knocked it out of the proverabial park with [Dune 2](https://letterboxd.com/film/dune-part-two/); I had the privilege of watching it twice -- once on the 70mm -- and I'm still awed by the aerial shot where Paul sifts through the crowd while visiting South of Arrakis. A masterpiece! 
+
+`video:https://www.youtube.com/watch?v=Wnh1mOTfhgw`
+
+
 ## 2025
 
 
