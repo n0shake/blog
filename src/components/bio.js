@@ -55,7 +55,7 @@ const Bio = () => {
           I'm presently working as an engineer at <a href={`https://www.meta.com`}>Meta</a>. 
           I also focus on improving <a href={`https://apps.apple.com/us/app/clocker/id1056643111?mt=12/`}>cross-timezone collaboration</a>. 
           I grew up in Mumbai and previously studied at UF.
-          Drop me an email <ObfuscatedEmail>here</ObfuscatedEmail>.
+          Drop me an email <ObfuscatedEmail subject="Hello from abhishekbanthia.com">here</ObfuscatedEmail>.
         </p>
       </div>
     </div>

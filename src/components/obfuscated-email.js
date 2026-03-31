@@ -6,12 +6,15 @@ function decode() {
   return encoded.map(c => String.fromCharCode(c)).join("")
 }
 
-const ObfuscatedEmail = ({ children, ...props }) => (
+const ObfuscatedEmail = ({ subject, children, ...props }) => (
   <a
     href="#"
     onClick={e => {
       e.preventDefault()
-      window.location.href = "mailto:" + decode()
+      const params = subject
+        ? "?subject=" + encodeURIComponent(subject)
+        : ""
+      window.location.href = "mailto:" + decode() + params
     }}
     {...props}
   >

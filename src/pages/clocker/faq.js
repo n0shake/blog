@@ -50,7 +50,7 @@ const Faq = ({ data, location }) => {
 					<hr />
 					<section className="contact">
 						<h3> Still looking for help? </h3>
-						<ObfuscatedEmail><RoundedDiv> Contact Us </RoundedDiv></ObfuscatedEmail>
+						<ObfuscatedEmail subject="Help Request via Clocker FAQ"><RoundedDiv> Contact Us </RoundedDiv></ObfuscatedEmail>
 					</section>
 			</div>
 		</Layout>
