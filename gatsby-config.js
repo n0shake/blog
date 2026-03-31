@@ -19,20 +19,6 @@ module.exports = {
         defaultDataLayer: { platform: "gatsby" },
       },
     },
-    {
-      resolve: `gatsby-plugin-google-fonts-v2`,
-      options: {
-        fonts: [
-          {
-            family: `Barlow`,
-            weights: [
-              "100..400",
-            ]
-          }
-        ],
-        display: 'swap',
-      },
-    },
     `gatsby-plugin-preload-fonts`,
     {
       resolve: `gatsby-plugin-google-gtag`,
