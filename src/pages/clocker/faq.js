@@ -3,6 +3,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+import ObfuscatedEmail from "../../components/obfuscated-email"
 import styled from 'styled-components'
 
 const RoundedDiv = styled.div` 
@@ -49,7 +50,7 @@ const Faq = ({ data, location }) => {
 					<hr />
 					<section className="contact">
 						<h3> Still looking for help? </h3>
-						<a href="mailto:abhishekbanthia@me.com"><RoundedDiv> Contact Us </RoundedDiv></a>
+						<ObfuscatedEmail><RoundedDiv> Contact Us </RoundedDiv></ObfuscatedEmail>
 					</section>
 			</div>
 		</Layout>

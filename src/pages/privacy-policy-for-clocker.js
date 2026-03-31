@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ObfuscatedEmail from "../components/obfuscated-email"
 import styled from 'styled-components'
 
 const HighlightBlockQuote = styled.blockquote`
@@ -29,7 +30,7 @@ const PrivacyPolicy = ({ data, location }) => {
 				Email addresses are only used to reply to your feedback and nothing else. 
 				Your preferences (selected timezones, theme, display preferences etc.) are also sent along with your feedback for better issue reproducibility. 
 				Email ids, associated feedback & preferences may be deleted periodically or after the feedback is addressed.
-				If you've sent feedback previously, you can email us <a href="mailto:abhishekbanthia@me.com">here</a> to erase the email / preferences from our databases. </p>
+				If you've sent feedback previously, you can email us <ObfuscatedEmail>here</ObfuscatedEmail> to erase the email / preferences from our databases. </p>
 				<h3>Information usage</h3>
 				<p> We use the information we collect to operate and improve our app, website, and customer support. </p>
 				<p> We do not share personal information with outside parties except to the extent necessary to accomplish Clocker’s functionality. </p>
@@ -43,7 +44,7 @@ const PrivacyPolicy = ({ data, location }) => {
 				<h3> Your Consent </h3>
  				<p> By using our app, you consent to our privacy policy. </p>
  				<h3> Contacting Us </h3>
- 				<p> If you have questions regarding this privacy policy, you may email us <a href="mailto:abhishekbanthia@me.com">here</a>. </p>
+ 				<p> If you have questions regarding this privacy policy, you may email us <ObfuscatedEmail>here</ObfuscatedEmail>. </p>
  				<h3> Changes to this policy </h3>
  				<p> If we decide to change our privacy policy, we will post those changes on this page.</p>
 			</div>

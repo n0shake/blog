@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ObfuscatedEmail from "../components/obfuscated-email"
 
 const NotFoundPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -11,7 +12,7 @@ const NotFoundPage = ({ data, location }) => {
     <Layout location={location} title={siteTitle} navigation="/">
       <SEO title="404: Not Found" />
       <h1>Page Not Found :(</h1>
-      <p>Whatever you're looking for isn't here. If this feels like a bug, don't hesitate to shoot an email <a href="mailto:abhishekbanthia@me.com">here</a>.</p>
+      <p>Whatever you're looking for isn't here. If this feels like a bug, don't hesitate to shoot an email <ObfuscatedEmail>here</ObfuscatedEmail>.</p>
     </Layout>
   )
 }
