@@ -6,13 +6,26 @@ import SEO from "../components/seo"
 import Footer from "../components/footer"
 import styled from 'styled-components'
 
-const BottomSpacingHeader = styled.h2` 
+const BottomSpacingHeader = styled.h2`
  padding-bottom: 20px;
 `
 
-const Posts = ({ data, location }) => {
+const PaginationNav = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+`
+
+const Posts = ({ data, location, pageContext }) => {
 	const siteTitle = data.site.siteMetadata?.title || `Title`
 	const posts = data.allMarkdownRemark.nodes
+	const { currentPage, numPages } = pageContext
+	const isFirst = currentPage === 1
+	const isLast = currentPage === numPages
+	const prevPage = currentPage - 1 === 1
+		? '/posts'
+		: `/posts/${currentPage - 1}`
+	const nextPage = `/posts/${currentPage + 1}`
 
 	return (
 		<Layout location={location} title={siteTitle} navigation="/">
@@ -22,7 +35,7 @@ const Posts = ({ data, location }) => {
 				<ol style={{ listStyle: `none` }}>
         			{posts.map(post => {
           		  const title = post.frontmatter.title || post.fields.slug
-          		  const showTag = post.frontmatter.category === "book-review" 
+          		  const showTag = post.frontmatter.category === "book-review"
                           ? <span role="img" aria-label="book" className="post-list-category">📚 review</span>
                           : ""
 		          return (
@@ -35,7 +48,7 @@ const Posts = ({ data, location }) => {
 		                <Link className="card-class" to={post.fields.slug} itemProp="url">
 		                <div className="post-list-div">
                  			<span className="post-list-date"> {post.frontmatter.date} </span>
-                 			<span className="post-list-headline">{title} {showTag}</span> 
+                 			<span className="post-list-headline">{title} {showTag}</span>
                 		</div>
 		               </Link>
 		             </article>
@@ -43,6 +56,18 @@ const Posts = ({ data, location }) => {
 		          )
 		        })}
 		      </ol>
+		      <PaginationNav>
+		        {!isFirst ? (
+		          <Link to={prevPage} rel="prev">
+		            &larr; newer
+		          </Link>
+		        ) : <span />}
+		        {!isLast ? (
+		          <Link to={nextPage} rel="next">
+		            older &rarr;
+		          </Link>
+		        ) : <span />}
+		      </PaginationNav>
 		      <Footer />
 			</div>
 		</Layout>
@@ -53,13 +78,17 @@ const Posts = ({ data, location }) => {
 export default Posts
 
 export const pageQuery = graphql`
-  query {
+  query ($skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: $limit
+      skip: $skip
+    ) {
       nodes {
         excerpt
         fields {

@@ -56,6 +56,62 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       })
     })
   }
+
+  // Create paginated posts listing pages
+  const postsTemplate = path.resolve(`./src/templates/posts.js`)
+  const postsPerPage = 5
+  const numPages = Math.ceil(posts.length / postsPerPage)
+
+  Array.from({ length: numPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/posts` : `/posts/${i + 1}`,
+      component: postsTemplate,
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages,
+        currentPage: i + 1,
+      },
+    })
+  })
+
+  // Create paginated writing listing pages
+  const writingResult = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: { frontmatter: { show: { eq: 1 } } }
+        ) {
+          totalCount
+        }
+      }
+    `
+  )
+
+  if (writingResult.errors) {
+    reporter.panicOnBuild(
+      `There was an error loading your writing posts`,
+      writingResult.errors
+    )
+    return
+  }
+
+  const writingTemplate = path.resolve(`./src/templates/writing.js`)
+  const writingPostCount = writingResult.data.allMarkdownRemark.totalCount
+  const writingNumPages = Math.max(1, Math.ceil(writingPostCount / postsPerPage))
+
+  Array.from({ length: writingNumPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/writing` : `/writing/${i + 1}`,
+      component: writingTemplate,
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages: writingNumPages,
+        currentPage: i + 1,
+      },
+    })
+  })
 }
 
 exports.onCreateNode = async ({ node, actions, store, getNode, getCache }) => {
