@@ -2,10 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 
-const RoundedDiv = styled.div` 
- background-color: #f5f7f9;
+const RoundedDiv = styled.div`
+ background-color: var(--color-surface);
  border: none;
- color: black;
+ color: var(--color-heading-black);
  padding: 10px;
  margin-right: 10px;
  text-align: center;
@@ -15,7 +15,7 @@ const RoundedDiv = styled.div`
  border-radius: 8px;
  transition: 0.2s;
  &:hover {
- 	background-color: #ede4e0;
+ 	background-color: var(--color-hover);
  }
 `
 
