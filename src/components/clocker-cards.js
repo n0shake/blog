@@ -26,9 +26,9 @@ const CardDiv = styled.div`
   padding: 16px;
   margin: 5px;
   text-align: center;
-  background-color: #f5f7f9;
+  background-color: var(--color-surface);
   &:hover {
-    background-color: #ede4e0;
+    background-color: var(--color-hover);
   }
 `
 

@@ -15,10 +15,10 @@ const TextContainer = styled.textarea`
  max-height: 150px;
  max-width: 400px;
 `
-const RoundedDiv = styled.div` 
+const RoundedDiv = styled.div`
  background-color: white;
  border: none;
- color: black;
+ color: var(--color-heading-black);
  text-align: left;
  text-decoration: none;
  display: inline-block;
