@@ -6,8 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from 'styled-components'
 
-const DateContainer = styled.p` 
- color: #a7a7a7;
+const DateContainer = styled.p`
+ color: var(--color-text-light);
 `
 
 const BlogPostTemplate = ({ data, location }) => {
