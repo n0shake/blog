@@ -21,14 +21,15 @@ const PrivacyPolicy = ({ data, location }) => {
         	<SEO title="Clocker Privacy Policy" />
 			<div>
 				<h1> privacy </h1>
-				<p><b><i> Last Update: May 2022. </i></b></p>
-				<HighlightBlockQuote> Clocker only captures diagnostics (stack-traces for crashes & related meta-data) and your preferences when you submit in-app feedback. </HighlightBlockQuote>
+				<p><b><i> Last Update: April 2026. </i></b></p>
+				<HighlightBlockQuote> Clocker captures anonymous diagnostics (stack-traces for crashes), anonymous usage analytics to understand which features to prioritize, and a snapshot of your preferences when you submit in-app feedback to help debug. </HighlightBlockQuote>
 				<p>This policy applies to all information collected or submitted on Clocker’s app for macOS and any other devices and platforms.</p>
 				<h3>Information we collect</h3>
 				<p> If you encounter a crash while using Clocker, the stack-trace, device-state information, unique device identifiers can be collected by <a href='https://firebase.google.com/products/crashlytics'>Crashlytics</a>. See their privacy policy <a href="https://firebase.google.com/support/privacy">here</a>.</p>
+				<p>Clocker uses <a href="https://telemetrydeck.com/">TelemetryDeck</a> to collect anonymous usage analytics, including usage counts and a snapshot of non-identifying preferences (such as which features are enabled, selected theme, and display options). This helps us understand how Clocker is used and which features to prioritize. TelemetryDeck is privacy-focused: no IP addresses are stored, and user identifiers are one-way hashed on-device so individual users cannot be identified or tracked across installs. See TelemetryDeck's privacy policy <a href="https://telemetrydeck.com/privacy/">here</a>.</p>
 				<p>You may optionally send feedback including your email address through the in-app support window.
-				Email addresses are only used to reply to your feedback and nothing else. 
-				Your preferences (selected timezones, theme, display preferences etc.) are also sent along with your feedback for better issue reproducibility. 
+				Email addresses are only used to reply to your feedback and nothing else.
+				Your preferences (selected timezones, theme, display preferences etc.) are also sent along with your feedback for better issue reproducibility.
 				Email ids, associated feedback & preferences may be deleted periodically or after the feedback is addressed.
 				If you've sent feedback previously, you can email us <ObfuscatedEmail subject="Data Erasure Request via Clocker Privacy Policy">here</ObfuscatedEmail> to erase the email / preferences from our databases. </p>
 				<h3>Information usage</h3>
