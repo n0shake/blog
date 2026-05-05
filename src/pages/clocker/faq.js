@@ -78,7 +78,7 @@ const Faq = ({ data, location }) => {
 		<Layout location={location} title={siteTitle} navigation="/clocker">
 		<SEO title="Clocker FAQ" />
 			<div>
-				<h1 id="top"> faq </h1>
+				<h1 id="faq-top"> faq </h1>
 				<p> Tap a question to jump to the answer. </p>
 
 				<QuestionList>
@@ -99,7 +99,7 @@ const Faq = ({ data, location }) => {
 					This is where you can add, delete and edit your time zones. </p>
 					<br/>
 					<img className="educational" src={addGIF} alt="Clocker - How to add a timezone?" />
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<AnswerSection id="favourite">
@@ -113,7 +113,7 @@ const Faq = ({ data, location }) => {
 					</p>
 					<br/>
 					<img className="educational" src={favGIF} alt="Clocker - Favouriting a timezone" />
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<AnswerSection id="customize-label">
@@ -124,7 +124,7 @@ const Faq = ({ data, location }) => {
 					<img className="educational" src={customizeLabel1} alt="Clocker - Customize Label Demo" />
 					<blockquote> Tip: Use emojis as a label to enhance glanceability.</blockquote>
 					<img className="educational" src={customizeLabel2} alt="Clocker - Customize Label with Emojis" />
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<AnswerSection id="menubar">
@@ -142,7 +142,7 @@ const Faq = ({ data, location }) => {
 					 <li> Increase your screen resolution </li>
 					</ul>
 					</p>
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<AnswerSection id="startup">
@@ -155,7 +155,7 @@ const Faq = ({ data, location }) => {
 					<p> Alternatively, you can add <b>Clocker</b> to the Login Items inside System Preferences. Here's how you do that:</p>
 					<p> Open <b>System Preferences</b> —> <b>Users and Groups</b> —> <b>Current User</b>. Click on Login Items tab and add Clocker by clicking on + icon.</p>
 					<img className="educational" src={startup2} alt="Clocker - How to start app at login?" />
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<AnswerSection id="customize-format">
@@ -169,7 +169,7 @@ const Faq = ({ data, location }) => {
 					<p> Clocker also allows you to override the timezone format at the individual location level. </p>
 					<p> To do so, you need to open the Clocker window and tap the three dots button which appears on the left side of each timezone. This is where you can customize and choose a different timezone format.</p>
 					<img className="educational" src={customizeFormat2} alt="Clocker - Customize Time Format" />
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<AnswerSection id="reset">
@@ -187,7 +187,7 @@ const Faq = ({ data, location }) => {
 					 <li> Restart Clocker </li>
 					</ul>
 					</p>
-					<p><BackToTop href="#top"> ↑ Back to top </BackToTop></p>
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
 				<hr />
