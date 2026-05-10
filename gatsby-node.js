@@ -219,5 +219,75 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Fields {
       slug: String
     }
+
+    type ClockerAppStoreRating implements Node {
+      averageRating: Float!
+      ratingCount: Int!
+    }
   `)
+}
+
+const CLOCKER_APP_STORE_URL =
+  "https://apps.apple.com/us/app/clocker/id1056643111"
+const CLOCKER_RATING_FALLBACK = { averageRating: 4.9, ratingCount: 28 }
+
+exports.sourceNodes = async ({
+  actions,
+  createNodeId,
+  createContentDigest,
+  reporter,
+}) => {
+  const { createNode } = actions
+  let rating = CLOCKER_RATING_FALLBACK
+
+  try {
+    const response = await fetch(CLOCKER_APP_STORE_URL, {
+      headers: { "User-Agent": "Mozilla/5.0 ClockerSite/1.0" },
+    })
+    if (response.ok) {
+      const html = await response.text()
+      const matches = [
+        ...html.matchAll(
+          /"rating":(\d+(?:\.\d+)?),"ratingCount":"(\d+)"/g
+        ),
+      ]
+      const nonZero = matches
+        .map(m => ({
+          averageRating: parseFloat(m[1]),
+          ratingCount: parseInt(m[2], 10),
+        }))
+        .filter(r => r.ratingCount > 0)
+      if (nonZero.length > 0) {
+        // Prefer the entry with the most ratings (the macOS aggregate)
+        rating = nonZero.reduce((a, b) =>
+          b.ratingCount > a.ratingCount ? b : a
+        )
+        reporter.info(
+          `Fetched Clocker App Store rating: ${rating.averageRating} (${rating.ratingCount} ratings)`
+        )
+      } else {
+        reporter.warn(
+          "Could not parse Clocker rating from App Store; using fallback"
+        )
+      }
+    } else {
+      reporter.warn(
+        `App Store returned ${response.status} for Clocker; using fallback rating`
+      )
+    }
+  } catch (e) {
+    reporter.warn(
+      `Failed to fetch Clocker rating: ${e.message}; using fallback`
+    )
+  }
+
+  createNode({
+    id: createNodeId("clocker-app-store-rating"),
+    averageRating: rating.averageRating,
+    ratingCount: rating.ratingCount,
+    internal: {
+      type: "ClockerAppStoreRating",
+      contentDigest: createContentDigest(rating),
+    },
+  })
 }

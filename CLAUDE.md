@@ -32,3 +32,7 @@ yarn format       # Prettier formatting
 ## Code Style
 
 Prettier config (`.prettierrc`): no semicolons, avoid arrow parens, 2-space indent, single quotes, trailing commas (all), 60-char print width.
+
+## Commits
+
+Never add a `Co-Authored-By: Claude …` trailer (or any other Claude/Anthropic co-author attribution) to commit messages.
