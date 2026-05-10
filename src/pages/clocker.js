@@ -177,7 +177,10 @@ const PAGE_CSS = `
   border: 0;
   color: var(--fg-dim);
   line-height: 1.05;
+  text-decoration: none;
+  transition: opacity .12s ease;
 }
+.clocker-landing-v2 a.ec-badge:hover{ opacity: 0.8; }
 .clocker-landing-v2 .ec-eyebrow{
   font-family: var(--font-display);
   font-size: 12px; font-weight: 700;
@@ -945,7 +948,13 @@ const Clocker = ({ data }) => {
       <div className="hero-grid"></div>
 
       <div className="shell hero-inner linear">
-        <span className="ec-badge" aria-label="Editors' Choice on the App Store">
+        <a
+          className="ec-badge"
+          href={APP_STORE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Editors' Choice on the Mac App Store"
+        >
           <span className="ec-eyebrow">Awards</span>
           <span className="ec-mid">
             <Laurel side="left" />
@@ -956,7 +965,7 @@ const Clocker = ({ data }) => {
             <Laurel side="right" />
           </span>
           <span className="ec-foot">Apps</span>
-        </span>
+        </a>
 
         <h1>The menubar app for distributed teams.</h1>
 
