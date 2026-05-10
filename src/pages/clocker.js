@@ -95,6 +95,8 @@ const PAGE_CSS = `
   border-radius:1px;
 }
 .clocker-landing-v2 .brand-mark-img{
+  width: 22px;
+  height: 22px;
   background: transparent;
   box-shadow: none;
   object-fit: contain;
@@ -915,7 +917,7 @@ const Clocker = ({ data }) => {
     <nav className="nav">
       <div className="shell nav-inner">
         <Link to="/clocker" className="brand">
-          <img className="brand-mark brand-mark-img" src={clockerIcon} alt="" />
+          <img className="brand-mark brand-mark-img" src={clockerIcon} alt="" width="22" height="22" />
           <span>Clocker</span>
         </Link>
         <div className="nav-links">
@@ -1298,7 +1300,7 @@ const Clocker = ({ data }) => {
         <div className="foot-grid">
           <div className="foot-col">
             <div className="brand" style={{ marginBottom: 14 }}>
-              <img className="brand-mark brand-mark-img" src={clockerIcon} alt="" />
+              <img className="brand-mark brand-mark-img" src={clockerIcon} alt="" width="22" height="22" />
               <span>Clocker</span>
             </div>
             <p style={{ color: "rgba(255,255,255,0.5)", maxWidth: 280, fontSize: 13, lineHeight: 1.55, margin: 0 }}>
