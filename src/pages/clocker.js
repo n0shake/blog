@@ -1250,32 +1250,32 @@ const Clocker = ({ data }) => {
 
         <div className="quote-row">
           <div className="quote">
-            <p>"The only menubar app I never quit. It's been ticking on my Mac for four years and I forget it's there, until I need it."</p>
+            <p>"I'm attending Dhamma talks and meditation sessions on Zoom — hosted in Singapore, Australia, and other parts of the world. Clocker tells me what times they're happening in mine."</p>
             <div className="quote-by">
               <div className="quote-avatar"></div>
               <div>
-                <b>Riley Chen</b><br/>
-                <span className="role">Staff engineer · remote-first SaaS</span>
+                <b>plaintiger</b><br/>
+                <span className="role">★★★★ · Mac App Store</span>
               </div>
             </div>
           </div>
           <div className="quote">
-            <p>"Time scroller is the one feature I now expect from every clock app. Clocker did it first and best."</p>
+            <p>"I play an international game and my alliance is mostly Chinese, so everything is in UTC time. I kept missing events — until I found Clocker."</p>
             <div className="quote-by">
               <div className="quote-avatar" style={{ background: "linear-gradient(135deg, #FFB547, #FF6B6B)" }}></div>
               <div>
-                <b>Mira Sato</b><br/>
-                <span className="role">Engineering lead · Tokyo</span>
+                <b>Jason Odra</b><br/>
+                <span className="role">★★★★★ · Mac App Store</span>
               </div>
             </div>
           </div>
           <div className="quote">
-            <p>"Respects my keyboard-first workflow and stays out of the way. There aren't many menubar apps left that nail both."</p>
+            <p>"Having family all over the world, Clocker is extremely useful for keeping track of when they're awake and asleep. The day/night visual in the menubar is a great addition."</p>
             <div className="quote-by">
               <div className="quote-avatar" style={{ background: "linear-gradient(135deg, #1F8A5B, #4ADE80)" }}></div>
               <div>
-                <b>Jonas Weber</b><br/>
-                <span className="role">Indie maker · Berlin</span>
+                <b>Gital</b><br/>
+                <span className="role">★★★★ · Mac App Store</span>
               </div>
             </div>
           </div>
