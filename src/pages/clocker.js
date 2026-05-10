@@ -856,7 +856,7 @@ const PAGE_CSS = `
 
 const Laurel = ({side}) => (
   side === "left" ? (
-    <svg className="ec-laurel" viewBox="0 0 24 56" fill="none" aria-hidden="true">
+    <svg className="ec-laurel" width="28" height="64" viewBox="0 0 24 56" fill="none" aria-hidden="true">
       <path d="M22 2 C 14 8, 8 18, 6 28 C 4 38, 8 48, 18 54" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
       <g stroke="currentColor" strokeWidth="1" strokeLinecap="round" fill="none">
         <path d="M16 8 C 12 9, 10 12, 11 15"/>
@@ -868,7 +868,7 @@ const Laurel = ({side}) => (
       </g>
     </svg>
   ) : (
-    <svg className="ec-laurel" viewBox="0 0 24 56" fill="none" aria-hidden="true">
+    <svg className="ec-laurel" width="28" height="64" viewBox="0 0 24 56" fill="none" aria-hidden="true">
       <path d="M2 2 C 10 8, 16 18, 18 28 C 20 38, 16 48, 6 54" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
       <g stroke="currentColor" strokeWidth="1" strokeLinecap="round" fill="none">
         <path d="M8 8 C 12 9, 14 12, 13 15"/>
@@ -934,7 +934,7 @@ const Clocker = ({ data }) => {
             aria-label="Download Clocker on the Mac App Store"
           >
             Download
-            <svg className="nav-cta-chevron" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <svg className="nav-cta-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
               <path d="M4.5 2.5l3 3.5-3 3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </a>
@@ -983,8 +983,8 @@ const Clocker = ({ data }) => {
             rel="noopener noreferrer"
             aria-label="Download Clocker on the Mac App Store"
           >
-            <img className="mas-badge-img mas-badge-img--light" src={macAppStoreBadge} alt="Download on the Mac App Store" />
-            <img className="mas-badge-img mas-badge-img--dark" src={macAppStoreBadgeWhite} alt="Download on the Mac App Store" />
+            <img className="mas-badge-img mas-badge-img--light" src={macAppStoreBadge} alt="Download on the Mac App Store" width="156" height="40" />
+            <img className="mas-badge-img mas-badge-img--dark" src={macAppStoreBadgeWhite} alt="Download on the Mac App Store" width="156" height="40" />
           </a>
         </div>
 
@@ -992,6 +992,8 @@ const Clocker = ({ data }) => {
           className="hero-headline-img"
           src={clockerHeadline}
           alt="Clocker showing world times in the macOS menubar"
+          width="2320"
+          height="1492"
         />
       </div>
     </header>
@@ -1071,7 +1073,7 @@ const Clocker = ({ data }) => {
             </div>
             <div className="tile-art">
               <div className="slot-frame" style={{ aspectRatio: "1128 / 1512" }}>
-                <img src={themesStack} alt="Clocker shown in light and dark themes" />
+                <img src={themesStack} alt="Clocker shown in light and dark themes" width="1128" height="1512" />
               </div>
             </div>
           </div>
@@ -1233,7 +1235,7 @@ const Clocker = ({ data }) => {
         </div>
 
         <div className="frame frame-light" style={{ aspectRatio: "4/3" }}>
-          <img src={feature2} alt="Clocker's calendar/month view" />
+          <img src={feature2} alt="Clocker's calendar/month view" width="1388" height="1040" />
         </div>
       </div>
     </section>
@@ -1296,8 +1298,8 @@ const Clocker = ({ data }) => {
             rel="noopener noreferrer"
             aria-label="Download Clocker on the Mac App Store"
           >
-            <img className="mas-badge-img mas-badge-img--light" src={macAppStoreBadge} alt="Download on the Mac App Store" />
-            <img className="mas-badge-img mas-badge-img--dark" src={macAppStoreBadgeWhite} alt="Download on the Mac App Store" />
+            <img className="mas-badge-img mas-badge-img--light" src={macAppStoreBadge} alt="Download on the Mac App Store" width="156" height="40" />
+            <img className="mas-badge-img mas-badge-img--dark" src={macAppStoreBadgeWhite} alt="Download on the Mac App Store" width="156" height="40" />
           </a>
         </div>
       </div>
