@@ -26,7 +26,7 @@ const Layout = ({ location, title, clockerIcon, children, navigation}) => {
   } else {
       header = (
       <h1 className="main-heading">
-        <Link to="/">{title}</Link>
+        <Link to={navigation || "/"}>{title}</Link>
       </h1>)
   }
 
