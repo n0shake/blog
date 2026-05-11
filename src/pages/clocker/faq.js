@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
@@ -13,6 +13,7 @@ import startup1 from '../../../content/assets/startup1.png'
 import startup2 from '../../../content/assets/startup2.png'
 import customizeFormat1 from '../../../content/assets/customize1.png'
 import customizeFormat2 from '../../../content/assets/customize2.png'
+import dayDisplayOptions from '../../../content/assets/day-display-options.png'
 
 const RoundedDiv = styled.div`
  background-color: var(--color-surface);
@@ -74,6 +75,12 @@ const BackToTop = styled.a`
 
 const Faq = ({ data, location }) => {
 	const siteTitle = 'clocker'
+	const [todayLabel, setTodayLabel] = useState('today')
+	useEffect(() => {
+		setTodayLabel(
+			new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })
+		)
+	}, [])
 	return (
 		<Layout location={location} title={siteTitle} navigation="/clocker">
 		<SEO title="Clocker FAQ" />
@@ -88,6 +95,7 @@ const Faq = ({ data, location }) => {
 					<li><QuestionLink href="#menubar"> Why does Clocker not show up in my menubar while certain apps are in the foreground? </QuestionLink></li>
 					<li><QuestionLink href="#startup"> How do I start Clocker whenever my Mac boots or is restarted? </QuestionLink></li>
 					<li><QuestionLink href="#customize-format"> How do I customize the time format for my selected locations? </QuestionLink></li>
+					<li><QuestionLink href="#day-display"> Can I show the date (e.g. {todayLabel}) instead of the day of the week? </QuestionLink></li>
 					<li><QuestionLink href="#reset"> How do I reset Clocker? </QuestionLink></li>
 				</QuestionList>
 
@@ -169,6 +177,22 @@ const Faq = ({ data, location }) => {
 					<p> Clocker also allows you to override the timezone format at the individual location level. </p>
 					<p> To do so, you need to open the Clocker window and tap the three dots button which appears on the left side of each timezone. This is where you can customize and choose a different timezone format.</p>
 					<img className="educational" src={customizeFormat2} alt="Clocker - Customize Time Format" />
+					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
+				</AnswerSection>
+
+				<AnswerSection id="day-display">
+					<h2> Change the Relative Display for a location </h2>
+					<p> Good news — Clocker already supports this! You can choose what appears alongside each timezone (Today/Tomorrow, the actual day of the week, the date, or the timezone abbreviation) from a single setting. </p>
+					<p> Open Clocker Preferences (gear icon, or <b>Command + ,</b>) and head to the <b>Appearance</b> tab. Under the <b>Panel</b> section, find <b>Day Display Options</b> and pick one of: </p>
+					<ul>
+						<li><b>Relative</b> — e.g. <i>Today</i></li>
+						<li><b>Actual Day</b> — e.g. <i>Monday</i></li>
+						<li><b>Date in mmm/dd</b> — e.g. <i>May 8</i></li>
+						<li><b>Timezone</b> — e.g. <i>PDT</i></li>
+					</ul>
+					<p> Pick <b>Date in mmm/dd</b> for the month-and-day view. The Preview card at the bottom of the Appearance tab updates live so you can see exactly how it'll look before closing Preferences. </p>
+					<br/>
+					<img className="educational" src={dayDisplayOptions} alt="Clocker - Day Display Options in Appearance settings" />
 					<p><BackToTop href="#faq-top"> ↑ Back to top </BackToTop></p>
 				</AnswerSection>
 
