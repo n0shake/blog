@@ -394,7 +394,7 @@ const PAGE_CSS = `
   color: var(--fg);
 }
 .clocker-landing-v2 h2 em{
-  font-style: italic; font-family: var(--font-serif); font-weight: 400;
+  font-style: normal; font-family: 'Barlow', sans-serif; font-weight: 100;
   color: color-mix(in oklab, currentColor 70%, var(--accent));
 }
 .clocker-landing-v2 .lede{
@@ -1175,7 +1175,7 @@ const Clocker = ({ data }) => {
       <div className="shell split">
         <div className="split-text">
           <span className="eyebrow">Time scroller</span>
-          <h3>Slide into the future.<br/>Or the past.</h3>
+          <h3>Slide into the future.<br/><em>Or the past.</em></h3>
           <p>
             Drag the scrubber and every clock moves with you. Find the only hour that
             works for SF, London, and Tokyo without opening a spreadsheet or your phone.
@@ -1206,7 +1206,7 @@ const Clocker = ({ data }) => {
       <div className="shell split reverse">
         <div className="split-text">
           <span className="eyebrow">Calendar</span>
-          <h3>The calendar lives in your menubar now.</h3>
+          <h3>The calendar lives in <em>your menubar now.</em></h3>
           <p>
             See today's meetings without opening anything. Click an event to join,
             jump 12 hours forward to schedule with Tokyo, or hit ⌥⌘C to peek at the month.
