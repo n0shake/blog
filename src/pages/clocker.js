@@ -10,6 +10,7 @@ import feature2 from "../../content/assets/clocker-feature-2.png"
 import feature3 from "../../content/assets/clocker-feature-3.png"
 import scrollerVideo from "../../content/assets/scroller.mp4"
 import customLabelsVideo from "../../content/assets/custom-labels.mp4"
+import testimonialVideo from "../../content/assets/testimonial.mp4"
 import themesStack from "../../content/assets/stack-preview.png"
 import macAppStoreBadge from "../../Download_on_Mac_App_Store/Black_lockup/SVG/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"
 import macAppStoreBadgeWhite from "../../Download_on_Mac_App_Store/White_lockup/SVG/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_wht_092917.svg"
@@ -75,7 +76,6 @@ const PAGE_CSS = `
   background: rgba(245,244,241,0.85);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
-  border-bottom: 1px solid var(--line);
 }
 .clocker-landing-v2 .nav-inner{ display:flex; align-items:center; justify-content:space-between; height: 56px; }
 .clocker-landing-v2 .brand{ display:flex; align-items:center; gap:9px; font-weight:600; letter-spacing: -0.01em; color: var(--fg); text-decoration: none; }
@@ -122,16 +122,6 @@ const PAGE_CSS = `
 
 /* hero */
 .clocker-landing-v2 .hero{ position: relative; padding: 96px 0 48px; overflow: hidden; }
-.clocker-landing-v2 .hero-grid{
-  position:absolute; inset:0; pointer-events:none;
-  background-image:
-    linear-gradient(to right, rgba(20,22,26,0.06) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(20,22,26,0.06) 1px, transparent 1px);
-  background-size: 56px 56px;
-  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, black 30%, transparent 80%);
-  mask-image: radial-gradient(ellipse 70% 60% at 50% 30%, black 30%, transparent 80%);
-  opacity: .7;
-}
 .clocker-landing-v2 .hero-glow{
   position:absolute; left:50%; top:-200px; transform: translateX(-50%);
   width: 900px; height: 700px;
@@ -597,10 +587,44 @@ const PAGE_CSS = `
 }
 .clocker-landing-v2 .tile.t-dark .shortcut b{ color: #fff; }
 
+/* testimonial video */
+.clocker-landing-v2 .testimonial-video{
+  margin: 56px auto 0;
+  width: min(880px, 100%);
+  border-radius: 18px;
+  overflow: hidden;
+  background: #0E1116;
+  border: 1px solid var(--line);
+  box-shadow: 0 30px 80px rgba(20,22,30,0.10);
+  aspect-ratio: 16/9;
+}
+.clocker-landing-v2 .testimonial-video video{
+  width: 100%; height: 100%; display: block; object-fit: cover;
+}
+.clocker-landing-v2 .testimonial-source{
+  width: min(880px, 100%);
+  margin: 12px auto 0;
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--fg-mute);
+  font-family: var(--font-mono);
+  letter-spacing: 0.02em;
+}
+.clocker-landing-v2 .testimonial-source a{
+  color: var(--fg-dim);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-2);
+  transition: color .12s ease, border-color .12s ease;
+}
+.clocker-landing-v2 .testimonial-source a:hover{
+  color: var(--fg);
+  border-bottom-color: var(--fg);
+}
+
 /* quotes */
 .clocker-landing-v2 .quote-row{
   display:grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
-  margin-top: 56px;
+  margin-top: 32px;
 }
 .clocker-landing-v2 .quote{
   padding: 26px;
@@ -608,6 +632,8 @@ const PAGE_CSS = `
   background: #FFFFFF;
   border: 1px solid var(--line);
   box-shadow: 0 16px 40px rgba(20,22,30,0.04);
+  display: flex;
+  flex-direction: column;
 }
 .clocker-landing-v2 .quote p{
   font-family: var(--font-display);
@@ -616,7 +642,7 @@ const PAGE_CSS = `
   color: var(--fg);
   text-wrap: pretty;
 }
-.clocker-landing-v2 .quote-by{ display:flex; align-items:center; gap: 10px; font-size: 12.5px; color: var(--fg-dim); }
+.clocker-landing-v2 .quote-by{ display:flex; align-items:center; gap: 10px; font-size: 12.5px; color: var(--fg-dim); margin-top: auto; }
 .clocker-landing-v2 .quote-avatar{
   width: 28px; height: 28px; border-radius: 50%;
   background: linear-gradient(135deg, #2D7BFF, #6BB7FF);
@@ -725,7 +751,6 @@ const PAGE_CSS = `
   /* nav */
   .clocker-landing-v2 .nav{
     background: rgba(10,11,14,0.78);
-    border-bottom-color: rgba(255,255,255,0.06);
   }
   .clocker-landing-v2 .nav-links a{ color: var(--fg-dim); }
   .clocker-landing-v2 .nav-links a:hover{ color: var(--fg); }
@@ -735,12 +760,6 @@ const PAGE_CSS = `
   .clocker-landing-v2 .nav-links a.nav-cta:hover{ background: #fff; color: #14161A; }
 
   /* hero */
-  .clocker-landing-v2 .hero-grid{
-    background-image:
-      linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
-    opacity: .55;
-  }
   .clocker-landing-v2 .hero-glow{
     background: radial-gradient(closest-side, rgba(45,123,255,0.30), transparent 70%);
   }
@@ -825,6 +844,13 @@ const PAGE_CSS = `
   }
   .clocker-landing-v2 .frame-light{
     background: #16181D;
+    border-color: rgba(255,255,255,0.08);
+    box-shadow: 0 30px 80px rgba(0,0,0,0.4);
+  }
+
+  /* testimonial video */
+  .clocker-landing-v2 .testimonial-video{
+    background: #0A0B0E;
     border-color: rgba(255,255,255,0.08);
     box-shadow: 0 30px 80px rgba(0,0,0,0.4);
   }
@@ -945,7 +971,6 @@ const Clocker = ({ data }) => {
     {/* HERO */}
     <header className="hero">
       <div className="hero-glow"></div>
-      <div className="hero-grid"></div>
 
       <div className="shell hero-inner linear">
         <a
@@ -1248,6 +1273,26 @@ const Clocker = ({ data }) => {
           Distributed teams, indie hackers, and a lot of <em>night-owl engineers</em>.
         </h2>
 
+        <div className="testimonial-video">
+          <video
+            src={`${testimonialVideo}#t=2`}
+            controls
+            playsInline
+            preload="metadata"
+            aria-label="Clocker user testimonial"
+          />
+        </div>
+        <p className="testimonial-source">
+          Clip from{" "}
+          <a
+            href="https://twit.tv/shows/macbreak-weekly/episodes/1023"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MacBreak Weekly · Episode 1023
+          </a>
+        </p>
+
         <div className="quote-row">
           <div className="quote">
             <p>"I'm attending Dhamma talks and meditation sessions on Zoom — hosted in Singapore, Australia, and other parts of the world. Clocker tells me what times they're happening in mine."</p>
@@ -1315,7 +1360,7 @@ const Clocker = ({ data }) => {
               <span>Clocker</span>
             </div>
             <p style={{ color: "rgba(255,255,255,0.5)", maxWidth: 280, fontSize: 13, lineHeight: 1.55, margin: 0 }}>
-              The menubar app for distributed teams. Built with care by a tiny team
+              The menubar app for distributed teams. Built with care by a dev
               who hates time-zone math.
             </p>
           </div>
