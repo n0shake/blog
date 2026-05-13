@@ -915,6 +915,7 @@ const Clocker = ({ data }) => {
   const ratingDisplay = Number.isInteger(ratingValue)
     ? ratingValue.toFixed(1)
     : ratingValue.toString()
+  const version = ratingNode?.version ?? "26.10"
 
   const [prefs, setPrefs] = React.useState({
     showSeconds: false,
@@ -1285,7 +1286,7 @@ const Clocker = ({ data }) => {
         <p className="testimonial-source">
           Clip from{" "}
           <a
-            href="https://twit.tv/shows/macbreak-weekly/episodes/1023"
+            href="https://twit.tv/mbw/1023"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -1380,7 +1381,7 @@ const Clocker = ({ data }) => {
           </div>
         </div>
         <div className="foot-bottom">
-          <span>© 2026 Clocker · v26.10</span>
+          <span>© 2026 Clocker · v{version}</span>
           <span>Made on a Mac, in 2 timezones.</span>
         </div>
       </div>
@@ -1396,6 +1397,7 @@ export const pageQuery = graphql`
     clockerAppStoreRating {
       averageRating
       ratingCount
+      version
     }
   }
 `

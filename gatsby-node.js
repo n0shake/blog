@@ -223,13 +223,17 @@ exports.createSchemaCustomization = ({ actions }) => {
     type ClockerAppStoreRating implements Node {
       averageRating: Float!
       ratingCount: Int!
+      version: String!
     }
   `)
 }
 
 const CLOCKER_APP_STORE_URL =
   "https://apps.apple.com/us/app/clocker/id1056643111"
+const CLOCKER_LOOKUP_URL =
+  "https://itunes.apple.com/lookup?id=1056643111&entity=macSoftware"
 const CLOCKER_RATING_FALLBACK = { averageRating: 4.9, ratingCount: 28 }
+const CLOCKER_VERSION_FALLBACK = "26.10"
 
 exports.sourceNodes = async ({
   actions,
@@ -239,6 +243,33 @@ exports.sourceNodes = async ({
 }) => {
   const { createNode } = actions
   let rating = CLOCKER_RATING_FALLBACK
+  let version = CLOCKER_VERSION_FALLBACK
+
+  try {
+    const lookupResponse = await fetch(CLOCKER_LOOKUP_URL, {
+      headers: { "User-Agent": "Mozilla/5.0 ClockerSite/1.0" },
+    })
+    if (lookupResponse.ok) {
+      const json = await lookupResponse.json()
+      const result = json && json.results && json.results[0]
+      if (result && result.version) {
+        version = result.version
+        reporter.info(`Fetched Clocker version: ${version}`)
+      } else {
+        reporter.warn(
+          "Could not parse Clocker version from lookup API; using fallback"
+        )
+      }
+    } else {
+      reporter.warn(
+        `Lookup API returned ${lookupResponse.status} for Clocker; using fallback version`
+      )
+    }
+  } catch (e) {
+    reporter.warn(
+      `Failed to fetch Clocker version: ${e.message}; using fallback`
+    )
+  }
 
   try {
     const response = await fetch(CLOCKER_APP_STORE_URL, {
@@ -285,9 +316,10 @@ exports.sourceNodes = async ({
     id: createNodeId("clocker-app-store-rating"),
     averageRating: rating.averageRating,
     ratingCount: rating.ratingCount,
+    version,
     internal: {
       type: "ClockerAppStoreRating",
-      contentDigest: createContentDigest(rating),
+      contentDigest: createContentDigest({ ...rating, version }),
     },
   })
 }
