@@ -477,6 +477,31 @@ table thead tr th {
   font-size: var(--fontSize-0);
 }
 
+.name-pronounce {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 22px;
+  margin: 0 2px 0 4px;
+  padding: 0;
+  vertical-align: -4px;
+  background: transparent;
+  border: 0;
+  border-radius: 4px;
+  color: var(--color-text);
+  opacity: 0.55;
+  cursor: pointer;
+  transition: opacity 0.12s ease, background-color 0.12s ease;
+}
+
+.name-pronounce:hover,
+.name-pronounce:focus-visible {
+  opacity: 1;
+  background-color: var(--color-hover);
+  outline: 0;
+}
+
 .bio-pic img {
   border-radius: 50%;
 }
