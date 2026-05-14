@@ -415,7 +415,7 @@ const Clocker = ({ data }) => {
 
         <div className="testimonial-video">
           <video
-            src={`${testimonialVideo}#t=2`}
+            src={`${testimonialVideo}#t=7`}
             controls
             playsInline
             preload="metadata"
