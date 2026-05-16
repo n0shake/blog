@@ -9,6 +9,10 @@ const PaginationNav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
+
+  a {
+    color: var(--color-primary);
+  }
 `
 
 const Writing = ({ data, location, pageContext }) => {
