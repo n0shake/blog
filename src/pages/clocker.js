@@ -49,13 +49,7 @@ const Laurel = ({side}) => (
 )
 
 const Clocker = ({ data }) => {
-  const ratingNode = data?.clockerAppStoreRating
-  const ratingValue = ratingNode?.averageRating ?? 4.9
-  const ratingCount = ratingNode?.ratingCount ?? 28
-  const ratingDisplay = Number.isInteger(ratingValue)
-    ? ratingValue.toFixed(1)
-    : ratingValue.toString()
-  const version = ratingNode?.version ?? "26.10"
+  const version = data?.clockerAppStoreRating?.version ?? "26.10"
 
   const [prefs, setPrefs] = React.useState({
     showSeconds: false,
@@ -163,55 +157,23 @@ const Clocker = ({ data }) => {
       </div>
     </header>
 
-    {/* TRUST */}
-    <div className="trust">
-      <div className="shell trust-row">
-        <a
-          className="trust-item trust-link"
-          href={APP_STORE_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`${ratingDisplay} stars on the Mac App Store`}
-        >
-          <b>{ratingDisplay}</b>
-          <span className="stars">★★★★★</span>
-        </a>
-        <a
-          className="trust-item trust-link"
-          href={APP_STORE_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Editor's Choice on the Mac App Store"
-        >
-          <span className="laurel">❝</span>
-          <b>Editor's Choice</b>
-          <span className="laurel flip">❞</span>
-        </a>
-        <div className="trust-item">Universal binary · <b>&nbsp;macOS 14+</b></div>
-      </div>
-    </div>
-
     {/* FEATURE GALLERY */}
     <section id="features" className="section-light">
       <div className="shell">
-        <span className="eyebrow">Features</span>
         <h2>
-          Everything you need.<br/>
-          <em>Nothing you don't.</em>
+          Tiny, on purpose
         </h2>
         <p className="lede">
-          A focused menubar app. Native AppKit. Just the world's clocks, exactly where you already look.
+          A focused menubar app written in Swift / AppKit.
         </p>
 
         <div className="gallery">
           {/* 1. World times */}
           <div className="tile t-wide t-dark">
             <div className="tile-body">
-              <span className="tile-eyebrow">World times</span>
               <h3>Every clock you care about, ticking together.</h3>
               <p>
-                Add as many cities as you want. Custom labels. Drag to reorder.
-                Built for distributed teams who'd rather not do mental math.
+                Add as many cities as you want, give them custom labels, and drag to reorder, and more.
               </p>
             </div>
             <div className="tile-art">
@@ -232,8 +194,7 @@ const Clocker = ({ data }) => {
           {/* 2. Themes */}
           <div className="tile t-narrow t-dark">
             <div className="tile-body">
-              <span className="tile-eyebrow">Themes</span>
-              <h3>Four themes, including the classics.</h3>
+              <h3>Four classic themes</h3>
               <p>Light, Dark, Solarized Light and Dark for the terminal nerds.</p>
             </div>
             <div className="tile-art">
@@ -246,9 +207,8 @@ const Clocker = ({ data }) => {
           {/* 5. Shortcuts */}
           <div className="tile t-half">
             <div className="tile-body">
-              <span className="tile-eyebrow">Shortcuts</span>
               <h3>Snappy by design.</h3>
-              <p>Open in 80ms with ⌘L. Every action is one keystroke away.</p>
+              <p>Panel opens in &lt;70 ms, accessible via a hotkey of your choice.</p>
             </div>
             <div className="tile-art" style={{ padding: "0 24px 28px" }}>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 8, width: "100%" }}>
@@ -274,9 +234,8 @@ const Clocker = ({ data }) => {
           {/* 6. Customize */}
           <div className="tile t-half">
             <div className="tile-body">
-              <span className="tile-eyebrow">Customize</span>
-              <h3>Your way, every detail.</h3>
-              <p>12 or 24-hour. With or without seconds. Compact or regular menubar mode. Customize all the little details.</p>
+              <h3>Make it yours.</h3>
+              <p>Every small detail is yours to set.</p>
             </div>
             <div className="tile-art">
               <div className="mock-prefs">
@@ -339,8 +298,7 @@ const Clocker = ({ data }) => {
     <section id="scroller">
       <div className="shell split">
         <div className="split-text">
-          <span className="eyebrow">Time scroller</span>
-          <h3>Slide into the future.<br/><em>Or the past.</em></h3>
+          <h3>Plan meetings in the future.</h3>
           <p>
             Drag the scrubber and every clock moves with you. Find the only hour that
             works for SF, London, and Tokyo without opening a spreadsheet or your phone.
@@ -370,8 +328,7 @@ const Clocker = ({ data }) => {
     <section id="calendar" className="section-light">
       <div className="shell split reverse">
         <div className="split-text">
-          <span className="eyebrow">Calendar</span>
-          <h3>The calendar lives in <em>your menubar now.</em></h3>
+          <h3>The calendar lives in your menubar now.</h3>
           <p>
             See today's meetings without opening anything. Click an event to join,
             jump 12 hours forward to schedule with Tokyo, or hit ⌥⌘C to peek at the month.
@@ -408,9 +365,8 @@ const Clocker = ({ data }) => {
     {/* QUOTES */}
     <section style={{ paddingTop: 80 }}>
       <div className="shell">
-        <span className="eyebrow">Loved by</span>
         <h2>
-          Distributed teams, indie hackers, and a lot of <em>night-owl engineers</em>.
+          Testimonials
         </h2>
 
         <div className="testimonial-video">
@@ -471,7 +427,6 @@ const Clocker = ({ data }) => {
     {/* FINAL CTA */}
     <section className="cta-final">
       <div className="shell" style={{ position: "relative" }}>
-        <span className="eyebrow" style={{ display: "inline-flex" }}>Get Clocker</span>
         <h2 style={{ textAlign: "center" }}>
           Stop doing time-zone<br/>math in your head.
         </h2>
@@ -534,8 +489,6 @@ export default Clocker
 export const pageQuery = graphql`
   query ClockerPage {
     clockerAppStoreRating {
-      averageRating
-      ratingCount
       version
     }
   }
